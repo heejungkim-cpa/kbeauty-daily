@@ -1,18 +1,42 @@
 {
   "date": "2026-08-29",
-  "generated_at": "2026-08-29T06:51:58.727583+09:00",
+  "generated_at": "2026-08-29T08:02:15.766199+09:00",
   "total": 60,
   "counts": {
-    "브랜드": 24,
+    "자본시장": 6,
+    "브랜드": 25,
     "유통·채널": 2,
-    "자본시장": 5,
-    "ODM·OEM": 19,
-    "수출·해외": 8,
+    "ODM·OEM": 18,
+    "수출·해외": 7,
     "원료·부자재": 2
   },
   "briefing": null,
   "failed_feeds": [],
   "articles": [
+    {
+      "title": "(주)우신화장품, ’25년 매출과 영업익 큰 폭 증가... 헤어케어 특화 기술 및 R&D 지속 투자로 전문기업으로 도약",
+      "source": "코스인코리아닷컴",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1fNGtobndvWlBzaWJMT0RCS0xPcjdMY0V2MkducUFITVNhbmdZUG4wNUh4czVka3JZb2x0ZFRiVjRzd3Jnc0Vpa1UyVkd3XzlVWFdNNGhBRUdWTVhWX0hRM1hlUQ?oc=5",
+      "published": "2026-08-28T15:34:17+09:00",
+      "snippet": "(주)우신화장품, ’25년 매출과 영업익 큰 폭 증가... 헤어케어 특화 기술 및 R&D 지속 투자로 전문기업으로 도약 코스인코리아닷컴",
+      "query": "화장품 산업",
+      "duplicates": 5,
+      "category": "자본시장",
+      "relevance": 9,
+      "companies": []
+    },
+    {
+      "title": "인디 브랜드 흥행 열풍에 화장품업종 花色도네… 실적 기대감 고조",
+      "source": "핀포인트뉴스",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1RU0FVdmx2MkxqTGhXdlI0WXp2bXd1WlBKZ3hRSTEyME9oZkdJdmNCNkxHZHJzbXBJS3h2ekhnX2Jvb2tjcGZ2UmkxbTZPUjNQRzg3RThVcHMtX2oxcFNnazQxN0FwVThUTFZtdTRLVFk0M1JMbzRJ0gF3QVVfeXFMTVFTQVV2bHYyTGpMaFd2UjRZenZtd3VaUEpneFFJMTIwT2hmR0l2Y0I2TEdkcnNtcElLeHZ6SGdfYm9va2NwZnZSaTFtNk9SM1BHODdFOFVwcy1fajFwU2drNDE3QXBVOFRMVm11NEtUWTQzUkxvNEk?oc=5",
+      "published": "2026-08-28T14:55:04+09:00",
+      "snippet": "인디 브랜드 흥행 열풍에 화장품업종 花色도네… 실적 기대감 고조 핀포인트뉴스",
+      "query": "뷰티 산업 실적",
+      "duplicates": 7,
+      "category": "브랜드",
+      "relevance": 9,
+      "companies": []
+    },
     {
       "title": "방어주 부각?...아모레퍼시픽·LG생활건강 '장중 급등'",
       "source": "초이스경제",
@@ -20,9 +44,9 @@
       "published": "2026-08-28T19:28:35+09:00",
       "snippet": "방어주 부각?...아모레퍼시픽·LG생활건강 '장중 급등' 초이스경제",
       "query": "K뷰티",
-      "duplicates": 5,
+      "duplicates": 4,
       "category": "브랜드",
-      "relevance": 9,
+      "relevance": 8,
       "companies": [
         "아모레퍼시픽",
         "LG생활건강"
@@ -41,28 +65,18 @@
       "companies": []
     },
     {
-      "title": "(주)우신화장품, ’25년 매출과 영업익 큰 폭 증가... 헤어케어 특화 기술 및 R&D 지속 투자로 전문기업으로 도약",
-      "source": "코스인코리아닷컴",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1fNGtobndvWlBzaWJMT0RCS0xPcjdMY0V2MkducUFITVNhbmdZUG4wNUh4czVka3JZb2x0ZFRiVjRzd3Jnc0Vpa1UyVkd3XzlVWFdNNGhBRUdWTVhWX0hRM1hlUQ?oc=5",
-      "published": "2026-08-28T15:34:17+09:00",
-      "snippet": "(주)우신화장품, ’25년 매출과 영업익 큰 폭 증가... 헤어케어 특화 기술 및 R&D 지속 투자로 전문기업으로 도약 코스인코리아닷컴",
-      "query": "화장품 산업",
-      "duplicates": 4,
-      "category": "자본시장",
-      "relevance": 8,
-      "companies": []
-    },
-    {
-      "title": "인디 브랜드 흥행 열풍에 화장품업종 花色도네… 실적 기대감 고조",
-      "source": "핀포인트뉴스",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1RU0FVdmx2MkxqTGhXdlI0WXp2bXd1WlBKZ3hRSTEyME9oZkdJdmNCNkxHZHJzbXBJS3h2ekhnX2Jvb2tjcGZ2UmkxbTZPUjNQRzg3RThVcHMtX2oxcFNnazQxN0FwVThUTFZtdTRLVFk0M1JMbzRJ0gF3QVVfeXFMTVFTQVV2bHYyTGpMaFd2UjRZenZtd3VaUEpneFFJMTIwT2hmR0l2Y0I2TEdkcnNtcElLeHZ6SGdfYm9va2NwZnZSaTFtNk9SM1BHODdFOFVwcy1fajFwU2drNDE3QXBVOFRMVm11NEtUWTQzUkxvNEk?oc=5",
-      "published": "2026-08-28T14:55:04+09:00",
-      "snippet": "인디 브랜드 흥행 열풍에 화장품업종 花色도네… 실적 기대감 고조 핀포인트뉴스",
+      "title": "화장품주, 실적 개선 기대감 강세…한국콜마 5%↑[핫종목]",
+      "source": "데일리머니",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEenNwejlyVC01enI3M1FxUm9Zbk9zaFh2Q0RCWjZWaUw4d29QTVR3cXcwVjB0WFktLVlzbUhoVUd3MEs2d2dtdWI0SGo2Y1Q3MFNUbFpHeEZKbDVQSnZlbWhMZ29rRjZzeHl6YzBsZU9Pd9IBdkFVX3lxTE9qQTRwNmlqNzZaamVvY01kdDYzaGhqdG9HOE5LUnNhM2VabnlReXB4VE8zTUY2YjQ1dENPTE1xVVdLT3BsSWhpMVhTZU9LbUdDVk5QYlhmVkQ4c3pVZHB0WEpVUkl2YS1IQkk2LXJqWl9yazZ0SkE?oc=5",
+      "published": "2026-08-28T12:24:00+09:00",
+      "snippet": "화장품주, 실적 개선 기대감 강세…한국콜마 5%↑[핫종목] 데일리머니",
       "query": "뷰티 산업 실적",
       "duplicates": 6,
-      "category": "브랜드",
+      "category": "ODM·OEM",
       "relevance": 8,
-      "companies": []
+      "companies": [
+        "한국콜마"
+      ]
     },
     {
       "title": "주가로 읽는 K-뷰티: 외국인 자금, 브랜드보다 유통·뷰티테크에 몰렸다",
@@ -113,17 +127,17 @@
       "companies": []
     },
     {
-      "title": "화장품주, 실적 개선 기대감 강세…한국콜마 5%↑[핫종목]",
-      "source": "데일리머니",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEenNwejlyVC01enI3M1FxUm9Zbk9zaFh2Q0RCWjZWaUw4d29QTVR3cXcwVjB0WFktLVlzbUhoVUd3MEs2d2dtdWI0SGo2Y1Q3MFNUbFpHeEZKbDVQSnZlbWhMZ29rRjZzeHl6YzBsZU9Pd9IBdkFVX3lxTE9qQTRwNmlqNzZaamVvY01kdDYzaGhqdG9HOE5LUnNhM2VabnlReXB4VE8zTUY2YjQ1dENPTE1xVVdLT3BsSWhpMVhTZU9LbUdDVk5QYlhmVkQ4c3pVZHB0WEpVUkl2YS1IQkk2LXJqWl9yazZ0SkE?oc=5",
-      "published": "2026-08-28T12:24:00+09:00",
-      "snippet": "화장품주, 실적 개선 기대감 강세…한국콜마 5%↑[핫종목] 데일리머니",
-      "query": "뷰티 산업 실적",
+      "title": "코스맥스, 인도네시아 첫 화장품학과 개설 참여…산학 연구 확대",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KMi1Wd280SmFkM1k3bkpYdFdpOXYwX0hxeUhHQU5LTzd0RzIxUmt4V1RuN2c2WGFfT0lwWFFjUEJ3WWxzcUxuekN3d1VrNTlKM21oZEtzYllybnY3S0Zsd9IBYEFVX3lxTE5KMi1Wd280SmFkM1k3bkpYdFdpOXYwX0hxeUhHQU5LTzd0RzIxUmt4V1RuN2c2WGFfT0lwWFFjUEJ3WWxzcUxuekN3d1VrNTlKM21oZEtzYllybnY3S0Zsdw?oc=5",
+      "published": "2026-08-28T10:58:22+09:00",
+      "snippet": "코스맥스, 인도네시아 첫 화장품학과 개설 참여…산학 연구 확대 연합뉴스",
+      "query": "화장품 산업",
       "duplicates": 5,
       "category": "ODM·OEM",
       "relevance": 7,
       "companies": [
-        "한국콜마"
+        "코스맥스"
       ]
     },
     {
@@ -182,6 +196,20 @@
       ]
     },
     {
+      "title": "코스맥스, 인도네시아 첫 화장품학과 개설 참여해 아세안 R&D 인재 육성",
+      "source": "코스인코리아닷컴",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE45bm5oX3YxaUotb0VyRWtWZzJLMFdybWZmbjBpWU5SWGM0N1lQWF9XTG1kMVltc1NjR2d5TFZjVzZTVmg2OEZlM3RMcC0tRDRqemxISG9kemQxZ1phQ1FxMTVTaw?oc=5",
+      "published": "2026-08-28T11:57:57+09:00",
+      "snippet": "코스맥스, 인도네시아 첫 화장품학과 개설 참여해 아세안 R&D 인재 육성 코스인코리아닷컴",
+      "query": "화장품 산업",
+      "duplicates": 4,
+      "category": "ODM·OEM",
+      "relevance": 6,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
       "title": "화장품주, 수출 확대로 강세 전환",
       "source": "2news.co.kr",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zeWY1M3ZoZmV1b0t4Yk9UbkREbmxlZEtXeHBHazRzdTB2Y2Z4TU9QQ2JJTVI3am5LUWpmYm1yNXltQmlrakQ0OW5Ic3lFWnhpMmxaQm1ySzIwcmxsVmpBRjdyby1IRjZp?oc=5",
@@ -192,20 +220,6 @@
       "category": "수출·해외",
       "relevance": 6,
       "companies": []
-    },
-    {
-      "title": "코스맥스, 인도네시아 첫 화장품학과 개설 참여…산학 연구 확대",
-      "source": "연합뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KMi1Wd280SmFkM1k3bkpYdFdpOXYwX0hxeUhHQU5LTzd0RzIxUmt4V1RuN2c2WGFfT0lwWFFjUEJ3WWxzcUxuekN3d1VrNTlKM21oZEtzYllybnY3S0Zsd9IBYEFVX3lxTE5KMi1Wd280SmFkM1k3bkpYdFdpOXYwX0hxeUhHQU5LTzd0RzIxUmt4V1RuN2c2WGFfT0lwWFFjUEJ3WWxzcUxuekN3d1VrNTlKM21oZEtzYllybnY3S0Zsdw?oc=5",
-      "published": "2026-08-28T10:58:22+09:00",
-      "snippet": "코스맥스, 인도네시아 첫 화장품학과 개설 참여…산학 연구 확대 연합뉴스",
-      "query": "화장품 산업",
-      "duplicates": 4,
-      "category": "ODM·OEM",
-      "relevance": 6,
-      "companies": [
-        "코스맥스"
-      ]
     },
     {
       "title": "아모레퍼시픽 3개 브랜드, 올리브영X산리오캐릭터즈 협업 상품 출시",
@@ -230,20 +244,6 @@
       "snippet": "세계 1위 굳히는 코스맥스...K-ODM 전성시대 열다 코리아리포트",
       "query": "K뷰티",
       "duplicates": 2,
-      "category": "ODM·OEM",
-      "relevance": 6,
-      "companies": [
-        "코스맥스"
-      ]
-    },
-    {
-      "title": "코스맥스, 인도네시아 첫 '화장품학과' 만든다…K뷰티 R&D 인재 육성",
-      "source": "아시아경제",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcUV1MmF1N3ozckZuYnVRMW0tUXE0MmUzbE94SjRzd1oyckJMMy1rRUt2ZVRjcUlwS1BxcUhJZVFkOGo5aHRkeFBXNjBQTTFmY1NLVDZmN2ZYUGNTWVdBQThNbHVRWnNoaUtNa0FuUHRmRFduQVhCX3RTeU5nRGxCZW9B?oc=5",
-      "published": "2026-08-28T09:16:00+09:00",
-      "snippet": "코스맥스, 인도네시아 첫 '화장품학과' 만든다…K뷰티 R&D 인재 육성 아시아경제",
-      "query": "K뷰티",
-      "duplicates": 4,
       "category": "ODM·OEM",
       "relevance": 6,
       "companies": [
@@ -348,20 +348,6 @@
       ]
     },
     {
-      "title": "코스맥스, 인도네시아 첫 화장품학과 개설 참여해 아세안 R&D 인재 육성",
-      "source": "코스인코리아닷컴",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE45bm5oX3YxaUotb0VyRWtWZzJLMFdybWZmbjBpWU5SWGM0N1lQWF9XTG1kMVltc1NjR2d5TFZjVzZTVmg2OEZlM3RMcC0tRDRqemxISG9kemQxZ1phQ1FxMTVTaw?oc=5",
-      "published": "2026-08-28T11:57:57+09:00",
-      "snippet": "코스맥스, 인도네시아 첫 화장품학과 개설 참여해 아세안 R&D 인재 육성 코스인코리아닷컴",
-      "query": "화장품 산업",
-      "duplicates": 3,
-      "category": "ODM·OEM",
-      "relevance": 5,
-      "companies": [
-        "코스맥스"
-      ]
-    },
-    {
       "title": "아모레 헤라, '리플렉션 스킨 글로우 파우더' 日 출시…K뷰티 입지 강화",
       "source": "더구루",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE80RnhxTmJKX0x0SlpqUTZkSlg0ekRoRFdLbmNUOWtaTDNUZUEtTk4tUW45T1FtQUkyN2pld2VKcTZoSVNsQnRsOVV0aDJMSGR4djNFQi12VDFpbGxGaTVzX1c2Zw?oc=5",
@@ -386,20 +372,6 @@
       "companies": [
         "아모레퍼시픽",
         "올리브영"
-      ]
-    },
-    {
-      "title": "아모레퍼시픽, 제17회 브랜드 챌린지 결선·시상식 개최",
-      "source": "보건신문",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE15SlFIYWRHY2g3dlJQV3BTYjF6SVNjUFZtMzh4T0VEeng1Z2cwN0Jka0JveXJIVnlwQWtHdVlMR0JSUkZKMWtSQXZvTXl0WGZ6SXB2OV9MZU00RU5JeXhwTXV3MA?oc=5",
-      "published": "2026-08-28T10:44:23+09:00",
-      "snippet": "아모레퍼시픽, 제17회 브랜드 챌린지 결선·시상식 개최 보건신문",
-      "query": "아모레퍼시픽",
-      "duplicates": 1,
-      "category": "브랜드",
-      "relevance": 5,
-      "companies": [
-        "아모레퍼시픽"
       ]
     },
     {
@@ -445,32 +417,6 @@
       "companies": []
     },
     {
-      "title": "코스맥스, 인도네시아 국립대에 'K뷰티 학과' 만든다",
-      "source": "비즈워치",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QUU16QTQ5cEF4QXZGdlhURTdpR3QwbUtxOS0wd2N1VGc2LVJ6Skg3Nm1wSVJNQXFPQWh3UFZoWEIzT1JuR0JHeWRMd2J1Qm9zUXVVSGxiTmk0NTczdDAtV2c1V0FDU3lnelRYOQ?oc=5",
-      "published": "2026-08-28T09:35:02+09:00",
-      "snippet": "코스맥스, 인도네시아 국립대에 'K뷰티 학과' 만든다 비즈워치",
-      "query": "K뷰티",
-      "duplicates": 3,
-      "category": "ODM·OEM",
-      "relevance": 5,
-      "companies": [
-        "코스맥스"
-      ]
-    },
-    {
-      "title": "국산 원료 76% 쓰는데 해외진출은 10%도 안 돼…K-그린바이오의 ‘성장통’",
-      "source": "v.daum.net",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBhZ29VVnJJWFR2RkNSX2NsVkg3bGpGOW9hUFk0ZU0yNG5ZSEh1ZEg2aEZacHVBSU16RUtXMGZwX0Z3bi1JMFE?oc=5",
-      "published": "2026-08-28T07:29:09+09:00",
-      "snippet": "국산 원료 76% 쓰는데 해외진출은 10%도 안 돼…K-그린바이오의 ‘성장통’ v.daum.net",
-      "query": "화장품 원료 기업",
-      "duplicates": 1,
-      "category": "수출·해외",
-      "relevance": 5,
-      "companies": []
-    },
-    {
       "title": "아모레퍼시픽, 대학생 마케팅 공모전 ‘브랜드 챌린지’ 결선·시상식 개최",
       "source": "주간한국",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11dzhwcGwwdkw5RU52T0NnX0YxUWN0YTZ2QUI3NjlDTElSM1BtVnFxZ1pEZ250S3B3T2g3dkQ5UjRrc1BsS28zUEdjY21NMUpubkxfdkFTdXN3V1Nhb1FKRzlYMUZudHZWMDMzN1VuX1BOb0k50gF0QVVfeXFMTXV3OHBwbDB2TDlFTnZPQ2dfRjFRY3RhNnZBQjc2OUNMSVIzUG1WcXFnWkRnbnRLcHdPaDd2RDlSNGtzUGxLbzNQR2NjbU0xSm5uTF92QVN1c3dXU2FvUUpHOVgxRm50dlYwMzM3VW5fUE5vSTk?oc=5",
@@ -509,18 +455,6 @@
       "companies": [
         "코스맥스"
       ]
-    },
-    {
-      "title": "충남도 K-제품, 유럽서 통했다…1231만 달러 수출길 열어",
-      "source": "아주경제",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJN1g3eDNJRHZOSHhObFFkbkQtdVo2dXNJRDFVUHhFbDRNX0hiQXk3cGQwWDVPbTE5VnRVeDdaYmxWb2lCNGlJSURWV01ZRmtxZTA3QWZ3dVLSAVhBVV95cUxQSTdYN3gzSUR2Tkh4TmxRZG5ELXVaNnVzSUQxVVB4RWw0TV9IYkF5N3BkMFg1T20xOVZ0VXg3WmJsVm9pQjRpSUlEVldNWUZrcWUwN0Fmd3VS?oc=5",
-      "published": "2026-08-28T17:43:11+09:00",
-      "snippet": "충남도 K-제품, 유럽서 통했다…1231만 달러 수출길 열어 아주경제",
-      "query": "화장품 수출",
-      "duplicates": 0,
-      "category": "수출·해외",
-      "relevance": 4,
-      "companies": []
     },
     {
       "title": "아모레퍼시픽 산리오캐릭터즈 협업 참여, 올리브영서 브랜드 기획상품 선봬",
@@ -586,18 +520,6 @@
       "query": "화장품 원료 기업",
       "duplicates": 2,
       "category": "원료·부자재",
-      "relevance": 4,
-      "companies": []
-    },
-    {
-      "title": "'관세전세'에 등 터진 미·캐나다 화장품…K뷰티는 '함박웃음'",
-      "source": "데일리팝",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBCNm1VN01zWG9ncGFjeWMyaTQtbHM5a3NGbmJTOEt1QWVaQU9KQTU2eGlrMmNHWE1JemE5Nzd0VmlsaWs4SmZaVWVRVEtfRmN1NldQVldLazBpRnZQcVBlVEZEWXpCQ013a3c?oc=5",
-      "published": "2026-08-28T15:27:00+09:00",
-      "snippet": "'관세전세'에 등 터진 미·캐나다 화장품…K뷰티는 '함박웃음' 데일리팝",
-      "query": "K뷰티",
-      "duplicates": 2,
-      "category": "수출·해외",
       "relevance": 4,
       "companies": []
     },
@@ -743,7 +665,7 @@
     {
       "title": "[딜레터] 수많은 브랜드가 만든 하나의 이름, ‘K-뷰티’",
       "source": "v.daum.net",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1vM3ROLWZRMHRlLWZJRTgtS3NTU19EbXFmN0k0ajZ6ZEx6UjVpSkJPQW5DR2hGWF9EUFlnZlFfbUtoU1pSUklIMlQ3TXdLT2JJYU9Ndw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBPcGJqSUg1QzZqYnpLc0dFckhmSmNNMFdKSTg3STIwRms3NXU0U2pyN0ptZVdENXNzMGpRLTctX1l2RFFPSEE?oc=5",
       "published": "2026-08-28T11:29:49+09:00",
       "snippet": "[딜레터] 수많은 브랜드가 만든 하나의 이름, ‘K-뷰티’ v.daum.net",
       "query": "K뷰티",
@@ -817,6 +739,86 @@
       "category": "수출·해외",
       "relevance": 4,
       "companies": []
+    },
+    {
+      "title": "국산 원료 75% 쓰는데 해외 진출은 10% 미만…그린바이오 '제자리'",
+      "source": "서울뉴스통신",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9TNFpfNXUwQWk4cFlyV2JXcVp2Q3NLaVZEcndrdFB2Tm84UW1zUW1vMkItY0RvQTd5aXE5NVVPcF9VUHZVUXpRcElLOFdYeWZTYkczc2hsd3MySUdwYXNaeHFTZUt5OUplZ1JZ?oc=5",
+      "published": "2026-08-28T10:50:00+09:00",
+      "snippet": "국산 원료 75% 쓰는데 해외 진출은 10% 미만…그린바이오 '제자리' 서울뉴스통신",
+      "query": "화장품 원료 기업",
+      "duplicates": 0,
+      "category": "수출·해외",
+      "relevance": 4,
+      "companies": []
+    },
+    {
+      "title": "아모레퍼시픽, 장중 4%대 강세... 대주주 공시가 주가 자극했나 : 기업주식정보",
+      "source": "재경일보",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBVUWxGVnpvR1lKN1ZRXzR5WFRCOG1HRWttTUFtMHEwVE5qSDgxcVpZSXlOemVIdENPZDRtZTZjZjZXVm1MNTlveE9R?oc=5",
+      "published": "2026-08-28T10:46:00+09:00",
+      "snippet": "아모레퍼시픽, 장중 4%대 강세... 대주주 공시가 주가 자극했나 : 기업주식정보 재경일보",
+      "query": "아모레퍼시픽",
+      "duplicates": 0,
+      "category": "자본시장",
+      "relevance": 4,
+      "companies": [
+        "아모레퍼시픽"
+      ]
+    },
+    {
+      "title": "아모레퍼시픽, 제17회 브랜드 챌린지 결선·시상식 개최",
+      "source": "보건신문",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE15SlFIYWRHY2g3dlJQV3BTYjF6SVNjUFZtMzh4T0VEeng1Z2cwN0Jka0JveXJIVnlwQWtHdVlMR0JSUkZKMWtSQXZvTXl0WGZ6SXB2OV9MZU00RU5JeXhwTXV3MA?oc=5",
+      "published": "2026-08-28T10:44:23+09:00",
+      "snippet": "아모레퍼시픽, 제17회 브랜드 챌린지 결선·시상식 개최 보건신문",
+      "query": "아모레퍼시픽",
+      "duplicates": 0,
+      "category": "브랜드",
+      "relevance": 4,
+      "companies": [
+        "아모레퍼시픽"
+      ]
+    },
+    {
+      "title": "아모레퍼시픽, 브랜드 챌린지 결선 개최…숙명여대 ‘피피피팀’ 대상",
+      "source": "kor.theasian.asia",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tNExqeUIycm5UejRrR050czlMeWJRbUliVUpHZ3daUEhjWEJqYnZGck1rQjFkSXotQjl0T1FYU0NQTE9MY21OZTgySzVFNmFKV0Q4?oc=5",
+      "published": "2026-08-28T10:43:43+09:00",
+      "snippet": "아모레퍼시픽, 브랜드 챌린지 결선 개최…숙명여대 ‘피피피팀’ 대상 kor.theasian.asia",
+      "query": "아모레퍼시픽",
+      "duplicates": 0,
+      "category": "브랜드",
+      "relevance": 4,
+      "companies": [
+        "아모레퍼시픽"
+      ]
+    },
+    {
+      "title": "화장품 등 ‘충남 K-제품’, 유럽도 통했다…파리에서 21건 446만 달러 계약",
+      "source": "서울신문",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE96ZjYyamt5TE14WFVKWGxGMGhsMmduRi02Y05tZ2JQVHBCaXFWeVdHeFZWTlFhZG9YQjhVejltYUpRTWVxbkF4YXM1WVJaY0dyR2V1RF9JT3RrcXV0MWxuZDRrSFlhQmtVZWxDV0M3S2JTVVpGV2NQbW5aOA?oc=5",
+      "published": "2026-08-28T10:39:51+09:00",
+      "snippet": "화장품 등 ‘충남 K-제품’, 유럽도 통했다…파리에서 21건 446만 달러 계약 서울신문",
+      "query": "화장품 수출",
+      "duplicates": 2,
+      "category": "수출·해외",
+      "relevance": 4,
+      "companies": []
+    },
+    {
+      "title": "코스맥스, 인도네시아 첫 화장품학과 개설…R&D 인재 육성",
+      "source": "네이트",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBtZUxVdG1GMVBoeEU3cGR6N2hpMS0tTTFqcGhjRHdDQm41RkpZRno4bXpNU2JNQ09RcmFqc2hBMkhCdTRfZzVXcjFxQ1VZdkFlOS1N?oc=5",
+      "published": "2026-08-28T10:38:00+09:00",
+      "snippet": "코스맥스, 인도네시아 첫 화장품학과 개설…R&D 인재 육성 네이트",
+      "query": "화장품 산업",
+      "duplicates": 2,
+      "category": "ODM·OEM",
+      "relevance": 4,
+      "companies": [
+        "코스맥스"
+      ]
     }
   ]
 }
