@@ -94,9 +94,11 @@ def similarity(a, b):
     if not a or not b:
         return 0.0
 
-    # 한쪽이 다른 쪽에 통째로 들어가면 같은 기사로 봅니다
+    # 한쪽이 다른 쪽에 통째로 들어가면 같은 기사로 봅니다.
+    # 다만 길이 차가 크면 제외합니다. 여러 사안을 이어붙인 브리핑 기사가
+    # 짧은 제목들을 통째로 삼켜버리기 때문입니다.
     short, long_ = (a, b) if len(a) <= len(b) else (b, a)
-    if len(short) >= 10 and short in long_:
+    if len(short) >= 10 and short in long_ and len(short) >= len(long_) * 0.6:
         return 1.0
 
     seq = SequenceMatcher(None, a, b).ratio()
@@ -183,12 +185,85 @@ def is_excluded(title):
 
 SIMILARITY_THRESHOLD = 0.62
 
+# 어느 기사에나 나오는 흔한 말. 같은 사안인지 가리는 데 도움이 안 됩니다.
+STOPWORDS = {
+    "출시", "판매", "공개", "확대", "강화", "진행", "개최", "예정", "발표",
+    "위한", "통해", "대한", "관련", "최대", "최초", "신규", "이번", "올해",
+    "기업", "회사", "시장", "사업", "제품", "브랜드", "화장품", "뷰티",
+    # 기사 말머리와 실적 기사에 관용적으로 쓰이는 말.
+    # 서로 다른 회사 기사를 엮어버리는 원인이라 근거에서 뺍니다.
+    "단독", "종합", "속보", "기업분석", "특징주", "인터뷰", "분석", "이슈",
+    "영업익", "영업이익", "매출액", "증가", "감소", "상반기", "하반기",
+    "분기", "실적", "전년", "지난해", "기록", "달성", "전망",
+}
+
+
+def tokens(title):
+    """제목에서 의미 있는 낱말만 뽑습니다."""
+    words = re.split(r"[^0-9A-Za-z가-힣]+", title)
+    return {w for w in words
+            if len(w) >= 2 and w not in STOPWORDS and not w.isdigit()}
+
+
+def is_roundup(article):
+    """
+    여러 사안을 한 기사에 모은 브리핑성 기사인지 봅니다.
+
+    이런 기사는 여러 사안의 제목과 낱말을 다 갖고 있어서,
+    서로 관계없는 기사들을 잇는 다리가 됩니다. 묶기에서 빼야 합니다.
+    """
+    hits = sum(1 for name in config.COMPANY_TAGS if name in article["title"])
+    # 이름 두 개만으로는 부족합니다. 한 사안에 유통 채널이 함께 언급되는
+    # 경우가 흔하기 때문입니다. 제목이 유난히 긴 경우만 브리핑으로 봅니다.
+    return hits >= 2 and len(normalize(article["title"])) >= 45
+
+
+def merge_syndicated(clusters, doc_freq, total):
+    """
+    같은 보도자료를 매체마다 다르게 고쳐 쓴 기사를 묶습니다.
+
+    제목 유사도만으로는 어순과 표현이 크게 달라진 경우를 놓칩니다.
+    대신 그날 전체에서 드물게 등장하는 낱말(제품명, 행사명 등)을
+    둘 이상 공유하면 같은 사안으로 봅니다. 흔한 낱말은 근거가 되지 않습니다.
+    """
+    rare_cut = max(2, int(total * 0.04))
+
+    def rare_tokens(article):
+        return {t for t in tokens(article["title"]) if doc_freq.get(t, 0) <= rare_cut}
+
+    merged = []
+    for cluster in clusters:
+        if cluster.get("solo"):
+            cluster["marks"] = set()
+            merged.append(cluster)
+            continue
+
+        marks = rare_tokens(cluster["article"])
+        target, best = None, 1
+        for done in merged:
+            if not done["marks"]:
+                continue
+            overlap = len(marks & done["marks"])
+            # 드문 낱말을 둘 이상 공유하되, 제목이 딴판이면 묶지 않습니다.
+            if overlap > best and similarity(cluster["key"], done["key"]) >= 0.40:
+                target, best = done, overlap
+
+        if target is None:
+            cluster["marks"] = marks
+            merged.append(cluster)
+        else:
+            # 묶을 때 낱말을 합치지 않습니다. 합치면 묶음이 점점 커지면서
+            # 관계없는 기사까지 줄줄이 딸려 들어옵니다.
+            target["count"] += cluster["count"]
+
+    return merged
+
 
 def dedupe(articles):
     """
     같은 사안을 다룬 기사를 하나로 묶습니다.
 
-    제목이 완전히 같지 않아도 유사도가 기준을 넘으면 묶고,
+    1단계는 제목 유사도, 2단계는 드문 낱말 공유로 봅니다.
     묶인 것 중 가장 자세한 제목을 대표로 남깁니다.
     """
     clusters = []  # [{"key": 정규화제목, "article": 대표기사, "count": 묶인 수}]
@@ -198,24 +273,36 @@ def dedupe(articles):
         if len(key) < 6:  # 너무 짧은 제목은 판정이 어려워 건너뜁니다
             continue
 
+        if is_roundup(art):
+            clusters.append({"key": key, "article": art, "count": 1, "solo": True})
+            continue
+
         matched = None
         best = SIMILARITY_THRESHOLD
         for cluster in clusters:
+            if cluster.get("solo"):
+                continue
             score = similarity(key, cluster["key"])
             if score >= best:
                 matched, best = cluster, score
 
         if matched is None:
-            art["duplicates"] = 0
             clusters.append({"key": key, "article": art, "count": 1})
             continue
 
         matched["count"] += 1
         # 말머리를 뺀 실제 내용이 더 긴 쪽을 대표로 삼습니다
         if len(key) > len(matched["key"]):
-            art["duplicates"] = 0
             matched["article"] = art
             matched["key"] = key
+
+    # 낱말이 그날 몇 건에 등장했는지 세어 흔한 말과 드문 말을 가릅니다
+    doc_freq = {}
+    for art in articles:
+        for token in tokens(art["title"]):
+            doc_freq[token] = doc_freq.get(token, 0) + 1
+
+    clusters = merge_syndicated(clusters, doc_freq, len(articles))
 
     result = []
     for cluster in clusters:
