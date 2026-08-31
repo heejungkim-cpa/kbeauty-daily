@@ -141,9 +141,24 @@ body {
   font-size: 10px;
   letter-spacing: 0.14em;
   opacity: 0.72;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.strip .seg-name { font-size: 12.5px; font-weight: 500; }
+.strip .seg-name {
+  font-size: 12.5px;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 구간이 좁아지면 이름부터, 더 좁아지면 번호까지 숨깁니다.
+   잘린 글자를 보여주느니 색과 폭만 남기는 편이 낫습니다.
+   가려진 내용은 마우스를 올리면 말풍선으로 나옵니다. */
+.strip button.tight { padding: 0 7px; }
+.strip button.tight .seg-name { display: none; }
+.strip button.micro { padding: 0 3px; }
+.strip button.micro .seg-code { display: none; }
 
 .strip-legend {
   font-family: "IBM Plex Mono", monospace;
@@ -328,6 +343,26 @@ body {
 """
 
 JS = """
+// 구간 폭을 재서 글자가 잘리기 전에 미리 숨깁니다.
+// 창 크기가 바뀌어도 다시 계산합니다.
+const segments = document.querySelectorAll('.strip button');
+
+function fitSegments() {
+  segments.forEach(seg => {
+    const w = seg.offsetWidth;
+    seg.classList.toggle('tight', w < 104);
+    seg.classList.toggle('micro', w < 46);
+  });
+}
+
+fitSegments();
+window.addEventListener('resize', fitSegments);
+
+// 웹폰트가 늦게 오면 글자 폭이 바뀌므로 한 번 더 계산합니다.
+if (document.fonts && document.fonts.ready) {
+  document.fonts.ready.then(fitSegments);
+}
+
 const buttons = document.querySelectorAll('[data-filter]');
 const groups = document.querySelectorAll('[data-category]');
 
@@ -364,7 +399,8 @@ def render_strip(counts, total):
         share = count / total * 100
         segments.append(
             f'<button data-jump="{esc(category)}" style="flex-grow:{count};background:{shade_of(category)}"'
-            f' title="{esc(category)} {count}건 ({share:.0f}%)">'
+            f' title="{esc(category)} {count}건 ({share:.0f}%)"'
+            f' aria-label="{esc(category)} {count}건, 눌러서 이 분류만 보기">'
             f'<span class="seg-code">{code_of(category)}</span>'
             f'<span class="seg-name">{esc(category)} {count}</span>'
             f"</button>"

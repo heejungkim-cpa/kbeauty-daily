@@ -14,6 +14,7 @@ import os
 import re
 import sys
 import time
+from difflib import SequenceMatcher
 import html
 import urllib.parse
 from datetime import datetime, timedelta, timezone
@@ -54,9 +55,56 @@ def split_source(title):
     return title.strip(), ""
 
 
+# 한자 약칭을 한글로 펴서 같은 기사로 인식되게 합니다.
+HANJA = {
+    "美": "미국", "中": "중국", "日": "일본", "韓": "한국", "北": "북한",
+    "英": "영국", "獨": "독일", "佛": "프랑스", "亞": "아시아", "露": "러시아",
+}
+
+# 제목 앞뒤에 붙는 말머리. 내용과 무관하므로 비교 전에 떼어냅니다.
+AFFIX = re.compile(
+    r"^\s*[\[\(【<][^\]\)】>]{1,12}[\]\)】>]\s*"   # [단독] (종합) 【속보】
+    r"|\s*[\[\(【<][^\]\)】>]{1,12}[\]\)】>]\s*$"
+)
+
+
 def normalize(title):
-    """중복 판정용 키. 공백·기호·조사 차이를 무시합니다."""
-    return re.sub(r"[^0-9a-z가-힣]", "", title.lower())
+    """중복 판정용 키. 말머리·한자약칭·공백·기호 차이를 없앱니다."""
+    text = title
+    for _ in range(3):  # 말머리가 여러 개 붙는 경우가 있습니다
+        stripped = AFFIX.sub("", text)
+        if stripped == text:
+            break
+        text = stripped
+    for hanja, hangul in HANJA.items():
+        text = text.replace(hanja, hangul)
+    return re.sub(r"[^0-9a-z가-힣]", "", text.lower())
+
+
+def bigrams(text):
+    return {text[i:i + 2] for i in range(len(text) - 1)}
+
+
+def similarity(a, b):
+    """
+    두 제목이 같은 사안인지 봅니다.
+    글자 배열 유사도와 두 글자 묶음 겹침을 함께 봐서,
+    어순이 바뀌거나 표현이 조금 다른 기사도 같은 것으로 잡습니다.
+    """
+    if not a or not b:
+        return 0.0
+
+    # 한쪽이 다른 쪽에 통째로 들어가면 같은 기사로 봅니다
+    short, long_ = (a, b) if len(a) <= len(b) else (b, a)
+    if len(short) >= 10 and short in long_:
+        return 1.0
+
+    seq = SequenceMatcher(None, a, b).ratio()
+
+    ga, gb = bigrams(a), bigrams(b)
+    jaccard = len(ga & gb) / len(ga | gb) if (ga | gb) else 0.0
+
+    return max(seq, jaccard)
 
 
 def to_kst(entry):
@@ -133,30 +181,72 @@ def is_excluded(title):
     return any(word in title for word in config.EXCLUDE_KEYWORDS)
 
 
+SIMILARITY_THRESHOLD = 0.62
+
+
 def dedupe(articles):
-    """제목이 사실상 같은 기사를 하나로 합칩니다."""
-    seen = {}
+    """
+    같은 사안을 다룬 기사를 하나로 묶습니다.
+
+    제목이 완전히 같지 않아도 유사도가 기준을 넘으면 묶고,
+    묶인 것 중 가장 자세한 제목을 대표로 남깁니다.
+    """
+    clusters = []  # [{"key": 정규화제목, "article": 대표기사, "count": 묶인 수}]
+
     for art in articles:
         key = normalize(art["title"])
-        if not key:
+        if len(key) < 6:  # 너무 짧은 제목은 판정이 어려워 건너뜁니다
             continue
-        if key in seen:
-            # 같은 기사가 여러 매체에 실렸으면 매체 수를 세어 둡니다.
-            seen[key]["duplicates"] += 1
-        else:
+
+        matched = None
+        best = SIMILARITY_THRESHOLD
+        for cluster in clusters:
+            score = similarity(key, cluster["key"])
+            if score >= best:
+                matched, best = cluster, score
+
+        if matched is None:
             art["duplicates"] = 0
-            seen[key] = art
-    return list(seen.values())
+            clusters.append({"key": key, "article": art, "count": 1})
+            continue
+
+        matched["count"] += 1
+        # 말머리를 뺀 실제 내용이 더 긴 쪽을 대표로 삼습니다
+        if len(key) > len(matched["key"]):
+            art["duplicates"] = 0
+            matched["article"] = art
+            matched["key"] = key
+
+    result = []
+    for cluster in clusters:
+        cluster["article"]["duplicates"] = cluster["count"] - 1
+        result.append(cluster["article"])
+    return result
 
 
 def classify(article):
-    """제목과 요약을 키워드와 대조해 점수가 가장 높은 카테고리로 보냅니다."""
+    """
+    제목과 요약을 키워드와 대조해 점수가 가장 높은 카테고리로 보냅니다.
+
+    기업 이름은 가중치를 낮게 둡니다. 이름이 카테고리를 결정하면
+    '아모레퍼시픽 3분기 영업이익' 같은 실적 기사가 브랜드로 쏠립니다.
+    기업이 아니라 무엇을 다룬 기사인지가 기준이어야 합니다.
+    """
     text = f"{article['title']} {article['snippet']}"
+    companies = set(config.COMPANY_TAGS)
     best_name, best_score = config.FALLBACK_CATEGORY, 0
 
     for name, spec in config.CATEGORIES.items():
-        score = sum(2 if kw in article["title"] else 1
-                    for kw in spec["keywords"] if kw in text)
+        score = 0
+        for kw in spec["keywords"]:
+            if kw not in text:
+                continue
+            if kw in companies:
+                score += 1              # 기업명은 약한 힌트
+            elif kw in article["title"]:
+                score += 2              # 제목에 나온 주제어가 가장 강함
+            else:
+                score += 1
         if score > best_score:
             best_name, best_score = name, score
 
