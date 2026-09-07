@@ -1,0 +1,1042 @@
+{
+  "date": "2026-09-07",
+  "generated_at": "2026-09-07T09:28:42.161060+09:00",
+  "total": 80,
+  "counts": {
+    "주가·시황": 8,
+    "원료·부자재": 2,
+    "규제·정책": 3,
+    "ODM·OEM": 4,
+    "수출·해외": 20,
+    "브랜드": 19,
+    "유통·채널": 12,
+    "기타": 10,
+    "실적·공시": 2
+  },
+  "briefing": null,
+  "failed_feeds": [],
+  "articles": [
+    {
+      "title": "[리포트 브리핑]한국콜마, '업황 강세에 글로벌 MNC 모멘텀까지' 목표가 180,000원 - SK증권",
+      "source": "뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBNWnpRM1lPT1JEMl9kMnRmcHdJWWVJa0hCRV9NZFNMN3pqXzlqWGV6Y0VCRkI4Q1BNeGxJckJXdkk2aTJCczhDN3NfcUtBX1ZHQ2NuWlY1ODFaMkNz?oc=5",
+      "published": "2026-09-07T08:44:00+09:00",
+      "snippet": "[리포트 브리핑]한국콜마, '업황 강세에 글로벌 MNC 모멘텀까지' 목표가 180,000원 - SK증권 뉴스핌",
+      "query": "한국콜마",
+      "duplicates": 4,
+      "category": "주가·시황",
+      "relevance": 8,
+      "companies": [
+        "한국콜마"
+      ]
+    },
+    {
+      "title": "“반도체 랠리 다음은?” 증권가, 화장품 업종 목표주가 일제히 상향",
+      "source": "문화일보",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9KZzhBNUJGbUhPSUdiYUJJZnNoUGkzQm85a3AwdEV3c24tUXJRUnBfb21Ud2Foa3l1eGxtN01zQXR6Yl9FaGNtSXZGSmZQUW5v?oc=5",
+      "published": "2026-09-07T09:21:30+09:00",
+      "snippet": "“반도체 랠리 다음은?” 증권가, 화장품 업종 목표주가 일제히 상향 문화일보",
+      "query": "화장품 수출",
+      "duplicates": 1,
+      "category": "주가·시황",
+      "relevance": 7,
+      "companies": []
+    },
+    {
+      "title": "애드윈코리아/씨앤텍, 美 뉴스위크가 조명한 K-뷰티 혁신… 소재·제형 기술로 글로벌 시장 공략",
+      "source": "코스인코리아닷컴",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Ncmowa3J3TUQ2Z1FESmFjSThNSzdkamhkWHNLSGZ3UFc1M2h2ejJlczMzUkdNc3U5ZVlnQlFjcFB2Y09HamhXOUFZRENhYjR5d1pRN0gwMG1DbVZfeERGSlR1SDlsQQ?oc=5",
+      "published": "2026-09-07T07:22:40+09:00",
+      "snippet": "애드윈코리아/씨앤텍, 美 뉴스위크가 조명한 K-뷰티 혁신… 소재·제형 기술로 글로벌 시장 공략 코스인코리아닷컴",
+      "query": "K뷰티",
+      "duplicates": 5,
+      "category": "원료·부자재",
+      "relevance": 7,
+      "companies": []
+    },
+    {
+      "title": "K뷰티 파워… 전세계 ‘화장품 규제’ 논의 중심에 선다[안전한 食·醫·藥, 국민건강 일군다]",
+      "source": "문화일보",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA5RkpuV1c1WTNEU3VlejBRNDRFbVBqZ0lJeE9qdGNwQTd4V3NubTZFZWlrTHNxNjFiSi13WDdtZUxKNkp5X2xfem5ERUMyMUp4?oc=5",
+      "published": "2026-09-07T09:13:01+09:00",
+      "snippet": "K뷰티 파워… 전세계 ‘화장품 규제’ 논의 중심에 선다[안전한 食·醫·藥, 국민건강 일군다] 문화일보",
+      "query": "K뷰티",
+      "duplicates": 4,
+      "category": "규제·정책",
+      "relevance": 6,
+      "companies": []
+    },
+    {
+      "title": "한국콜마, 화장품 수출 호조에 글로벌 브랜드 수주 확대-SK",
+      "source": "인포스탁데일리",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBOWjZjeVlCUTJQSHpwTDdXTk02VExFWU5VN053QkRyT0didzg2VTVKRTU2Ql9pV3h6MVlLeHk4d0pMSmhTMXdhVE1xTUx6TXVlQzBFRXlma2Y2b0RLVHRjMzlkaVBkbDNSN3ZETTFKc1RPYzFuU1E?oc=5",
+      "published": "2026-09-07T08:27:10+09:00",
+      "snippet": "한국콜마, 화장품 수출 호조에 글로벌 브랜드 수주 확대-SK 인포스탁데일리",
+      "query": "화장품 수출",
+      "duplicates": 3,
+      "category": "ODM·OEM",
+      "relevance": 6,
+      "companies": [
+        "한국콜마"
+      ]
+    },
+    {
+      "title": "화장품신문 (Beautynury.com) :: 미국 OTC 진출 기업 모집…화장품산업硏, FDA 실사 대응 컨설팅",
+      "source": "뷰티누리",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xbEZXa0o3RWdlNUpPYzgwb05QQzZoOHBTTjVGZGtMTU16Z3V5RmRUUEtWaFlISWo1M01taGRic1ZCS2NuYmxQNmo0UWZHRnpXZ2VTanBwd2dKaFJfODNz?oc=5",
+      "published": "2026-09-07T06:00:00+09:00",
+      "snippet": "화장품신문 (Beautynury.com) :: 미국 OTC 진출 기업 모집…화장품산업硏, FDA 실사 대응 컨설팅 뷰티누리",
+      "query": "화장품 산업",
+      "duplicates": 2,
+      "category": "수출·해외",
+      "relevance": 6,
+      "companies": []
+    },
+    {
+      "title": "화장품신문 (Beautynury.com) :: [기업분석] 에이피알 상반기 매출 1조3609억…화장품·뷰티 181% 증가",
+      "source": "뷰티누리",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GOGttNEUwZUFBMHRTZFlOb3V5QnExOWZqaXlMdjh3LVZ6T3RXTXpLRWFabHZhSVhTS1F4ZER4V0tYZWJDcmczSnVBTThYdS1XZ09JWDN0Y2xSMm9ObEpv?oc=5",
+      "published": "2026-09-07T06:00:00+09:00",
+      "snippet": "화장품신문 (Beautynury.com) :: [기업분석] 에이피알 상반기 매출 1조3609억…화장품·뷰티 181% 증가 뷰티누리",
+      "query": "화장품 산업",
+      "duplicates": 5,
+      "category": "브랜드",
+      "relevance": 6,
+      "companies": [
+        "에이피알"
+      ]
+    },
+    {
+      "title": "코이코, 중국 뷰티시장 유통 변화 대응 K-뷰티 전시전략 제시",
+      "source": "코스인코리아닷컴",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9wb3hYbEp1VGk3clYxRVFQZ1RKamVLVzZWYm12Q1hBalZVeHdwcUk2R1I5T29EQVROZUJCcHdqNzN6cmFkcGkza3Q0VXNEYnRnc0txLU1IXy02TVZkNGNKTUtWdw?oc=5",
+      "published": "2026-09-06T23:37:35+09:00",
+      "snippet": "코이코, 중국 뷰티시장 유통 변화 대응 K-뷰티 전시전략 제시 코스인코리아닷컴",
+      "query": "K뷰티",
+      "duplicates": 4,
+      "category": "유통·채널",
+      "relevance": 6,
+      "companies": []
+    },
+    {
+      "title": "NH證 \"아모레퍼시픽, 더마 브랜드 약진·멀티 채널 확대…목표가 18만5000원으로↑\"",
+      "source": "news.nate.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1sSHlFS3BRRFBieUhHZHZVLVBPdy1BYTIwMTJ2Wmtxb0k2YUgyZm1XNTlxRFVQLWo2akJEelRlT0lYcUhidWR4R1llMHhjSzR0eDBJ?oc=5",
+      "published": "2026-09-07T08:39:00+09:00",
+      "snippet": "NH證 \"아모레퍼시픽, 더마 브랜드 약진·멀티 채널 확대…목표가 18만5000원으로↑\" news.nate.com",
+      "query": "아모레퍼시픽",
+      "duplicates": 2,
+      "category": "브랜드",
+      "relevance": 5,
+      "companies": [
+        "아모레퍼시픽"
+      ]
+    },
+    {
+      "title": "SK증권, 코스맥스 목표가↑…\"화장품 수출 호조 실적에 반영\"",
+      "source": "news.nate.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9WbHJjbnZXNXRZSmt6S3NzTnMzOS1fTmhrQTQxSnN2MzZtR2FtY2RvTTJyZmpYMGg0Vk1CakJWVU9kel9CZXcyRTJiM3h5d19XSmRN?oc=5",
+      "published": "2026-09-07T08:34:00+09:00",
+      "snippet": "SK증권, 코스맥스 목표가↑…\"화장품 수출 호조 실적에 반영\" news.nate.com",
+      "query": "화장품 수출",
+      "duplicates": 3,
+      "category": "수출·해외",
+      "relevance": 5,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "SK證 \"K뷰티 미국·유럽 성장 이제 시작…주가는 부담\"",
+      "source": "news.nate.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBWdXFSMnRzcXVVTTQ0MlNBT1dDN250SkNLeDBWaHZWWk5lS3BEQzVZbGJGTzY0VHFEM0hDM3c1SjZHVWtjSWUzeHJvOWgtLWRza3hR?oc=5",
+      "published": "2026-09-07T08:21:00+09:00",
+      "snippet": "SK證 \"K뷰티 미국·유럽 성장 이제 시작…주가는 부담\" news.nate.com",
+      "query": "K뷰티",
+      "duplicates": 1,
+      "category": "수출·해외",
+      "relevance": 5,
+      "companies": []
+    },
+    {
+      "title": "1경원 중국 시장을 겨냥한 ‘2026 수출시장 확장하기-온라인사절단’ 마케팅 지원",
+      "source": "cncnews.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9pazBVSjRKcTNwXzZKTE9ObjI2N3BrTEFJUndNMHEyelI0dy1VWGxyOXVmOEFDMER0UUlxVjlnb0RQTEVIZ2VFcmdVUktrZ1JaakRsWnFOaVNuMDVYRHM5Y1h3?oc=5",
+      "published": "2026-09-07T07:13:34+09:00",
+      "snippet": "1경원 중국 시장을 겨냥한 ‘2026 수출시장 확장하기-온라인사절단’ 마케팅 지원 cncnews.co.kr",
+      "query": "화장품 산업",
+      "duplicates": 1,
+      "category": "수출·해외",
+      "relevance": 5,
+      "companies": []
+    },
+    {
+      "title": "화장품신문 (Beautynury.com) :: [창간 34주년 특집] ② K-더마, 속도 다음에 필요한 것은 ‘신뢰’",
+      "source": "뷰티누리",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE94SEhaeF9aaGcxV3YyV1BDa1RtVGxPRG8wQkZGT0tHa2JVOVJxcWZGdXNsanM3aWU1bmxjbktKSjFScGVkWkEtN1JTR1JjWVJpU2NYaDNpN1NiYTZpSjJ3NURSTkxKZFU4?oc=5",
+      "published": "2026-09-07T06:59:00+09:00",
+      "snippet": "화장품신문 (Beautynury.com) :: [창간 34주년 특집] ② K-더마, 속도 다음에 필요한 것은 ‘신뢰’ 뷰티누리",
+      "query": "K뷰티",
+      "duplicates": 5,
+      "category": "기타",
+      "relevance": 5,
+      "companies": []
+    },
+    {
+      "title": "수출 안 했는데 현지서 팔렸다…K-뷰티 '가품 리스크' 경계령",
+      "source": "뉴스1",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBfV1NHaG5ZWTBTT1U5SHA5cXRoTi1wSHZSZ3VWYkVRdEN4bDJEdVVtNXFNOUZXaGhaMTZkd3I3c2tKUk5vLWQtRnMtR2p6WXdld3c4X2xSZDloMi1idVRwY3BkVDJ2ZkxiTHfSAWpBVV95cUxQX1dTR2huWVkwU09VOUhwOXF0aE4tcEh2Umd1VmJFUXRDeGwyRHVVbTVxTTlGV2hoWjE2ZHdyN3NrSlJOby1kLUZzLUdqell3ZXd3OF9sUmQ5aDItYnVUcGNwZFQydmZMYkx3?oc=5",
+      "published": "2026-09-07T06:10:00+09:00",
+      "snippet": "수출 안 했는데 현지서 팔렸다…K-뷰티 '가품 리스크' 경계령 뉴스1",
+      "query": "K뷰티",
+      "duplicates": 3,
+      "category": "수출·해외",
+      "relevance": 5,
+      "companies": []
+    },
+    {
+      "title": "화장품신문 (Beautynury.com) :: 세포라, ‘틱톡 샵’에 스토어 입점 판매 스타트",
+      "source": "뷰티누리",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBRZDFOeHoyeFcxeHhrU2EyN2RKTXBwLW4zY1hwdVgyMllqdkY5TU8tVXVkc1d1b0U4NDY2UEZ6blVpMWlOcWRBMTZKSXE2b055UUg2eVdhMkFWZG9aRkpz?oc=5",
+      "published": "2026-09-07T06:00:00+09:00",
+      "snippet": "화장품신문 (Beautynury.com) :: 세포라, ‘틱톡 샵’에 스토어 입점 판매 스타트 뷰티누리",
+      "query": "화장품 산업",
+      "duplicates": 1,
+      "category": "유통·채널",
+      "relevance": 5,
+      "companies": []
+    },
+    {
+      "title": "중국, 수출‧입 화장품 관리‧감독 강화..공공보건 보호",
+      "source": "약업신문",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZnpmSy1uY3llWDdxMnFNQ3k4NXNpSF9KOHotTDJyV180VVpUOHhyUlYzT3pNcFp0S1laZnZOZzJnYUxNUGdFWkt1dWl4ZUQwX3FzZE5RNnJOb3JnQlJ6QlN6V0hwU1hpQWFyeWYyZXdKLU5fclBRcU8zdFBSRnRCTWZtOUc5WGZXWEJ5VVJrMDU4N1dTdDJuck5teXc5dTA?oc=5",
+      "published": "2026-09-06T19:37:24+09:00",
+      "snippet": "중국, 수출‧입 화장품 관리‧감독 강화..공공보건 보호 약업신문",
+      "query": "화장품 산업",
+      "duplicates": 1,
+      "category": "수출·해외",
+      "relevance": 5,
+      "companies": []
+    },
+    {
+      "title": "한국콜마 '프리미에르 비죵 파리' 참가… 국내 화장품 업계 유일",
+      "source": "보건신문",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5LdlpubExsckYwWXd6aXdWXzhFODFDbTRLekR6MTdlcGE0Xzl0azh4ZkNTcFlOa3NON2ZSRGpZdDVnMll0X19VclJHRUIza01QODJKQXdnaEJlWjlKNEp2c2FB?oc=5",
+      "published": "2026-09-06T17:51:49+09:00",
+      "snippet": "한국콜마 '프리미에르 비죵 파리' 참가… 국내 화장품 업계 유일 보건신문",
+      "query": "화장품 산업",
+      "duplicates": 4,
+      "category": "ODM·OEM",
+      "relevance": 5,
+      "companies": [
+        "한국콜마"
+      ]
+    },
+    {
+      "title": "한국콜마, ‘프리미에르 비죵 파리’ 참가… K뷰티 기술력·색조 개발 역량 뽐내",
+      "source": "금융경제신문",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsNFBmMWMyQ3Q1cVZqOW5WZTcwcEp2V2ppLWIzQmhDclc5cW9QZVkzenV4QnJ5YkpLQmZrV0gyRUpacmRtMmdXRW1mLUltTHMzRjhZckJpcWFsNFh5b2VLMWVkR3dEOUtzMFJGM9IBb0FVX3lxTFBTTzlhRnVfckE0VVRqRko2Rk5oVFZUaklSb1VIUGZJbkJpVU5DMHM4TFg0dDhWM2RYUFEtYktESW9icVdzOTRscU9fTHNQdzlVcVRaRWpsYl80R1dKdG1mZGMxZ0toZkwyenQ2R2FXdw?oc=5",
+      "published": "2026-09-06T16:09:41+09:00",
+      "snippet": "한국콜마, ‘프리미에르 비죵 파리’ 참가… K뷰티 기술력·색조 개발 역량 뽐내 금융경제신문",
+      "query": "K뷰티",
+      "duplicates": 4,
+      "category": "ODM·OEM",
+      "relevance": 5,
+      "companies": [
+        "한국콜마"
+      ]
+    },
+    {
+      "title": "산업부, 증가세 K-뷰티 등 소비재 수출 신성장 동력 육성",
+      "source": "news.nate.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90WWtYbmhEeFJKY21YWEljU1dEUl93cHp2ZkFQbFExd2x4MWxFanVGZnJQZjFKNk00cGs2LVktOGFJV2piR0tMc1hNWHZ0eUlKWHRV?oc=5",
+      "published": "2026-09-06T15:11:00+09:00",
+      "snippet": "산업부, 증가세 K-뷰티 등 소비재 수출 신성장 동력 육성 news.nate.com",
+      "query": "K뷰티",
+      "duplicates": 3,
+      "category": "수출·해외",
+      "relevance": 5,
+      "companies": []
+    },
+    {
+      "title": "[버핏 리포트] 아모레퍼시픽, 더마 비중 25% 전망...목표가 18.5만원 상향 - NH",
+      "source": "buffettlab.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBxdWk0bEw2Z0xlTHZ3djNSSFJYVHUzMmtKWWtJSS0tQjVkTzItVlFUeDhsalo2MmtndWpoNTc2UG44Vi1KZnhRa2wzNnR0SnNaSDhNN2VnbW51cUxGTEh6aG5n?oc=5",
+      "published": "2026-09-07T09:08:54+09:00",
+      "snippet": "[버핏 리포트] 아모레퍼시픽, 더마 비중 25% 전망...목표가 18.5만원 상향 - NH buffettlab.co.kr",
+      "query": "아모레퍼시픽",
+      "duplicates": 2,
+      "category": "주가·시황",
+      "relevance": 4,
+      "companies": [
+        "아모레퍼시픽"
+      ]
+    },
+    {
+      "title": "아모레퍼시픽, '더마 브랜드' 성장에 실적 기대감…목표가↑",
+      "source": "news.nate.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9iTGlYN21xOUpMQWdxdTZvTHh0ZWRqeU5NeWZWLTVnRFFIdEhJUE5XdkhNRjJOUzlPY0VVTTc0OHkzZkU4eEowZU9MYWlEbnZYMlZN?oc=5",
+      "published": "2026-09-07T08:53:00+09:00",
+      "snippet": "아모레퍼시픽, '더마 브랜드' 성장에 실적 기대감…목표가↑ news.nate.com",
+      "query": "화장품 브랜드사 실적",
+      "duplicates": 1,
+      "category": "브랜드",
+      "relevance": 4,
+      "companies": [
+        "아모레퍼시픽"
+      ]
+    },
+    {
+      "title": "[투자자 순매수 TOP5] 3대 수급 주체 동반 매도…SK하이닉스 순매도 1위",
+      "source": "supple.kr",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9OSmpLeWZ6MXc2TlA0bUEyeFFQMXlTVnRJM0NEOC1wQ2FIaWpoTkEwTktud2dwM2E5V3QyU191TW9HSE5vZEtnU29vTURHc3gySmEyX2RqODQ2WmFu?oc=5",
+      "published": "2026-09-07T08:37:39+09:00",
+      "snippet": "[투자자 순매수 TOP5] 3대 수급 주체 동반 매도…SK하이닉스 순매도 1위 supple.kr",
+      "query": "실리콘투",
+      "duplicates": 0,
+      "category": "주가·시황",
+      "relevance": 4,
+      "companies": []
+    },
+    {
+      "title": "NH증권, 더마 제품 힘받은 아모레퍼시픽에 \"내년 매출 5조 회복\"",
+      "source": "news.nate.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1oT2Nza053Ymx6RDF1QS12MEx1NGw1UFk3YTJILU9KVUdhWHNYWHBsZzhKVlZxZjhpWlpVZzY5aU91ZGlMdVNwSGFuckZQSHF3UC1B?oc=5",
+      "published": "2026-09-07T08:28:00+09:00",
+      "snippet": "NH증권, 더마 제품 힘받은 아모레퍼시픽에 \"내년 매출 5조 회복\" news.nate.com",
+      "query": "화장품 브랜드사 실적",
+      "duplicates": 3,
+      "category": "브랜드",
+      "relevance": 4,
+      "companies": [
+        "아모레퍼시픽"
+      ]
+    },
+    {
+      "title": "에이피알, 美 오프라인·유럽 '쌍두마차'…하반기 고성장 지속 전망",
+      "source": "news.nate.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1zTkFTV0R0NXRSMFpYelB1a2ROaVpjb3NKVHVCT2YzNDdhSWhhOUp6TmYtVVhEcXVFUDg3RjRka1hrTTh4UG54OHZfSDlZYUV4YXdR?oc=5",
+      "published": "2026-09-07T08:18:00+09:00",
+      "snippet": "에이피알, 美 오프라인·유럽 '쌍두마차'…하반기 고성장 지속 전망 news.nate.com",
+      "query": "에이피알 뷰티",
+      "duplicates": 2,
+      "category": "수출·해외",
+      "relevance": 4,
+      "companies": [
+        "에이피알"
+      ]
+    },
+    {
+      "title": "독일 프랑크푸르트서 K컬처 축제 … K-뷰티·푸드·관광 수출길 넓힌다",
+      "source": "워크투데이",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE15LS0zVlhFVm1QXzVUUXZKQ25fTUJUOG5iRng2Vnl5RmdMRmczeVpJcHVnVjlTLWExbkExOGFEbnM1NEZKTDFDbURqMi1aS21oWEQ3Q3lsTWM3ZkdGV1h0c1dWQmxoWExSUjBsWA?oc=5",
+      "published": "2026-09-07T06:00:00+09:00",
+      "snippet": "독일 프랑크푸르트서 K컬처 축제 … K-뷰티·푸드·관광 수출길 넓힌다 워크투데이",
+      "query": "K뷰티",
+      "duplicates": 2,
+      "category": "수출·해외",
+      "relevance": 4,
+      "companies": []
+    },
+    {
+      "title": "[단독]‘공장 없는 브랜드’ 쏟아진다…신규 사업자 연 4000곳 시대 [K뷰티 성장공식①]",
+      "source": "이투데이",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE16RnloWm1rODIxS2hSdjZ1UTFxSW5HbW85RzdwdWhIQ1Jrak53RXZfeWxlZ21LMy05LVNTYVh3Ry1mY1dLSVFGLXJKOTM5c2s2dmdBZQ?oc=5",
+      "published": "2026-09-07T05:00:00+09:00",
+      "snippet": "[단독]‘공장 없는 브랜드’ 쏟아진다…신규 사업자 연 4000곳 시대 [K뷰티 성장공식①] 이투데이",
+      "query": "K뷰티",
+      "duplicates": 2,
+      "category": "브랜드",
+      "relevance": 4,
+      "companies": []
+    },
+    {
+      "title": "[주간ETF] 국제유가 반등에 원유 ETF 동반 강세…화장품·원자력 ETF는 두 자릿수 급락",
+      "source": "핀포인트뉴스",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE90R2dsZVhxZVZPVEdHdHVNUDdwaUFjd2E5VktobFBwWmRDT0E5QWFGUHRSOGs2TDdiX1JPWTJEdUVndWVwczdnY3NrNDBrNGVQSU1Ham52dWhzZ0xQVVVLQ29pTzJqUnJhRklpem5jbG1JUUXSAXdBVV95cUxQc1FtV3dXRE5tczFKMG0zVk96eGl0YzFMd3drRV82b2FiQWN2T1ItOEFrV3JQVVR4RDB6LWdDZVNYclZWZHd5aW0tU0t6MHFsR2EyQXVYZVRFUkNmandic3FlSGtRWlhhNk9HUWVtNEVZNFB6bmRISQ?oc=5",
+      "published": "2026-09-06T22:59:44+09:00",
+      "snippet": "[주간ETF] 국제유가 반등에 원유 ETF 동반 강세…화장품·원자력 ETF는 두 자릿수 급락 핀포인트뉴스",
+      "query": "화장품 산업",
+      "duplicates": 0,
+      "category": "주가·시황",
+      "relevance": 4,
+      "companies": []
+    },
+    {
+      "title": "포항시, 독일 IFA 2026서 ‘기업 공동관’ 운영…유럽시장 진출 청신호",
+      "source": "GBN 경북방송",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1VaDUyYUo2MFhQN2tWVFR1UlBSZ2k4Qzk3dTZKcFNrUXdxVXhQWUphVkQwZGtMbXlvRFJ0aUtkM3ZzdnlJSGRZTTJwQjc?oc=5",
+      "published": "2026-09-06T21:44:26+09:00",
+      "snippet": "포항시, 독일 IFA 2026서 ‘기업 공동관’ 운영…유럽시장 진출 청신호 GBN 경북방송",
+      "query": "화장품 산업",
+      "duplicates": 0,
+      "category": "수출·해외",
+      "relevance": 4,
+      "companies": []
+    },
+    {
+      "title": "K-뷰티 수출길 광 낸다…'화장품 국제협의체' 탄생[식약처가 바꾼다]",
+      "source": "뉴시스",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5KUWZtcmlrZExIMTNEWmxsMFhBY3o2ZTExZTJrbVJEREhRcmVOVkIyVHRHQ3FqdmJUSVJsLU45US1qSzdJZl9velE0Z05CUTBlUXh4bzVZajE0Ym90c1RteC1FT2xCMUs0VFlIMExtQjNhazhWZWpxc9IBeEFVX3lxTE5KUWZtcmlrZExIMTNEWmxsMFhBY3o2ZTExZTJrbVJEREhRcmVOVkIyVHRHQ3FqdmJUSVJsLU45US1qSzdJZl9velE0Z05CUTBlUXh4bzVZajE0Ym90c1RteC1FT2xCMUs0VFlIMExtQjNhazhWZWpxcw?oc=5",
+      "published": "2026-09-06T10:01:00+09:00",
+      "snippet": "K-뷰티 수출길 광 낸다…'화장품 국제협의체' 탄생[식약처가 바꾼다] 뉴시스",
+      "query": "K뷰티",
+      "duplicates": 2,
+      "category": "수출·해외",
+      "relevance": 4,
+      "companies": []
+    },
+    {
+      "title": "파리 몽쥬약국처럼…무신사, 홍대서 ‘파머시 뷰티’ 첫 선",
+      "source": "Fashion Insight",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GMjBBMGZZem5CZ05GQmNqdEtpeVlnUy1rN2xTbVQ2Y2ltUlRNQ204SUprOXM1WDJJT2ozamg1TTZuRVA5OWZqZmhzbk1ZdDdDSkQwejVR?oc=5",
+      "published": "2026-09-07T09:04:43+09:00",
+      "snippet": "파리 몽쥬약국처럼…무신사, 홍대서 ‘파머시 뷰티’ 첫 선 Fashion Insight",
+      "query": "화장품 산업",
+      "duplicates": 1,
+      "category": "유통·채널",
+      "relevance": 3,
+      "companies": []
+    },
+    {
+      "title": "[유통 레이더] 신세계·한국콜마, 글로벌 무대 잇단 초청... AI·뷰티로 접점 확대",
+      "source": "buffettlab.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBfcGloUEhZRy1KMzJ5RGtUaHY5ekRxSVNzZkk0dEN0SjRRMlNFNE14MjR2a3hqNVVDS3czOV9oMW5yRGxMTXdIcUk3N2plcUV3UW11N0d1eGpzM2RQR3lyZHN3?oc=5",
+      "published": "2026-09-07T08:45:35+09:00",
+      "snippet": "[유통 레이더] 신세계·한국콜마, 글로벌 무대 잇단 초청... AI·뷰티로 접점 확대 buffettlab.co.kr",
+      "query": "화장품 산업",
+      "duplicates": 1,
+      "category": "유통·채널",
+      "relevance": 3,
+      "companies": [
+        "한국콜마"
+      ]
+    },
+    {
+      "title": "\"올리브영 다음은 약국?\"…무신사·동국제약·대웅제약 뛰어든 'K파머시' 전쟁",
+      "source": "news.nate.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1TSTZKT3FReWJXczdBNzRrRi1wZEVnMkdWZWpuTWZyVlJ1dTZUdjJWV0RmSVNJVFZVTVhqbGE4ajRScDB2RnFqaGJUMkUyQ2h1Y253?oc=5",
+      "published": "2026-09-07T08:40:00+09:00",
+      "snippet": "\"올리브영 다음은 약국?\"…무신사·동국제약·대웅제약 뛰어든 'K파머시' 전쟁 news.nate.com",
+      "query": "올리브영 화장품",
+      "duplicates": 0,
+      "category": "유통·채널",
+      "relevance": 3,
+      "companies": [
+        "올리브영"
+      ]
+    },
+    {
+      "title": "9월 1일 기준 올리브영 온라인몰 입점 브랜드 현황·조회&리뷰 수 톱 10",
+      "source": "코스모닝",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5EUXpuT0ctUmZsWDVOSVlyMEVlQzMwZnZfZG50Z28yajNuMXBOYUZ6MjhZbDFKU29vbTlDc0dmM254am10cXEwMDk3b3hMTHp5RmhiUGlzcWxDbm5xdWF5T2MyOA?oc=5",
+      "published": "2026-09-07T05:10:14+09:00",
+      "snippet": "9월 1일 기준 올리브영 온라인몰 입점 브랜드 현황·조회&리뷰 수 톱 10 코스모닝",
+      "query": "올리브영 화장품",
+      "duplicates": 0,
+      "category": "유통·채널",
+      "relevance": 3,
+      "companies": [
+        "올리브영"
+      ]
+    },
+    {
+      "title": "C뷰티 추격하고, 브랜드 넘쳐나고…K뷰티 차별화 '시험대' [K뷰티 성장공식④]",
+      "source": "v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8wdmE5UjU0XzFRTThxQm1mQkhmU01ETjdZV1FtQU5LVEtMTWhITkhiTHdqT2RvU0ZNN2N0ZlhYT2VKYXJZWTRmTHZOWTRzTUU?oc=5",
+      "published": "2026-09-07T05:00:44+09:00",
+      "snippet": "C뷰티 추격하고, 브랜드 넘쳐나고…K뷰티 차별화 '시험대' [K뷰티 성장공식④] v.daum.net",
+      "query": "K뷰티",
+      "duplicates": 1,
+      "category": "브랜드",
+      "relevance": 3,
+      "companies": []
+    },
+    {
+      "title": "팔아주는 데서 키워주는 데로…유통 플랫폼 '브랜드 육성' 경쟁 [K뷰티 성장공식③]",
+      "source": "v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJbW1teHhLNi1zRUhsQkkyYmpjczdVMlN0Ql9UNTRZYTlEWnItVUl4VHRuQ2ZUbVgwcVBIbWtTZU9DdGRkM1RyUUlwdjl2a28?oc=5",
+      "published": "2026-09-07T05:00:42+09:00",
+      "snippet": "팔아주는 데서 키워주는 데로…유통 플랫폼 '브랜드 육성' 경쟁 [K뷰티 성장공식③] v.daum.net",
+      "query": "K뷰티",
+      "duplicates": 1,
+      "category": "브랜드",
+      "relevance": 3,
+      "companies": []
+    },
+    {
+      "title": "K-뷰티 B2B 현장, 무엇이 달라지고 있나",
+      "source": "THE K BEAUTY SCIENCE",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxNzlmS3Z6dUJhU2lGRFFtd19hbUJrczhVTHJ5d3hobE1LLWZ4Z1FaWFFDMnNXVy02SU1IOWdwS0g2OERuTVlqRF9UaWc2MWlxbmgtMl9vTGtDMTRPdEJSQ2NORkRSWDlvUUE?oc=5",
+      "published": "2026-09-07T00:53:44+09:00",
+      "snippet": "K-뷰티 B2B 현장, 무엇이 달라지고 있나 THE K BEAUTY SCIENCE",
+      "query": "K뷰티",
+      "duplicates": 3,
+      "category": "기타",
+      "relevance": 3,
+      "companies": []
+    },
+    {
+      "title": "온라인 넘어선 K-뷰티, 미국 구석구석 침투",
+      "source": "MBC 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBNT1ZPaXlDU19XOWtoeUVWYVJJMkVybkJyOWtmYlhhbFQ3YWoyU3JETENucHhDRW9rTGJob1BWcWVJd1JqN1hHMFNvV0JxMS13SmpHam1BRzd5UndOeDNaYU5hVE83ekswUmxGbTV5Rnlya2xBdlpBMNIBeEFVX3lxTFBfQS0tYnlyRUFIWkY3Ni1pVWxndWRfUzhUdFZEYnZLazBaNjVDUTUxaHNHUmppQlJEa1prSGd2SW1NMXNhM2NqVTJKTzVKTDhVSFBXSDBFcXQ5WjdhejhVYzRMVWNtVC1TQzgwNlhEbnVsWmlzbUQxZA?oc=5",
+      "published": "2026-09-06T20:13:25+09:00",
+      "snippet": "온라인 넘어선 K-뷰티, 미국 구석구석 침투 MBC 뉴스",
+      "query": "K뷰티",
+      "duplicates": 1,
+      "category": "수출·해외",
+      "relevance": 3,
+      "companies": []
+    },
+    {
+      "title": "\"자음생크림 60주년\" 아모레퍼시픽 설화수, '시간으로 빚어낸 아름다움' 캠페인",
+      "source": "news.nate.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBfZkkwazJocXdvS1dObnp2NExhd0MxbHJvOExBWjBtdV9vaVRMZ3VhVk9LVm5JMWF3bzd2N3hSX2JHdXRxcXN0Q1JtdTBBdVAzUmxj?oc=5",
+      "published": "2026-09-06T19:20:00+09:00",
+      "snippet": "\"자음생크림 60주년\" 아모레퍼시픽 설화수, '시간으로 빚어낸 아름다움' 캠페인 news.nate.com",
+      "query": "아모레퍼시픽",
+      "duplicates": 0,
+      "category": "브랜드",
+      "relevance": 3,
+      "companies": [
+        "아모레퍼시픽"
+      ]
+    },
+    {
+      "title": "화장품 ETF, 환율 하락 직격탄…\"수출 성장세로 상쇄\" [ETF 스퀘어]",
+      "source": "news.nate.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE03WDhCSTF3YmMyUzNlNFdadXN4b2M3ZmdaVzBLbVdSSmE0VzFOYlFQb01pNDk0T3h2UE5vam5tWUxlTXNpSWNEUl9tNVhzLWFkOERJ?oc=5",
+      "published": "2026-09-06T18:27:00+09:00",
+      "snippet": "화장품 ETF, 환율 하락 직격탄…\"수출 성장세로 상쇄\" [ETF 스퀘어] news.nate.com",
+      "query": "화장품 수출",
+      "duplicates": 1,
+      "category": "수출·해외",
+      "relevance": 3,
+      "companies": []
+    },
+    {
+      "title": "EU 新포장 규제 한달…中企 수출현장 혼란",
+      "source": "한국경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Mb09IMnNoRmlPVU91WDl3VUE0MWVCZlVCbnVyelI4d2IxaTRydFlRZHEwRHlxN3F6R2N3aXFxLWtManNFYVdORUJuU1R2end4bXJ2Rl8yMXVydw?oc=5",
+      "published": "2026-09-06T17:35:42+09:00",
+      "snippet": "EU 新포장 규제 한달…中企 수출현장 혼란 한국경제",
+      "query": "화장품 산업",
+      "duplicates": 1,
+      "category": "수출·해외",
+      "relevance": 3,
+      "companies": []
+    },
+    {
+      "title": "“K팝처럼 K바이오도 통한다”…동남아 정조준한 우리그룹",
+      "source": "매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB6cm9IRGhIT0hsbU5wN25uTzJKbFNjRFV6aFpBZDBfNUJkTEVqYUNDMkR3OHJwVFJCd2xjYlNsYzV3bV83RkxLOFdBa0tEcFFsaDYwQ0R3?oc=5",
+      "published": "2026-09-06T16:02:31+09:00",
+      "snippet": "“K팝처럼 K바이오도 통한다”…동남아 정조준한 우리그룹 매일경제",
+      "query": "화장품 산업",
+      "duplicates": 1,
+      "category": "수출·해외",
+      "relevance": 3,
+      "companies": []
+    },
+    {
+      "title": "‘진연홍’ 글로벌 시장 진출 청신호",
+      "source": "jlmaeil.com",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50ZnRuclMybWVBcFBhaTB0STA1RHpKX1g4NjdQMEZnMHhsN2tFbC0zbUZLS1hwSmhnYjBiZUFSd05TS29GLVVHU2FyQ1JIQ0hic3c?oc=5",
+      "published": "2026-09-06T15:08:00+09:00",
+      "snippet": "‘진연홍’ 글로벌 시장 진출 청신호 jlmaeil.com",
+      "query": "화장품 수출",
+      "duplicates": 1,
+      "category": "수출·해외",
+      "relevance": 3,
+      "companies": []
+    },
+    {
+      "title": "수출 작년 실적 벌써 넘었다…사상 첫 '1조 달러' 코앞",
+      "source": "한국경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6eWtHakZrYl9COWg5TE0ycUZsYmI0aW1mY3dxRE5pYVF3aGFIa3AzQkxiaHVZN3EtR1cyaXIzRU1haU0zVU12SjJiU2M4VGtsbXI0NkcydWpQZw?oc=5",
+      "published": "2026-09-06T14:47:11+09:00",
+      "snippet": "수출 작년 실적 벌써 넘었다…사상 첫 '1조 달러' 코앞 한국경제",
+      "query": "화장품 수출",
+      "duplicates": 1,
+      "category": "수출·해외",
+      "relevance": 3,
+      "companies": []
+    },
+    {
+      "title": "미즈코스메틱, KIMES BUSAN 2026서 페이스·바디 관리 장비 '누벨리스' 선보여…\"전문 에스테틱 솔루션 해외로 넓힌다\"",
+      "source": "news.nate.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZUlJMcC1SRU8zZmxHTW9HeFhfMS13QWo5bk1RWVRhbC1BeklMMm00YlB0aXZURTliQWczTkhOWnQ2NHlFeHoxLTJwcXJGc3RLY1FB?oc=5",
+      "published": "2026-09-07T09:07:11+09:00",
+      "snippet": "미즈코스메틱, KIMES BUSAN 2026서 페이스·바디 관리 장비 '누벨리스' 선보여…\"전문 에스테틱 솔루션 해외로 넓힌다\" news.nate.com",
+      "query": "화장품 산업",
+      "duplicates": 0,
+      "category": "수출·해외",
+      "relevance": 2,
+      "companies": []
+    },
+    {
+      "title": "[모닝 리포트] 기아, 美 판매 사상 최대…하반기 HEV·EV5로 질주",
+      "source": "뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1mNGZ6RHhVQ1B1dXQwazg3LVIwYUl6bm5UUnUzdzFkem14LVdfaVBZcjA1X1ZJcmdPU1oxM3VNaWYtMHlYZFN3eTRXSUN5MnBJTmp0UDBxWjhGTTZ2?oc=5",
+      "published": "2026-09-07T08:55:00+09:00",
+      "snippet": "[모닝 리포트] 기아, 美 판매 사상 최대…하반기 HEV·EV5로 질주 뉴스핌",
+      "query": "실리콘투",
+      "duplicates": 0,
+      "category": "주가·시황",
+      "relevance": 2,
+      "companies": []
+    },
+    {
+      "title": "[모닝 리포트] \"클리오, 북미 성장에 채널 효율화…수익성 개선 지속\"",
+      "source": "뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1qVFlYazdBQVE4d1Q0R3ZXal9xcGNwSkJUOVRweEpxUVN6Ni0yVFlVZm84VXZnTXI2c0lFNXlfOW5ZTlBMWVA0OEUtWVJvZHV2dktxanVXekY1RDhq?oc=5",
+      "published": "2026-09-07T08:54:00+09:00",
+      "snippet": "[모닝 리포트] \"클리오, 북미 성장에 채널 효율화…수익성 개선 지속\" 뉴스핌",
+      "query": "화장품 브랜드사 실적",
+      "duplicates": 0,
+      "category": "유통·채널",
+      "relevance": 2,
+      "companies": [
+        "클리오"
+      ]
+    },
+    {
+      "title": "코리아나, 라비다 14년 연속 브랜드 대상 수상",
+      "source": "장업신문",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1BbnBDeXA5aWloZmZ3d1hOajZ0bW5ZYWtoVGtBejRmRUNGX2Z5SF9VSWFFX1RvSDA1eW9EbWtwLWdRVTdPWFhfZDliQjIzZm9jbUlMR09aakdjcUlZVmhKYXBUSWJDQQ?oc=5",
+      "published": "2026-09-07T08:50:24+09:00",
+      "snippet": "코리아나, 라비다 14년 연속 브랜드 대상 수상 장업신문",
+      "query": "화장품 산업",
+      "duplicates": 0,
+      "category": "브랜드",
+      "relevance": 2,
+      "companies": []
+    },
+    {
+      "title": "[리포트 브리핑]실리콘투, '벤더사 역할이 중요해지는 구간' 목표가 62,000원 - SK증권",
+      "source": "뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9jN3dTalpVQ1VYRE5TV25Za3BSSXk3MW54eFpNajY1bHpuZm9qXzN6NVJjRXpLMzR1T2tFUjEya2pER1BKdVBHTk5NRkJ2SjhWMzRDY2VTemx1bWla?oc=5",
+      "published": "2026-09-07T08:35:00+09:00",
+      "snippet": "[리포트 브리핑]실리콘투, '벤더사 역할이 중요해지는 구간' 목표가 62,000원 - SK증권 뉴스핌",
+      "query": "실리콘투",
+      "duplicates": 0,
+      "category": "주가·시황",
+      "relevance": 2,
+      "companies": [
+        "실리콘투"
+      ]
+    },
+    {
+      "title": "네시픽, 미국 아마존 프로모션 흥행… 추가 물량까지 전량 완판",
+      "source": "뉴스와이어",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9LQmxYNEtubjRYcjdxYkVPSWtpeEw5MUtCUFMzTTgzTzJoRWZVQVVuWlQ3VWl3ME0ydFRhcFUyUzNQLUNUakEwMmxlVlNRMTdwNk1Dak04cFpSMUVFTTFB?oc=5",
+      "published": "2026-09-07T08:00:00+09:00",
+      "snippet": "네시픽, 미국 아마존 프로모션 흥행… 추가 물량까지 전량 완판 뉴스와이어",
+      "query": "화장품 산업",
+      "duplicates": 0,
+      "category": "유통·채널",
+      "relevance": 2,
+      "companies": []
+    },
+    {
+      "title": "[키-리포트] 유안타 \"코스맥스엔비티, 실적 성장 지속\" |",
+      "source": "뉴스드림",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1WU2Flb1hMSjBxLU1GSUl6VmhkcFRCNnRTRFZvV0JLRXkxRDFGcW1xRUFHZGN0eFJHeEpucEcwSlhkSHhKdmtIbjJtX2l4TDlDYVowa3RuQjBWLXdXcE9DU3RxT2NrSmRvSTNIRi1R?oc=5",
+      "published": "2026-09-07T07:40:14+09:00",
+      "snippet": "[키-리포트] 유안타 \"코스맥스엔비티, 실적 성장 지속\" | 뉴스드림",
+      "query": "코스맥스",
+      "duplicates": 0,
+      "category": "실적·공시",
+      "relevance": 2,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "\"우리 딸이 다녔으면\" 임원까지 쭉쭉 승진…아모레퍼시픽, 100대기업 첫 1위[2026 양성평등지수]",
+      "source": "v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE53M1RlU0Q5Y3dPU0h1bjVvb0pOZmdiTWJJMXNIN281ZkJrbDZWMzVodmw1bnZIMm9ZWXZQS3g1VXNoMWQzUXVTOWlpXy0wMGM?oc=5",
+      "published": "2026-09-07T07:03:07+09:00",
+      "snippet": "\"우리 딸이 다녔으면\" 임원까지 쭉쭉 승진…아모레퍼시픽, 100대기업 첫 1위[2026 양성평등지수] v.daum.net",
+      "query": "아모레퍼시픽",
+      "duplicates": 0,
+      "category": "주가·시황",
+      "relevance": 2,
+      "companies": [
+        "아모레퍼시픽"
+      ]
+    },
+    {
+      "title": "SNS 유행 넘어 매대 점령‥K-뷰티 영토 확장",
+      "source": "MBC 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9nYVRCeEF3UzZNVDJBTDQza2pLN2xsRWhZWFdISGVzLTJwdVN5ZDBteVVNb3p4N2MzMEplcllXSF9sZnFZY2pBZWRuTVR4YkNaUTlfMlg4dnVQZ2RWVmhlVFliMGpTSW5yam5nRnVMQU96M2JVS09lRWh30gF6QVVfeXFMT2VuRXFTaDlPVktfbGJhamRLNTQ2ZDM2RXI0Z3Fld0JaZU1lR0JMbHFfLVNyamdCSlQ0WkhuN2lGY19NN2tUaWhWYmF1QVk2SFlROEdicHZJUkl2MzJvUTh3MTZRSE5OdnB4Wmt2dFpzTlRoNkF6M2hLNHc?oc=5",
+      "published": "2026-09-07T06:30:10+09:00",
+      "snippet": "SNS 유행 넘어 매대 점령‥K-뷰티 영토 확장 MBC 뉴스",
+      "query": "K뷰티",
+      "duplicates": 2,
+      "category": "기타",
+      "relevance": 2,
+      "companies": []
+    },
+    {
+      "title": "'미스트 원히트' 벗어난 달바…美·유럽 비중 늘리고 멀티 히트 [실적why]",
+      "source": "뉴스1",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB5YVJHOW4ydUM2VFBvMUpwREI2T1MzNkRMYmlWMHBDeWxkMkFrVGpKQjNla2wxWXlaWlR2UEt0N1NUTEVmY0RmVkRORk5CejlnZE9fOHRzdC1NRHhn0gFiQVVfeXFMTWZ3eGJMRFY0VXJrZkQ1UHNOVVhkQkp2MEw1Y2VtUHppcDc0VkE2bDk5RGJYYld2S1RrVk92b3VSNy1SRUU0X2F5bW9pSXhMZUh1ME13TmdHY1NQTUhfaHcwclE?oc=5",
+      "published": "2026-09-07T06:30:00+09:00",
+      "snippet": "'미스트 원히트' 벗어난 달바…美·유럽 비중 늘리고 멀티 히트 [실적why] 뉴스1",
+      "query": "뷰티 산업 실적",
+      "duplicates": 0,
+      "category": "수출·해외",
+      "relevance": 2,
+      "companies": [
+        "달바"
+      ]
+    },
+    {
+      "title": "\"잘 팔리는 유행템 수시로 바뀐다\"…K뷰티, 다품종·단기 생산이 경쟁력",
+      "source": "news.nate.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA0b3ZOMl9ZZS12S1JwSTZxZWhMTFRlVVdKMU0tOHRhM3JFdUN5Qzk2b1QxNi1pQ294TE1PWlp2dmFEdlFpc21qa204Q2JpYU9QZEhZ?oc=5",
+      "published": "2026-09-07T06:02:06+09:00",
+      "snippet": "\"잘 팔리는 유행템 수시로 바뀐다\"…K뷰티, 다품종·단기 생산이 경쟁력 news.nate.com",
+      "query": "K뷰티",
+      "duplicates": 2,
+      "category": "기타",
+      "relevance": 2,
+      "companies": []
+    },
+    {
+      "title": "[단독] 효능은 더하고 제형은 나누고…기능성화장품 1.5만건 돌파 [K뷰티 성장공식②]",
+      "source": "v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE44ajJyUDZnRzdJTWlPSUlhbDNhQzdhVHVpS1hrM1dpbWNNdjhEMVZmcXBvLXhFenUtZUFlS244M00xcUhzYkdRdmR4T1p1bGs?oc=5",
+      "published": "2026-09-07T05:00:39+09:00",
+      "snippet": "[단독] 효능은 더하고 제형은 나누고…기능성화장품 1.5만건 돌파 [K뷰티 성장공식②] v.daum.net",
+      "query": "K뷰티",
+      "duplicates": 2,
+      "category": "기타",
+      "relevance": 2,
+      "companies": []
+    },
+    {
+      "title": "첫 年수출 1조달러 눈앞…9월초까지 7094억달러",
+      "source": "news.nate.com",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB4b3luT29ZcmtLRGw3RTdhXzJaZXFhNVBja2taTTl4VVA0ZlBzNUZZTTJwNnJiNEVpZERkZVlHZFJKNUV1cFo5MGVGYTRqOUNhWF9ubmR2MzFxOC1wQzNmT0xNWmx4b0RWWHMzV2hOZGlYYUpGel9NVw?oc=5",
+      "published": "2026-09-07T04:34:00+09:00",
+      "snippet": "첫 年수출 1조달러 눈앞…9월초까지 7094억달러 news.nate.com",
+      "query": "화장품 수출",
+      "duplicates": 0,
+      "category": "수출·해외",
+      "relevance": 2,
+      "companies": []
+    },
+    {
+      "title": "화장품의 날, K뷰티를 세계의 기준으로 [기고]",
+      "source": "한국일보",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1DZXNRd2tiaU1XSkI0M3NsM01ueWJtdzJNNXlscThNY0FJUHp2ZWRVWV9Wb2k1anVlSS1aaUlHWnhjTDFNdEJhR0VTNTNmWlZROGpOZUFMenRNOGQ0Qjl0SzNUVG1xUG81SmExejF0alo1aXfSAXNBVV95cUxNQ2VzUXdrYmlNV0pCNDNzbDNNbnlibXcyTTV5bHE4TWNBSVB6dmVkVVlfVm9pNWp1ZUktWmlJR1p4Y0wxTXRCYUdFUzUzZlpWUThqTmVBTHp0TThkNEI5dEszVFRtcVBvNUphMXoxdGpaNWl3?oc=5",
+      "published": "2026-09-07T04:30:00+09:00",
+      "snippet": "화장품의 날, K뷰티를 세계의 기준으로 [기고] 한국일보",
+      "query": "K뷰티",
+      "duplicates": 2,
+      "category": "기타",
+      "relevance": 2,
+      "companies": []
+    },
+    {
+      "title": "‘노벨화학상 소재’ MOF를 두피에…메디아크, 베트남 탈모관리 시장 노크",
+      "source": "livesnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1FblFPakR2ZHFJNnJtZU4yYTVvdVgzV2JqbEFmVzlRUlM2VmI5UWwyWWpKSVZncGRFVXlyWU1KbGpwYlE5dGVjRTZmZ1BFNENSOGt2MlJQc2VkQk43?oc=5",
+      "published": "2026-09-06T21:57:08+09:00",
+      "snippet": "‘노벨화학상 소재’ MOF를 두피에…메디아크, 베트남 탈모관리 시장 노크 livesnews.com",
+      "query": "화장품 수출",
+      "duplicates": 0,
+      "category": "원료·부자재",
+      "relevance": 2,
+      "companies": []
+    },
+    {
+      "title": "포항시, 밀라노 도시 먹거리 정책협약(MUFPP) 가입…경북 최초·전국 10번째",
+      "source": "GBN 경북방송",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1LVHNFY1U4ZWFKbnB2NVE3aFFSaXZtOS1yLWE1dHF0eVdxT2haWG1nQnBBN05CYV9ERUpfNlZoVHFWZmNPVENTcWZKMVY?oc=5",
+      "published": "2026-09-06T21:39:19+09:00",
+      "snippet": "포항시, 밀라노 도시 먹거리 정책협약(MUFPP) 가입…경북 최초·전국 10번째 GBN 경북방송",
+      "query": "화장품 산업",
+      "duplicates": 0,
+      "category": "규제·정책",
+      "relevance": 2,
+      "companies": []
+    },
+    {
+      "title": "설화수, 추석 맞아 '자음생크림 60주년 기획 세트' 선보여",
+      "source": "보건신문",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1GS1VNbmdOTWduQ3JnV3hKX3F1MFZqX2s5c3NiQnJ0QXZMaERLZnRsamhUalJfbjE3ZVI1eXMwYWw4a01EWW5MNURSWlByMkc3Tl90Q1VGbWVoTENEQTBqSUZ2OA?oc=5",
+      "published": "2026-09-06T18:59:16+09:00",
+      "snippet": "설화수, 추석 맞아 '자음생크림 60주년 기획 세트' 선보여 보건신문",
+      "query": "아모레퍼시픽",
+      "duplicates": 0,
+      "category": "브랜드",
+      "relevance": 2,
+      "companies": []
+    },
+    {
+      "title": "플라스틱 포장, 종이로 대체되나…新포장규제에 제지업계는 '반색'",
+      "source": "한국경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84ajNySktyS3FGU1M0cVpyazZLazl5V19lbUVNOERYVlJScnhBcno2b3hTU3VFVlg3T3JRNGFwLXpDeUZVWFBtSzhyaXlyY0laWFI4ZHJnc2JMZw?oc=5",
+      "published": "2026-09-06T17:34:26+09:00",
+      "snippet": "플라스틱 포장, 종이로 대체되나…新포장규제에 제지업계는 '반색' 한국경제",
+      "query": "화장품 산업",
+      "duplicates": 0,
+      "category": "규제·정책",
+      "relevance": 2,
+      "companies": []
+    },
+    {
+      "title": "재외한국문화원, `K컬처` 브랜드 확산 거점으로",
+      "source": "부산일보",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE53NThGR3NYTDN5SzRma1E2cHZUdkhUZFhidDVrc1hUUm9RQTgycE1NNU1SaXVaU2RneWkxQnVmdlRMVWpGRnZ4UG0tdnpNMHozUTNadVc3ZEViUnV0TDdPVEFqcU5PMF9wOF9aVTZTa1Q0cHoy?oc=5",
+      "published": "2026-09-06T13:32:49+09:00",
+      "snippet": "재외한국문화원, `K컬처` 브랜드 확산 거점으로 부산일보",
+      "query": "K뷰티",
+      "duplicates": 0,
+      "category": "브랜드",
+      "relevance": 2,
+      "companies": []
+    },
+    {
+      "title": "울타 뷰티(ULTA)가 2026년 실적 전망치를 상향 조정하고 성장 전망을 긍정적으로 수정하자 주가가 9.0% 상승한 이유",
+      "source": "simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUFdFYXUxQXo3VTdNelhIWjJ2ai1uTi1RSWN2U2dIV0d0M3d6UHhiMkY1a0JGSUgzX3NaNGt6SkZuZ1hqSEtBWENraWlZcU1FUmlzYzhsb0NnWHByRUN4TElPUlEzS2tKTkhPdkc1WmxrRUR5NDhXajQ2SHdud3MwQzRrQVVCengyWWdQLUtLUk1Ub3NpZXfSAZYBQVVfeXFMTVBXRWF1MUF6N1U3TXpYSFoydmotbk4tUUljdlNnSFdHdDN3elB4YjJGNWtCRklIM19zWjRrekpGbmdYakhLQVhDa2lpWXFNRVJpc2M4bG9DZ1hwckVDeExJT1JRM0trSk5IT3ZHNVpsa0VEeTQ4V2o0Nkh3bndzMEM0a0FVQnp4MllnUC1LS1JNVG9zaWV3?oc=5",
+      "published": "2026-09-06T12:48:58+09:00",
+      "snippet": "울타 뷰티(ULTA)가 2026년 실적 전망치를 상향 조정하고 성장 전망을 긍정적으로 수정하자 주가가 9.0% 상승한 이유 simplywall.st",
+      "query": "뷰티 산업 실적",
+      "duplicates": 0,
+      "category": "실적·공시",
+      "relevance": 2,
+      "companies": []
+    },
+    {
+      "title": "K팝 아이돌이 '1일 영업사원'으로…중기중앙회, 소상공인 모집",
+      "source": "연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9XVEtQQW9IZUkwX0RtMUVhNVREdy05SWFncTZ1RXppTElSSERnc2hjRzlYU240MHZkNHJsanFIV1lJZENJNWdTTmdtRmNENHlWcnI2Si1nVFZDVVnSAWBBVV95cUxPMzA4V3BQX3d0bFYwSlA5RGI4VkhwX1F2dHFXV0NvUUt0LVM3Ujl3TTRjSF9QTGxvWEJENGlIbUJITDZhSTNvQTVhaTZZZFFtTU9iMUdYd1UwYi04Z0xBYzc?oc=5",
+      "published": "2026-09-06T12:00:02+09:00",
+      "snippet": "K팝 아이돌이 '1일 영업사원'으로…중기중앙회, 소상공인 모집 연합뉴스",
+      "query": "K뷰티",
+      "duplicates": 2,
+      "category": "기타",
+      "relevance": 2,
+      "companies": []
+    },
+    {
+      "title": "8월 티몰 K-뷰티 클렌징폼 분석⑤: 19.3% 증가…비디비치·더후 약진",
+      "source": "뷰티경제",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB2Wlo5cGE4bjdtSVFVX3ZxMlVaRmwwbVFfaC1nR05jUUNwMlNSMjhxcGpFMlh5aHQ0QUtENGFHUk1fblM3Z2hGdTI2SndxLXA2YWk1TmFQQzE3YVdlOFYxNDRjRmc4V3VBWlE?oc=5",
+      "published": "2026-09-06T11:30:00+09:00",
+      "snippet": "8월 티몰 K-뷰티 클렌징폼 분석⑤: 19.3% 증가…비디비치·더후 약진 뷰티경제",
+      "query": "K뷰티",
+      "duplicates": 0,
+      "category": "브랜드",
+      "relevance": 2,
+      "companies": []
+    },
+    {
+      "title": "\"안 파는 게 뭐야?\" 무섭게 커지는 다이소, 이유 있었다",
+      "source": "edaily.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNd193NlBuc2RETUpUeXBINXFEMjluYUZDci1EVG9jdGVKdG1WWDd3dVhTVDU3WGlVSm52VFM1Rk1vSElHVkE4dTg3U0xmeHNJMXhXWlJLNGYtZGtDZmJrazBoWVcxb1FaaDZWbTBGYzc2MWRjbHd6VHdUNWlmQ3FNbA?oc=5",
+      "published": "2026-09-06T10:54:35+09:00",
+      "snippet": "\"안 파는 게 뭐야?\" 무섭게 커지는 다이소, 이유 있었다 edaily.co.kr",
+      "query": "LG생활건강 뷰티",
+      "duplicates": 0,
+      "category": "유통·채널",
+      "relevance": 2,
+      "companies": []
+    },
+    {
+      "title": "‘창립 81주년’ 아모레퍼시픽, ‘뉴뷰티’ 키운다…스타트업에 최대 5억원 투자",
+      "source": "이투데이",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5EVDNmWUoxWFQ0RndPSHBZZjRPVTU2Q1JzM0MxYXdkeFFtLTcwNjBsUmEyaGFSdWt6UVRyS2pTdVNJVVF1dDRuVXo5V3haeDI3THZiOVQ4LS1BdEl0NVNxazFXX1pPcml5c2htTUxR?oc=5",
+      "published": "2026-09-07T09:23:00+09:00",
+      "snippet": "‘창립 81주년’ 아모레퍼시픽, ‘뉴뷰티’ 키운다…스타트업에 최대 5억원 투자 이투데이",
+      "query": "아모레퍼시픽",
+      "duplicates": 0,
+      "category": "브랜드",
+      "relevance": 1,
+      "companies": [
+        "아모레퍼시픽"
+      ]
+    },
+    {
+      "title": "아모레퍼시픽, '2026 하반기 뉴뷰티 이노베이션 챌린지'",
+      "source": "뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE82dW41RGFLZTliaXdCMEZqS3dUT1h5MzVKemRsZmpZWEo3SGxfN25ZMnVqMWdFeEhkU3ZzanZlODZ2U1JteklBQll4NVJmbWF2U1pOd2NCeHBpZVVD?oc=5",
+      "published": "2026-09-07T09:04:00+09:00",
+      "snippet": "아모레퍼시픽, '2026 하반기 뉴뷰티 이노베이션 챌린지' 뉴스핌",
+      "query": "아모레퍼시픽",
+      "duplicates": 0,
+      "category": "브랜드",
+      "relevance": 1,
+      "companies": [
+        "아모레퍼시픽"
+      ]
+    },
+    {
+      "title": "아모레퍼시픽 글로벌 성장, 2035년 목표 향해 성큼",
+      "source": "스포츠Q",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XZFNRdThlLXNTbUNJdi1JZlFwMFNOSllpOXU4Qkh1UldQdjJuRlN0WFhhWEJPeEVDUHNzWnQyWVhsRk9pQ0ZGVmVrUHdjNDR5OUp4OE5rM2RrR1pUb2NmQ0JXX2lhRm5aM2Jabg?oc=5",
+      "published": "2026-09-07T08:26:00+09:00",
+      "snippet": "아모레퍼시픽 글로벌 성장, 2035년 목표 향해 성큼 스포츠Q",
+      "query": "아모레퍼시픽",
+      "duplicates": 0,
+      "category": "브랜드",
+      "relevance": 1,
+      "companies": [
+        "아모레퍼시픽"
+      ]
+    },
+    {
+      "title": "애드윈코리아, 미 뉴스위크 인터내셔녈서 극찬",
+      "source": "장업신문",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9rdmxUdnJSVURJYjI4SVBvZVlBMzV1VVpoZ1BsbFUtZVVnT2ZoNExvM0hWMEhUSzE1VjBlTGdKUnE3Wk1EU25fVE9IRzNSUXdBb2U5NE1MR0VyWDFMdDM0LVdNT1pZZw?oc=5",
+      "published": "2026-09-07T08:21:33+09:00",
+      "snippet": "애드윈코리아, 미 뉴스위크 인터내셔녈서 극찬 장업신문",
+      "query": "K뷰티",
+      "duplicates": 1,
+      "category": "기타",
+      "relevance": 1,
+      "companies": []
+    },
+    {
+      "title": "[K-기업, 가치를 잇다] '아름답고 건강한' 사회 만드는 LG생활건강, 문화 지원부터 보훈 가족 존중까지",
+      "source": "news.nate.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HTGYxM2VuMGstYWtWUWpJNWU3MmJwS2d0aWQ5R0VPQklkRmNiVVVWLUtpMi1kdWdMdlZpRGRkRHgza25PS2pCT3BiaXExamk4a0pv?oc=5",
+      "published": "2026-09-07T08:16:17+09:00",
+      "snippet": "[K-기업, 가치를 잇다] '아름답고 건강한' 사회 만드는 LG생활건강, 문화 지원부터 보훈 가족 존중까지 news.nate.com",
+      "query": "LG생활건강 뷰티",
+      "duplicates": 0,
+      "category": "브랜드",
+      "relevance": 1,
+      "companies": [
+        "LG생활건강"
+      ]
+    },
+    {
+      "title": "[K-기업, 가치를 잇다] '사람을 아름답게, 세상을 아름답게' 아모레퍼시픽, 연세대와 '청소년 내면의 아름다움' 연구 나서",
+      "source": "news.nate.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1qU0ZOS0dvX2xnOTRtTmpoWjk3TXAyLVlQT3ZoQmVzZG9LeHNpZzFGQ2p6QmpucXB2VzViTUFiMHc4d3BzQlR0QVd0cFRTYTh5ZGRj?oc=5",
+      "published": "2026-09-07T08:16:13+09:00",
+      "snippet": "[K-기업, 가치를 잇다] '사람을 아름답게, 세상을 아름답게' 아모레퍼시픽, 연세대와 '청소년 내면의 아름다움' 연구 나서 news.nate.com",
+      "query": "아모레퍼시픽",
+      "duplicates": 0,
+      "category": "브랜드",
+      "relevance": 1,
+      "companies": [
+        "아모레퍼시픽"
+      ]
+    },
+    {
+      "title": "NH투자證 \"아모레퍼시픽, '더마 3총사' 앞세워 부활 날갯짓...목표가 18만5000원 ↑\"",
+      "source": "이투데이",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5UVZISHdiOGY0WDEtWDFYZmVpWjBSUkQwQUg2RUJ0cDJoZ3c2TVNPSG9OdG4wQUd0ZHQ4Q1NGVnp0R3E2Y3NULUg5TDl0XzFHYnpJSg?oc=5",
+      "published": "2026-09-07T08:12:00+09:00",
+      "snippet": "NH투자證 \"아모레퍼시픽, '더마 3총사' 앞세워 부활 날갯짓...목표가 18만5000원 ↑\" 이투데이",
+      "query": "아모레퍼시픽",
+      "duplicates": 0,
+      "category": "브랜드",
+      "relevance": 1,
+      "companies": [
+        "아모레퍼시픽"
+      ]
+    },
+    {
+      "title": "코스맥스엔비티, 제형 경쟁력이 차별화 요인으로 작용할 것-유안타",
+      "source": "edaily.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOC1WemwwVm9KRUhua1dNa25SakNLNzRqUGhvZ3ZxYW1JSGw2MXNIaVVLRXpHVWpLejBJMXV0Umd5RFRiN2RWVF9qQzBPVVVIanlvMnYyVXhndng0cl9nVnRBLVpEVmduekNnUGFrc0FId1VsNmx5QWhkWFdkR25jeg?oc=5",
+      "published": "2026-09-07T07:47:00+09:00",
+      "snippet": "코스맥스엔비티, 제형 경쟁력이 차별화 요인으로 작용할 것-유안타 edaily.co.kr",
+      "query": "코스맥스",
+      "duplicates": 0,
+      "category": "ODM·OEM",
+      "relevance": 1,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "화장품신문 (Beautynury.com) :: 바이어스도르프 20년 피부 미생물군집 연구 결실",
+      "source": "뷰티누리",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE44Rk1rampnLXpibUxqTUZUVmQ1dWhUTlp6MlRoYUk2VUhXejdUQTlfbl9hTXdWVVdIWENCN19wMTM1NWJDc2g5elRPSlJPa2hqUndJeV94cFZvWGpFNTUw?oc=5",
+      "published": "2026-09-07T06:00:00+09:00",
+      "snippet": "화장품신문 (Beautynury.com) :: 바이어스도르프 20년 피부 미생물군집 연구 결실 뷰티누리",
+      "query": "화장품 산업",
+      "duplicates": 1,
+      "category": "기타",
+      "relevance": 1,
+      "companies": []
+    },
+    {
+      "title": "아모레퍼시픽, 선명한 색채·크리스털 광택…입술을 생기 있게",
+      "source": "news.nate.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjNFduQ0h6R0JlWG9ZQWNFM0dRcmpMbzdjaFFVaE4zMnppcXRPMktqQ1ljUjlzUzRNRjYtblhvYU9BbEQ4cUdMeG1zcVp0Z0tDNnRJ?oc=5",
+      "published": "2026-09-07T05:03:00+09:00",
+      "snippet": "아모레퍼시픽, 선명한 색채·크리스털 광택…입술을 생기 있게 news.nate.com",
+      "query": "아모레퍼시픽",
+      "duplicates": 0,
+      "category": "브랜드",
+      "relevance": 1,
+      "companies": [
+        "아모레퍼시픽"
+      ]
+    },
+    {
+      "title": "올리브영, 이달 중 LA에 2호점",
+      "source": "미주조선일보",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42eG1SdXhWTG10emhxcmVZeWxTNlhTSnF3MnFLS284Smp4b0NsTC10cFJJWU1fejR5Ul91NllHQ1NOdXBtYktuVWJMMFVWd21zeXlMdHVNdDVtNy1UVEdnVHJDcjdQRkJlRzhEMkVjd0pOWVd3YnlEeWMyNVR6Mm8?oc=5",
+      "published": "2026-09-06T23:56:02+09:00",
+      "snippet": "올리브영, 이달 중 LA에 2호점 미주조선일보",
+      "query": "올리브영 화장품",
+      "duplicates": 0,
+      "category": "유통·채널",
+      "relevance": 1,
+      "companies": [
+        "올리브영"
+      ]
+    },
+    {
+      "title": "피부 장벽 넘는 ‘더미셔틀’…셀아이콘랩, 베트남서 K-바이오뷰티 확장 나선다",
+      "source": "livesnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9UTGoxN092bVZGOWM0ZE42azluSnFrWHN6M1NheGhxY0laTlgxM2NQT1E2bWRJYjh6YWozUHctUDBSSExOSWpzY0JiT1l6aHRBaXJGamFuREh5c0cy?oc=5",
+      "published": "2026-09-06T21:40:03+09:00",
+      "snippet": "피부 장벽 넘는 ‘더미셔틀’…셀아이콘랩, 베트남서 K-바이오뷰티 확장 나선다 livesnews.com",
+      "query": "화장품 산업",
+      "duplicates": 1,
+      "category": "기타",
+      "relevance": 1,
+      "companies": []
+    },
+    {
+      "title": "“수년 쌓은 혜택 어디로”…올리브영 美몰, 론칭 초반부터 잡음",
+      "source": "쿠키뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE81UW9XZjNlY044aVM5d3FTMkRld3M3TlR2ZVdCMkVFaTZiY1hoenJ4UzI4b1d4WTh0T1JfYURlTVJGWGRPbkc5bmFxU05mWlFybWxDLVV1YjVCTm1kVDdhTDdXUQ?oc=5",
+      "published": "2026-09-06T18:40:32+09:00",
+      "snippet": "“수년 쌓은 혜택 어디로”…올리브영 美몰, 론칭 초반부터 잡음 쿠키뉴스",
+      "query": "올리브영 화장품",
+      "duplicates": 0,
+      "category": "유통·채널",
+      "relevance": 1,
+      "companies": [
+        "올리브영"
+      ]
+    },
+    {
+      "title": "얼굴 넘어 머리·손까지 관리… CJ올리브영서 ‘홈스파·취향소비’ 뜬다",
+      "source": "비즈트리뷴",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CeEdCWU5JRHptaU1FcmM2M0ljRW5zT0hGZUZhRG5mc0RMZVJMRnUteHlRTDJLYUcxREtQSmxyWG9BMENiMDdjeFI0eUhJZ1phTnA1bmdUVmRqdEdtYzcxMk9lb1lSNF9IRDFHSUxPR0c?oc=5",
+      "published": "2026-09-06T18:38:00+09:00",
+      "snippet": "얼굴 넘어 머리·손까지 관리… CJ올리브영서 ‘홈스파·취향소비’ 뜬다 비즈트리뷴",
+      "query": "올리브영 화장품",
+      "duplicates": 0,
+      "category": "유통·채널",
+      "relevance": 1,
+      "companies": [
+        "올리브영"
+      ]
+    }
+  ]
+}
