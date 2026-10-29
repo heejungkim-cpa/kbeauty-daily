@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>K-BEAUTY DAILY — 2026-10-29</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Song+Myung&family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper: #F2F0F5;
+  --card: #FBFAFC;
+  --ink: #17141F;
+  --ink-soft: #56505F;
+  --ink-faint: #8B8494;
+  --rule: #DDD8E3;
+  --strip-h: 60px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "IBM Plex Sans KR", system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap { max-width: 940px; margin: 0 auto; padding: 0 24px 96px; }
+
+/* ---- 머리말 ---- */
+
+.masthead { padding: 56px 0 28px; }
+
+.eyebrow {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin: 0 0 14px;
+}
+
+.masthead h1 {
+  font-family: "Song Myung", serif;
+  font-size: clamp(38px, 7vw, 62px);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1.02;
+  margin: 0 0 10px;
+}
+
+.masthead p { margin: 0; color: var(--ink-soft); font-size: 14px; }
+
+/* ---- 색상 띠: 오늘 기사 분포 ---- */
+
+.strip {
+  display: flex;
+  height: var(--strip-h);
+  border-radius: 3px;
+  overflow: hidden;
+  margin: 8px 0 10px;
+}
+
+.strip button {
+  border: 0;
+  padding: 0 12px;
+  flex-basis: 0;
+  min-width: 0;
+  cursor: pointer;
+  color: #fff;
+  text-align: left;
+  font: inherit;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: flex-grow 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.strip button:hover, .strip button:focus-visible { opacity: 0.82; }
+.strip button:focus-visible { outline: 2px solid var(--ink); outline-offset: -4px; }
+
+.strip .seg-code {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  opacity: 0.72;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.strip .seg-name {
+  font-size: 12.5px;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 구간이 좁아지면 이름부터, 더 좁아지면 번호까지 숨깁니다.
+   잘린 글자를 보여주느니 색과 폭만 남기는 편이 낫습니다.
+   가려진 내용은 마우스를 올리면 말풍선으로 나옵니다. */
+.strip button.tight { padding: 0 7px; }
+.strip button.tight .seg-name { display: none; }
+.strip button.micro { padding: 0 3px; }
+.strip button.micro .seg-code { display: none; }
+
+.strip-legend {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  color: var(--ink-faint);
+  letter-spacing: 0.04em;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--rule);
+  padding-top: 8px;
+}
+
+/* ---- 오늘의 흐름 ---- */
+
+.briefing {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 28px 30px;
+  margin: 34px 0 12px;
+}
+
+.briefing h2 {
+  font-family: "Song Myung", serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.45;
+  margin: 10px 0 20px;
+}
+
+.briefing ul { margin: 0; padding: 0; list-style: none; }
+
+.briefing li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 9px;
+  color: var(--ink-soft);
+  font-size: 14.5px;
+}
+
+.briefing li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 10px;
+  width: 9px;
+  height: 1px;
+  background: var(--ink-faint);
+}
+
+.briefing .watch {
+  margin: 20px 0 0;
+  padding-top: 16px;
+  border-top: 1px solid var(--rule);
+  font-size: 13px;
+  color: var(--ink-faint);
+}
+
+/* ---- 필터 ---- */
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 36px 0 30px;
+  position: sticky;
+  top: 0;
+  background: var(--paper);
+  padding: 14px 0;
+  z-index: 5;
+}
+
+.filters button {
+  font: inherit;
+  font-size: 12.5px;
+  padding: 5px 13px;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+
+.filters button[aria-pressed="true"] {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+
+.filters button:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+
+/* ---- 기사 ---- */
+
+.group { margin-bottom: 46px; }
+
+.group-head {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 9px;
+  margin-bottom: 4px;
+}
+
+.group-chip { width: 11px; height: 11px; border-radius: 2px; flex: none; }
+
+.group-head h3 { font-size: 15px; font-weight: 600; margin: 0; letter-spacing: -0.01em; }
+
+.group-head .note { font-size: 12.5px; color: var(--ink-faint); margin-right: auto; }
+
+.group-head .count { font-family: "IBM Plex Mono", monospace; font-size: 12px; color: var(--ink-faint); }
+
+.item { padding: 15px 0 15px 16px; border-bottom: 1px solid var(--rule); border-left: 2px solid transparent; }
+
+.item:hover { border-left-color: currentColor; background: rgba(255,255,255,0.5); }
+
+.item a {
+  color: var(--ink);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.45;
+  letter-spacing: -0.012em;
+}
+
+.item a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 7px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11.5px;
+  color: var(--ink-faint);
+}
+
+.meta .dot { opacity: 0.5; }
+
+.tag {
+  font-family: "IBM Plex Sans KR", sans-serif;
+  font-size: 11px;
+  padding: 1px 7px;
+  border-radius: 3px;
+  background: rgba(23, 20, 31, 0.06);
+  color: var(--ink-soft);
+}
+
+.dupes { font-style: normal; opacity: 0.75; }
+
+/* ---- 꼬리말 ---- */
+
+.foot {
+  margin-top: 60px;
+  padding-top: 22px;
+  border-top: 1px solid var(--rule);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11.5px;
+  color: var(--ink-faint);
+  line-height: 2;
+}
+
+.foot a { color: var(--ink-soft); }
+
+.archive { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; }
+
+.empty { padding: 60px 0; text-align: center; color: var(--ink-faint); }
+
+@media (max-width: 640px) {
+  .wrap { padding: 0 16px 72px; }
+  .masthead { padding: 36px 0 20px; }
+  :root { --strip-h: 48px; }
+  .strip .seg-name { display: none; }
+  .briefing { padding: 22px 20px; }
+  .group-head .note { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <p class="eyebrow">2026.10.29 목</p>
+    <h1>K-BEAUTY DAILY</h1>
+    <p>K-뷰티 산업 뉴스 브리핑</p>
+  </header>
+  <div class="strip"><button data-jump="수출·해외" style="flex-grow:20;background:#4E4380" title="수출·해외 20건 (25%)" aria-label="수출·해외 20건, 눌러서 이 분류만 보기"><span class="seg-code">05</span><span class="seg-name">수출·해외 20</span></button><button data-jump="브랜드" style="flex-grow:17;background:#A8456B" title="브랜드 17건 (21%)" aria-label="브랜드 17건, 눌러서 이 분류만 보기"><span class="seg-code">01</span><span class="seg-name">브랜드 17</span></button><button data-jump="유통·채널" style="flex-grow:14;background:#8A6634" title="유통·채널 14건 (18%)" aria-label="유통·채널 14건, 눌러서 이 분류만 보기"><span class="seg-code">04</span><span class="seg-name">유통·채널 14</span></button><button data-jump="원료·부자재" style="flex-grow:10;background:#5F7343" title="원료·부자재 10건 (12%)" aria-label="원료·부자재 10건, 눌러서 이 분류만 보기"><span class="seg-code">03</span><span class="seg-name">원료·부자재 10</span></button><button data-jump="기타" style="flex-grow:7;background:#8C8A93" title="기타 7건 (9%)" aria-label="기타 7건, 눌러서 이 분류만 보기"><span class="seg-code">00</span><span class="seg-name">기타 7</span></button><button data-jump="ODM·OEM" style="flex-grow:6;background:#3F5C82" title="ODM·OEM 6건 (8%)" aria-label="ODM·OEM 6건, 눌러서 이 분류만 보기"><span class="seg-code">02</span><span class="seg-name">ODM·OEM 6</span></button><button data-jump="주가·시황" style="flex-grow:3;background:#6A6472" title="주가·시황 3건 (4%)" aria-label="주가·시황 3건, 눌러서 이 분류만 보기"><span class="seg-code">08</span><span class="seg-name">주가·시황 3</span></button><button data-jump="실적·공시" style="flex-grow:2;background:#7A4A55" title="실적·공시 2건 (2%)" aria-label="실적·공시 2건, 눌러서 이 분류만 보기"><span class="seg-code">07</span><span class="seg-name">실적·공시 2</span></button><button data-jump="규제·정책" style="flex-grow:1;background:#2F6560" title="규제·정책 1건 (1%)" aria-label="규제·정책 1건, 눌러서 이 분류만 보기"><span class="seg-code">06</span><span class="seg-name">규제·정책 1</span></button></div><div class="strip-legend"><span>오늘 80건 · 9개 분류</span><span>최다 수출·해외 20건</span></div><nav class="filters" aria-label="분류 필터"><button data-filter="all" aria-pressed="true">전체</button><button data-filter="수출·해외" aria-pressed="false">수출·해외 20</button><button data-filter="브랜드" aria-pressed="false">브랜드 17</button><button data-filter="유통·채널" aria-pressed="false">유통·채널 14</button><button data-filter="원료·부자재" aria-pressed="false">원료·부자재 10</button><button data-filter="기타" aria-pressed="false">기타 7</button><button data-filter="ODM·OEM" aria-pressed="false">ODM·OEM 6</button><button data-filter="주가·시황" aria-pressed="false">주가·시황 3</button><button data-filter="실적·공시" aria-pressed="false">실적·공시 2</button><button data-filter="규제·정책" aria-pressed="false">규제·정책 1</button></nav><div id="feed"><section class="group" data-category="수출·해외"><div class="group-head"><span class="group-chip" style="background:#4E4380"></span><h3>수출·해외</h3><span class="note">수출 실적·해외 진출</span><span class="count">20</span></div><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE1lOGxfTkFTOWdNdTh5anlTX3d6UWJJcUo3RWZod3NLX1lIZ1J0UThtTlpSVlpyazBqa0RTZnpkcnM5Y2J6OFJNd1pGbzQ4OE90MGlySVZQeHAtbVJ0SnRLR1N3?oc=5" target="_blank" rel="noopener">2026 한류문화축제, K-뷰티 &#x27;해외 수출지원 사다리 역할’ 실증</a><div class="meta"><span>CNC NEWS</span><span class="dot">·</span><span>19:23</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5kUW11QVNMbW1CdGYxTVFvXzVRRklYWno2Qnd5WGlJakRKTkFObjIwWXBnWlh6bFU4RmNyckxkRWh1b3FpUHktMnh3NFJYb1hyTFRJTkpZSlpqWU5EQUVSS2JTam94QlE?oc=5" target="_blank" rel="noopener">K-뷰티 순풍 탄 중소기업 수출, 역대 3분기 최고치 경신</a><div class="meta"><span>장업신문</span><span class="dot">·</span><span>12:59</span><span class="dot">·</span><span class="dupes">5개 매체 보도</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMifEFVX3lxTE1HSWFNQjdELXVFRzJPZHVHVWZkTGd4VmhzdlFGeE51Wldreko4M1E4YTNNdWRCQjFWNUxwRUgzQVNuWExmYjcxd1hmUU5kaTctQnRHMmtWcGk3NHlEamhMWmhFMlJxd253YXladEQyNWdfYUljbW9SU1Exc2Y?oc=5" target="_blank" rel="noopener">한진, 북미 K-뷰티 창고 &#x27;드라이브&#x27;...미국은 &#x27;대응&#x27;·캐나다는 &#x27;확장&#x27;</a><div class="meta"><span>한국금융신문</span><span class="dot">·</span><span>14:35</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE9IZVpSOUZGd0tocGpJNUVTYXNpZE1QX0tpR0dMYXl4bDVqbDZqZ3lzTXR2OFRtU2xmak9KeWQ0SlZwUXJoSmV1Q1V1QzRaSk9XZ01yTndjRm1XZHA5?oc=5" target="_blank" rel="noopener">&quot;수출액 900% 쑥&quot;…K-뷰티 이을 K-소비재 188개 브랜드 키운다</a><div class="meta"><span>뉴스1</span><span class="dot">·</span><span>14:04</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMieEFVX3lxTFB1dFp3Y2EtdVNObVQ4MWpXVHhPa295M1pyV1l3aEl3RzhXQWxNQ2loUHV1ZUpqdVZrajRSX0JQVGpWQ1ViZ3V5VXpCc0FDLVdEZlBVaENQN2VnZEhOMm1lVGxiSXlHcXAybFY2NzA2amdXaEI3Y2psN9IBeEFVX3lxTFB1dFp3Y2EtdVNObVQ4MWpXVHhPa295M1pyV1l3aEl3RzhXQWxNQ2loUHV1ZUpqdVZrajRSX0JQVGpWQ1ViZ3V5VXpCc0FDLVdEZlBVaENQN2VnZEhOMm1lVGxiSXlHcXAybFY2NzA2amdXaEI3Y2psNw?oc=5" target="_blank" rel="noopener">진주시 종합무역사절단 &quot;시장 다변화, 동유럽 교두보 마련&quot;</a><div class="meta"><span>뉴시스</span><span class="dot">·</span><span>11:48</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBRlBmUVlrVy1xZnQ2blluTFVaaVc1b2xzVjRsUzhZVm9MYW13OVdxXzM2X19OcXhLUVYzZE81ckplSFFvUlJjRXdiUGZaS2p1YWJXbFJrampKbFA1aEw1VVVZN0E4QUVu?oc=5" target="_blank" rel="noopener">‘뉴욕서 2071만 달러 수출 성과’…충남 중소기업, 미국 시장 공략 속도</a><div class="meta"><span>녹색경제신문</span><span class="dot">·</span><span>11:16</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE9YV2FwdHQ2NktROU43ZUE1alN1VmhSNEt1SEFUNUE3S2NXUklMM0pnYUpfM0doSWR2ZHdOMTlLTGhHclJsaXpwMVY2NUstX3VkMkZPa2JxbDRRbjVqZDNuMjFHTHZGZ3J6?oc=5" target="_blank" rel="noopener">제이투케이바이오, 美 타피오카 전분 기업과 협력...&quot;국내 공급·해외 진출 추진&quot;</a><div class="meta"><span>팍스경제TV</span><span class="dot">·</span><span>19:37</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE5PLWVFQ2doUWdlYWh5Wm9HSHlDc1RzQzdKanhKc2pwbDNMSEsxLXctQk5JeFBBT25pMzNHS3BMbVQzZkZmS3E1OWFzLU83VFlTX0JUeTEyODZpVEF3djVVelJPOA?oc=5" target="_blank" rel="noopener">화산연-코이코, 한류문화축제 연계 K-뷰티 수출 성과</a><div class="meta"><span>코스모닝</span><span class="dot">·</span><span>18:16</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTFBsN0Ixdk9PVWQ0WlJhcGdHQWxCUWFYcEprZFJiWm5yOHNPblk3SndKc1dJa1F0WTZFSFlJR2o1SDR6RjNMRmdCY3VvcnlyZFZkY1BvWFFaQy1UY2lUZkRMOHI5MUk4ZmlpWnQ0?oc=5" target="_blank" rel="noopener">용인 중소기업 36곳, 미·캐나다·중국 바이어와 34억원 수출상담</a><div class="meta"><span>경기타임스 e</span><span class="dot">·</span><span>16:49</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ILWZKTkVVYmtkcXJNX3BtNE1ReG96YjZONlpaUU8xZnlVMmlfNzRjM2RPUzUyOUZsVk04Unp5NzFsVzN0OF8wVGlyREc4ZFJNOUhHcmN0TFhETGxfR1l3ZWpodGdHU1Na?oc=5" target="_blank" rel="noopener">라인플러스, ‘워너블 AI’로 K뷰티 해외 진출 지원</a><div class="meta"><span>한국섬유신문</span><span class="dot">·</span><span>15:40</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE4wa2FpNVNGV0FCTFlxZFJaT2FMeDJxXzlzM01zSXJEN0dJTTJqYV9VN1FPUEZsRk5aQ2ZERXIwc2NXaXZjRUFfbXAzQmVma05RWkhObXhTTl8za0Z3eEp6TzU1ZmoxUQ?oc=5" target="_blank" rel="noopener">다럼앤바이오, 해외바이어 초청 수출상담회 참가…신규 거래처 발굴</a><div class="meta"><span>비건뉴스</span><span class="dot">·</span><span>13:12</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE0tUmphOGEwSENreWFadFhLQk81bEhfNUluQWgyUjVKNFRER0lzT2xZX3p5dFM2aUpOR0cyWUhNZDQzVjhwRFlSN1l1Z2tTeUtOcnQ3T2RB?oc=5" target="_blank" rel="noopener">㈜그레이스, ‘뷰티월드 미들이스트 2026’ 참가… K-뷰티 중동·유럽 진출 확대</a><div class="meta"><span>매일경제</span><span class="dot">·</span><span>11:50</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE5TeE9TSWNkZUhBb3hvMTRmb1lncnZGR1JQVWhLUXFRVWFDRGFjcEtLcWNweWd4bHU3YlRZcTcxNDFmd05Edk9kTElQSW9Kdw?oc=5" target="_blank" rel="noopener">K뷰티 수출 지원…화장품 안전정보 DB 개편</a><div class="meta"><span>전자신문</span><span class="dot">·</span><span>09:10</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE02SWcyUHFtZkpObk5iMHdlcC1lRUMyYXY5S0JqRE1JT01ISmw0aGduT3o0Z2xfcEVLekw4RTB3ZFhnUWxGR3hkd1Rmcw?oc=5" target="_blank" rel="noopener">중소제조업 생산 4% 감소…3분기 수출은 역대 최대 : 경제</a><div class="meta"><span>재경일보</span><span class="dot">·</span><span>08:21</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE05d2lGLTBUcmc4dlJqLUE2YUZ5WkVEcmRMOFh5Z3llWHM2dkhnUjNfZ2dHdWpvZHo5bllYanFwMlhORDF0M2doMnV5SjA2cmdlZWNmbGJZX09tN2RwWndvNW4xdw?oc=5" target="_blank" rel="noopener">K-화장품 수출, 3분기 누적 111억$ 돌파</a><div class="meta"><span>코스모닝</span><span class="dot">·</span><span>17:30</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE13OGtRVm9lUTJPOXNnRUY3NG5zTnVoWmhmUHkxa0FMZ0oyektZVHVMOC0yTlNvcHdmM0xycnZqTWZRVWQ0aFdYQjFqdnRDcUJTRHBqMjN0MHp4c2lOMWZEUjlXYUJudEw1Unpn?oc=5" target="_blank" rel="noopener">충북도, 베트남 하노이서 기업 40곳 수출 상담회 개최</a><div class="meta"><span>한국사회복지저널</span><span class="dot">·</span><span>16:10</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9hdW51X2dhbDc0QjBvNXhTTXNxb04tTVJqaloxMjA4bkRNaWRLb0JQZTFTUTBxajBXX2drc1llVTBnc2N4R25qTWppSjVGaDVkUkF5UDhxcUJ3ekJJODVOeUFrVVVJM3c?oc=5" target="_blank" rel="noopener">충남 K-제품, 뉴욕서 4885만 달러 수출 상담…2071만 달러 MOU</a><div class="meta"><span>지이코노미</span><span class="dot">·</span><span>14:53</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE0zZWVxcmM5eHctT1ZoQzZZTDRwUmh6S0JXZm9ocUpIUDd2YnVaQ3I1Qk1wQV8yc1NnbXFmR1p5MVIyNUViM003STFXXy1zbVlyODF5QTdwUDgycXltUnRVQTRPd0dVaXk5R0w0?oc=5" target="_blank" rel="noopener">K-뷰티 수출 확대에 물류업계 분주…글로벌 공급망 선점 경쟁</a><div class="meta"><span>물류신문</span><span class="dot">·</span><span>13:23</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMXcwVTZ0RHRuTUlBYkltRXlQclE2LUhBSmlJdVVBekQtbFFrYUFUV2xsQTh2X0lQN0RJZUVtTkNUNFhxQjdDTWRERnR5VkNfSjF4NmhrU3A4eVhYSDRGSXZnajFCeF91Y3lBUnVpR0VXR3BoWjRpVFVmRURFRHVTeng3dHAxVUFB?oc=5" target="_blank" rel="noopener">안방 점유율 50% 넘긴 중국 뷰티, K-뷰티 글로벌 영토 넘본다</a><div class="meta"><span>글로벌이코노믹</span><span class="dot">·</span><span>11:27</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMifEFVX3lxTE1CbWNRY2lfS2RNUzRLQWg2MHg5NS0zNlBGS1Z5OWZraXBxbHpXN0tWX0hxTGQxZ0JlRW9TMHdTT01mUEZteWZ5a0pYNHJUT0I1eVRldmk1RnQzQnR3dVpiOVpvQU1KRHZwOTZkZkktZzRrQ1BHQjU2UGVTVTQ?oc=5" target="_blank" rel="noopener">마이밸류, 기술보증기금 ‘Kibo-Star밸리’ 선정...K-뷰티 해외 공략 박차</a><div class="meta"><span>비욘드포스트</span><span class="dot">·</span><span>10:13</span></div></article></section><section class="group" data-category="브랜드"><div class="group-head"><span class="group-chip" style="background:#A8456B"></span><h3>브랜드</h3><span class="note">브랜드사 실적·신제품·마케팅</span><span class="count">17</span></div><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jcnNEOGZxNHQtMThTd25zQWFXTUpxMF80TUlCbTkwMF83OHl3MG14WW9iMnNCcXZRX0lIeXVtZm83LTlydnQtb3c2LWVNckpVN2dfZjMwQjZPd1AzbkpkQUhDR293NjY4?oc=5" target="_blank" rel="noopener">화장품신문 (Beautynury.com) :: K-뷰티 신제품 경쟁력, 답은 소비자 데이터에</a><div class="meta"><span>뷰티누리</span><span class="dot">·</span><span>06:00</span><span class="dot">·</span><span class="dupes">20개 매체 보도</span></div></article><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxPcE5XcWhSN2F5UjFuOWI1TGxSZmlrZXRhbkZqR29UTzhQMUJiRW5rNFZEX0FwMkk0SkNpMklJWVJwaHV5cUU1R05zUjg3cG1sSlpIVWdmeWVHUlpLZ0dkWWZWMFUxSkU3Wkk5N0stMVd1aGVYbmYxNE55NjUyUGFKdXh0TDNadw?oc=5" target="_blank" rel="noopener">한국콜마 윤상현 부회장 &quot;K뷰티 지속 성장 충분히 가능…신규 브랜드가 핵심 경쟁력&quot;</a><div class="meta"><span>뷰티트래블뉴스</span><span class="dot">·</span><span>16:47</span><span class="dot">·</span><span class="dupes">7개 매체 보도</span><span class="tag">한국콜마</span></div></article><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE00QVBzVlBVN3k1Uk1ZNTBmNjhTWnQ1dWRUYlZnb0p5S0IzejRoYkxoWllFLWxSVlFqQXY5emppREZIWEpwSmdSc0M3S3ZEbmxaUzU1UV9id05pYmtyazhPcGxFM1lRWU91d0ZJbURqTHJXajVPR2hr0gF3QVVfeXFMTTRBUHNWUFU3eTVSTVk1MGY2OFNadDV1ZFRiVmdvSnlLQjN6NGhiTGhaWUUtbFJWUWpBdjl6amlERkhYSnBKZ1JzQzdLdkRubFpTNTVRX2J3Tmlia3JrOE9wbEUzWVFZT3V3RkltRGpMcldqNU9HaGs?oc=5" target="_blank" rel="noopener">아모레 바이탈뷰티, 먹는 레티놀 시장 공략···신제품 출시·성수 팝업 운영</a><div class="meta"><span>뉴스프리존</span><span class="dot">·</span><span>09:58</span><span class="dot">·</span><span class="dupes">4개 매체 보도</span></div></article><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE4wOEZOd3BXekxUdDVsanZRV0xUV1RSNTBhN09xbXVtYmF4ZUh5RWVqNUdsYnR6OU9TUktfek9DTjFsSm5hVFpGb1FIbngzV0Z3TVBtOGJUQWlPMGZZZHIxTkp1UkItUkpaaUZUc1JkbUg1Nzlh?oc=5" target="_blank" rel="noopener">닥터자르트, K-브랜드지수 화장품 부문 1위…헤라·설화수 뒤이어</a><div class="meta"><span>파이낸셜리뷰</span><span class="dot">·</span><span>09:24</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE1BUXlSTmp1WFotU2ljVnhMLVpQVjVOYl81c1ZEX1pPS0FfN0FHc3hhZzBacVZEeGVwZDZRVzZzZnk4RTV1ZzRsVlBLOHB3SjI3NG9ERmdTVWhnRWFiS3d4S0p1cFhWNXNRMi1rSQ?oc=5" target="_blank" rel="noopener">아모레퍼시픽 에이피 뷰티, 더현대 서울에 첫 팝업스토어…고기능성 스킨케어 체험 공간 마련</a><div class="meta"><span>메디컬투데이</span><span class="dot">·</span><span>12:28</span><span class="dot">·</span><span class="dupes">7개 매체 보도</span><span class="tag">아모레퍼시픽</span></div></article><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9wbU9UbTJsZlBnNzI1SlNzTVZMZDNTc2ZKWndZOTBISmFJd3JkbFdBWjNBZzVJemlCUEl1VFMzNU9rSkdKME1FWlRvN0Jkd1hmRFIxZm9iQXFsWE05bTQ2a2JB?oc=5" target="_blank" rel="noopener">아모레퍼시픽, ‘2026 기업지식재산대상’ 단체부문 최고 표창 수상</a><div class="meta"><span>www.cncnews.co.kr</span><span class="dot">·</span><span>10:04</span><span class="dot">·</span><span class="dupes">6개 매체 보도</span><span class="tag">아모레퍼시픽</span></div></article><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JRk9kdkg1TnpnVHRQd3RpRUpTUFFHVUZ1a0dfb0dIWGw0M0J3S3hkMmduQ1QzanJjb3FMSDE5ekQtbElwUm5EeUIzMWtxaTVNLWI0UW1aYkFWS1h5?oc=5" target="_blank" rel="noopener">&quot;동네서 키운 브랜드, 해외로&quot;…립스 기업 수출시장 57곳으로 확대</a><div class="meta"><span>뉴스1</span><span class="dot">·</span><span>06:00</span></div></article><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE95WjhuU0tzOHNYX1lMcmVaYV9YRUc5Vlo1TEpaUWExNWdtYXFhUHh6MkVwa1hhSWtwMV9RLVBCdTRYNmh1RFBicjdWb0RNTkRwcHRXVTFTSnpwTzhJa0NsaWd6TWhFZFowTUNPYWVWMWHSAXRBVV95cUxQX3NmR203SWYyUDB3RW1wQmdORGFkQjhRQV9SSUNxU045aWxDdzB6Nmg4d1dlNXdhMkV5VGtJLWNObVozS1RRNzBCZE9zbVhNYThVcjZpdjFKb0ltMF9DaUlWZF93cVV4VnNiWGtjeHpWdDZ4OQ?oc=5" target="_blank" rel="noopener">브랜드 리뉴얼에 합작법인…일동제약, &#x27;약가인하&#x27; K-뷰티로 넘는다</a><div class="meta"><span>포인트데일리</span><span class="dot">·</span><span>02:25</span></div></article><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMidEFVX3lxTFBqdWJwYVJKenZUYXctaWJtT1BhYmxFU2pvQnpWajljTVZad2gwanZheWltazJMSFJJUUlKZGpMZmxhWnh4aHdwNk9Ccjg3OElod0xPNmdMb2h5aWJVaS1NaHlLaWFxUG91Q0pYYk13cV9mVlVK?oc=5" target="_blank" rel="noopener">[뷰티톡톡] CJ올리브영ㆍ한국콜마ㆍ바이탈뷰티ㆍ이니스프리ㆍ랜딩인터내셔널</a><div class="meta"><span>대한경제</span><span class="dot">·</span><span>10:26</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span><span class="tag">한국콜마</span><span class="tag">올리브영</span></div></article><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTFA4d1pIUWczVlk1YmhJa3VtaC1wTHNZYUh5czBwZ0dXdGJacnN2MloxeU1vLUlYZGZqUXlfX1E1Vy1Eb0VpZWNsT2lheEFsNGM5dU9JckxKTnl3eDNRWG9oNk0tY3F0UQ?oc=5" target="_blank" rel="noopener">아모레퍼시픽 바이탈뷰티·에이피 뷰티, 체험 팝업스토어 ‘슈퍼 글로우 사우나&#x27; 운영·첫 팝업스토어 ‘M.D. 클리니컬 라운지’ 진행</a><div class="meta"><span>여성소비자신문</span><span class="dot">·</span><span>10:18</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span><span class="tag">아모레퍼시픽</span></div></article><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CdVZldXFTVTJRRkg4R3lZRUlQUWwtZzl1OVoyaElHdUdYR3FXRkNLZjNaWEd0UTRVeUhoVnhCekNLcmFJd3V4SGVEeHVNQlFkalJYdjRJSXJiTjk5VWRmQ0w5aHFJUHFL?oc=5" target="_blank" rel="noopener">[기자수첩] K뷰티 성장의 그림자…가품 화장품에 흔들리는 브랜드 신뢰</a><div class="meta"><span>뉴스포스트</span><span class="dot">·</span><span>10:08</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE1xUnB0a1lzZ0oydHBjR3poVGRHUG9YR1dvRE10WXZZUkNLTjZsVU1KSlJKTWR0dk5LRS1UWlpOS2M4RlQtaUdnMVRCckVjWGVFSlE5MTV3YW43dkhlWG4zSmpUZXI0VFppZ25JLVB4Zw?oc=5" target="_blank" rel="noopener">허민호, 신세계 화장품·리빙 사업 맡는다…자체 브랜드 실적 과제</a><div class="meta"><span>피플투데이</span><span class="dot">·</span><span>09:04</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXU1dkYzMyakhMWklhRVFGRUdOM2lNWGZOdjJ0TEkwOHktN1RZelFoODQ2OUd6Rm1MZnU0X3J5TzNGQ0V4ZVhLLXN2WXA4X1VsVjNWcnMzZnNkcHBYOVJwX0F3?oc=5" target="_blank" rel="noopener">코스모코스 리노이아, ‘듀얼 튜브’ 바디 스크럽 2종 출시... 다이소 바디케어 공략</a><div class="meta"><span>코스인코리아닷컴</span><span class="dot">·</span><span>08:39</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE5YMlRzSVFsYWN6NHVHbkRrX21EZU9zMUctaUlDMnYybEVmNXVELUE5MWE5RDRENklUVjY5RFFRZjQyX2pZR0V6V0lsS2h6QQ?oc=5" target="_blank" rel="noopener">K뷰티 M&amp;A, 브랜드 넘어 밸류체인 전반으로…대형 딜 잇따라</a><div class="meta"><span>전자신문</span><span class="dot">·</span><span>15:42</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMib0FVX3lxTFA1RGZwYmxvbWV2RTBWUVNuaVV1M2tJNXdmSEdQVUowbHF5dklzVWxwb0JNTUdwTnFoS09JaU1Sb1AyWk1pS09VRkNFb3l6YkI2bGlGdkxTMzM1elBmdW5qZkd0dFF2bFVjTzZjOVpOWQ?oc=5" target="_blank" rel="noopener">[뷰티&amp;헬스-라운지] 아모레퍼시픽의 하이엔드 스킨케어 브랜드 에이피 뷰티 / 이랜드그룹 / 보령 / 제냐 / 준오헤어 / 유한양행</a><div class="meta"><span>비즈니스리포트</span><span class="dot">·</span><span>11:45</span><span class="tag">아모레퍼시픽</span></div></article><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFBuQkxaYTFlZUhhVUdaaXJxWVVyWm5SMm1hNllYeUZfaVJlUzd2MDF4UzZwYmJfVXB0UGNRQkZXRFFKNFI1NVotQ0MxWG5Yb1pMRURnNXV5WHJIbFlPUVFaZWllWERDUFRj?oc=5" target="_blank" rel="noopener">윤상현 콜마그룹 부회장 &quot;새 브랜드의 꾸준한 탄생이 K-뷰티 원동력&quot;</a><div class="meta"><span>SR타임스</span><span class="dot">·</span><span>11:14</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE41QkZMRFp6THF6UmZUTzVHWURrdTFJQjlWTndRaC13dW9yQTR0ZU85eWpGLWUyeXBqRFFEQUlIMjJPLURXOVVVdW4tclhrTjBaTmVkeUt3dV9Ya2xTcWNnZWRia2ZrUQ?oc=5" target="_blank" rel="noopener">LG생활건강 더페이스샵, 14억 인도 축제 문화 파고든다…&#x27;디왈리&#x27; 겨냥</a><div class="meta"><span>더구루</span><span class="dot">·</span><span>10:28</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span><span class="tag">LG생활건강</span></div></article></section><section class="group" data-category="유통·채널"><div class="group-head"><span class="group-chip" style="background:#8A6634"></span><h3>유통·채널</h3><span class="note">리테일·이커머스·면세</span><span class="count">14</span></div><article class="item" style="color:#8A6634"><a href="https://news.google.com/rss/articles/CBMiSEFVX3lxTE1yVHd4bmhfTnp6d0FxQVM0ZWJMWmRKWmZvckdpNVI5MndyQUhQZDlPc1VwVC0yTnNXTVYxQTR3RnRGNlctbE1vVg?oc=5" target="_blank" rel="noopener">피지오겔 비타민C 앰플 200만병 돌파…올리브영 매출도 2배</a><div class="meta"><span>소비자를 위한 신문</span><span class="dot">·</span><span>14:54</span><span class="dot">·</span><span class="dupes">8개 매체 보도</span><span class="tag">올리브영</span></div></article><article class="item" style="color:#8A6634"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBod1YyZWstQXBKRVZQR2NZaXBzRVA5UWczM1NyblQ0QTlpN3MyU3ZFd3ZoajcxZ3BmSDNPSjl4dXpVbjE3WnBQU0pDYVczck1qZWNEb2lLWVdpZ2NtYzB6T1FQbldZU3Y5SFE?oc=5" target="_blank" rel="noopener">&quot;웰니스 식품·뷰티 체험 확대&quot;...CJ올리브영, 올리브베러 성수점 개점</a><div class="meta"><span>청년일보</span><span class="dot">·</span><span>09:00</span><span class="dot">·</span><span class="dupes">7개 매체 보도</span><span class="tag">올리브영</span></div></article><article class="item" style="color:#8A6634"><a href="https://news.google.com/rss/articles/CBMic0FVX3lxTFBEb1NYOEhkRFNBcEYxQ00yQUNyZUU0OWFQc0NOWUo3dENrendkaGQ5NTNvLWVDTnIwdWI0SjRXSEpIekp1aS1ac21CT3NXaHdJSk9NSEtjQm10RDNIQno2a0I1UWN2RnNnbndtRmt0ZHVMSHM?oc=5" target="_blank" rel="noopener">제이투케이바이오, 美 카사바파마와 한국 대리점 계약 및 유통망 MOU 체결</a><div class="meta"><span>스페셜타임스</span><span class="dot">·</span><span>20:26</span><span class="dot">·</span><span class="dupes">6개 매체 보도</span></div></article><article class="item" style="color:#8A6634"><a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxQMU5nenJ5S2FOclZmRTJEVG5waWVMQWg1NDAzR05NcFdTYWNjRTFfSWlFbktNdHRmV1JMUm52alF1SWR5aEIzNlZmWWZneFVFc2NKRGZIME1iZGJFNHZmMm5TWnpkRk9qWFc0eVdvSEFkVzA4WHE3b05TcDR3VWhfUmdibGx4UWhLZ3VNVWMwVUnSAaQBQVVfeXFMT1I0MDNxRVZycC1SUU5SUkRHdlR4d3UxY0Y0U0wtVk0xQ3ZwUzVaYVRaQ1dDcGdZRHFvUGRjalJJUV9JbXA2TVJwRUhjWE1UWl9JdnFEaXZYRE1DUWJCRl9jWmlfTDQ0VUF1blJZZXcxN3lrTGdhSnZaaDloOXFtYWZOcE9MMWthY3kxdGVkVHRTNkxiajdwNy0xQXJLaFFkMmVpZ3k?oc=5" target="_blank" rel="noopener">올리브영·무신사 유통망 타고 해외로…중기부, 소비재 수출 돕는다</a><div class="meta"><span>Chosunbiz</span><span class="dot">·</span><span>15:25</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span><span class="tag">올리브영</span></div></article><article class="item" style="color:#8A6634"><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE1mcEt0V0VnTU1DdHRia2cwTW1sZU5yeHlqMFFiT0VkZUVHR2hIcUJXMEtDdmNGc2hiU21vSVVkOWRsOUlzT0c1M01YSl8ydGUxNV91TUJBZE8taUxJWjBPRUY4UndqQmNaZnJfajJB?oc=5" target="_blank" rel="noopener">[유통家 단신] 쿠팡·아모레퍼시픽·하이트진로·hy 등</a><div class="meta"><span>이지경제</span><span class="dot">·</span><span>17:51</span><span class="tag">아모레퍼시픽</span></div></article><article class="item" style="color:#8A6634"><a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE9zcHRKY3FjQ0xoOWp6bGhjaE1Yd2pEZHNjbFBfWFFpMkttVExrYVB2Ynh0S2FNQXJZR0lDaDVHNko3cWdlQXFlM0VSWUFIYWxLTEtIaDRHbVNJd0JV?oc=5" target="_blank" rel="noopener">K-뷰티·푸드 등 188개 제품 해외로...중기부, 올리브영·무신사와 판로 넓힌다</a><div class="meta"><span>뉴스핌</span><span class="dot">·</span><span>14:39</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span><span class="tag">올리브영</span></div></article><article class="item" style="color:#8A6634"><a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTFAyWW5aWTNvb3VDTVg5aV9fczBYbVBWclhwWGFKVDNMdFljbnI3SUFkb0V3VktDU2tDV3dKR0NzdFRjbHFId1otN2RMWUp0aFg0?oc=5" target="_blank" rel="noopener">[라이프스타일 뉴스클리핑] 2026년 10월 28일(수): AI가 대신 장 본다…월마트 &#x27;에이전트 게이트웨이&#x27;·아마존 &#x27;알렉사 포 쇼핑&#x27;에 유통업계 &#x27;새 판&#x27;</a><div class="meta"><span>시사N라이프</span><span class="dot">·</span><span>12:17</span></div></article><article class="item" style="color:#8A6634"><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTFBMT2x0RXVTQV9LMFg1RjdaUVBZaHVBRW5RTy1ZcnFtS053U2VSZm9qNmliaDlmbjllM3hSVml4M0RFOFJoZ2JKeEpHQl9vUHlUSWFISEZwbGZta1pSZWJfdV9YUzhjaF94LVNRNkZRZTg?oc=5" target="_blank" rel="noopener">화장품 기업들, 새로운 경쟁 무기 장착... 기술·유통·경험으로 승부수</a><div class="meta"><span>시장경제신문</span><span class="dot">·</span><span>23:58</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#8A6634"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CeEZaWm9aVEpMeVZlSlJ0aDBtallZWDI2U1lKZk1USWpWdF9zeVk5Z2JFOUw4dEVYWWhpZURCeFIyWDF5NFlQWmI3LVgweHdBakc0czBiQjFVWmM?oc=5" target="_blank" rel="noopener">[똑똑한패션&amp;케어] 무신사, 아이더, 코스맥스, 아모레퍼시픽</a><div class="meta"><span>에너지경제신문</span><span class="dot">·</span><span>21:44</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span><span class="tag">아모레퍼시픽</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#8A6634"><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE85WTRQVUN6RmFqOUhycU1qVDUzTjRfXy00Wl9XdjE3TDhNaTRZblhJTEpGOXVveHVMazFjNE5EaDFUY0pJMU1Gb3pZcW5pTTllTERMRHdkMllPb0FRLWFGaFBxajQ?oc=5" target="_blank" rel="noopener">신화숙 대표 “K뷰티 열풍 의심할 때 아냐”…아마존, 유럽으로</a><div class="meta"><span>서울경제TV</span><span class="dot">·</span><span>17:58</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#8A6634"><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5rbkViMVk4OWYzdWpocFd6MnJBOW1WVkVSNmtuLWVXX29HcGNyaUIyZlNCdW5pa19jVWFiRnRBaWZZREpENWhsR0phU05Fb0l0dnNHeHo0TGZ2d9IBWEFVX3lxTE5haEh2R3YweG14S1hKX1RTRmphX0VPRWNfMHpCd1NFUDdKcGNDdk51Q2hqQVNxeXAtcjZCeTJyVHVlQjV5RVZMNnFYX2pfWjdEbDEtOXhiWUI?oc=5" target="_blank" rel="noopener">정샘물뷰티, 아마존 뷰티 인 서울 2026서 해외 성장 전략 공유</a><div class="meta"><span>아주경제</span><span class="dot">·</span><span>15:34</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#8A6634"><a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE5UQzNEWDZIUGNxY3hjRDRwVmYxVk95bm1FRFBQWDlya1kzMENsR0o4MHN2SFgzYUNkWXE3US12OWhwalgtdWMtaUJzV1d4YWJPMFZyVjJ4ZFBzZnNfTEZlOVh1ZERGQnZ4aWFYM3JHRzQ3V0U?oc=5" target="_blank" rel="noopener">한국콜마에 3년째 러브콜 보낸 아마존, K뷰티 판 커질수록 윤상현 &#x27;안목&#x27; 더 중요해진다</a><div class="meta"><span>비즈니스포스트</span><span class="dot">·</span><span>15:29</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span><span class="tag">한국콜마</span></div></article><article class="item" style="color:#8A6634"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE1KTS1OdGlxOWtIU3BGblRiVlA5azNnRXQzSE8xVFZTS1NWajR3aWEtX1NCSkNnZDhNamxIV1NCaGFwMHhibEl5VTNDS0hjMXE5aHdzUGVEdExNazVtcTJJQndkQmZuaGhjbGNZ?oc=5" target="_blank" rel="noopener">아마존, K뷰티 글로벌 성장 4대 프로젝트 발표</a><div class="meta"><span>주간신문씨엠엔</span><span class="dot">·</span><span>13:04</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#8A6634"><a href="https://news.google.com/rss/articles/CBMic0FVX3lxTFBqZ0hIaE1Xc1pFbmVTQms5YVBjNDZkY0RwZ1huTTVtbk9sMTFxMUY4aGpsOE01WThfQzVtWGhEeDhxZmJjUFJsZWNsNzhVWkQ4STFhMW5XSXd3bGR5WkoyQ2M2SXV0YWpUOUV6YkZLaG9idGs?oc=5" target="_blank" rel="noopener">아센디오, 글로벌 뷰티 유통사와 5억원 규모 화장품 공급계약</a><div class="meta"><span>데이터투자</span><span class="dot">·</span><span>10:22</span></div></article></section><section class="group" data-category="원료·부자재"><div class="group-head"><span class="group-chip" style="background:#5F7343"></span><h3>원료·부자재</h3><span class="note">원료·용기·패키징</span><span class="count">10</span></div><article class="item" style="color:#5F7343"><a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVVJrODRhLTdiaWJfMmQ5YWc5Nmo3Z2pnckpMbmY4S0JWVlA2YTZXVHJ6RHg4WW9pVlZ4eHBUN3pnV2tmZ0JHNXVmRER4SzRmUjBtbVhTcElJeTFubTU1S1hGenhaM3h5UFlxaFpLMHYyVU8zd3psQ2hkbXZKdDdITDdpV3pqWkFObUJn?oc=5" target="_blank" rel="noopener">한국콜마, 히알루론산 파우더 개발…문지르면 녹는 ‘가루형 스킨케어’</a><div class="meta"><span>글로벌이코노믹</span><span class="dot">·</span><span>08:39</span><span class="dot">·</span><span class="dupes">19개 매체 보도</span><span class="tag">한국콜마</span></div></article><article class="item" style="color:#5F7343"><a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE5MNi1yeDE4Wm5ySU5NSHFxZ0ZqNWNBdkZVUDV3LU01eU1VUkU2UFhWUnhJZi1KWHBwc1NWbXV5TVByaDBFVno3SzlLZE5mTXdoVVp3bXhuekxORHlWazNOTFFhLVZ4NnNYSWNNakhSN21JMGc?oc=5" target="_blank" rel="noopener">코스맥스, 원료 파트너사 간담회…프리미엄ㆍ친환경 원료 협력 강화</a><div class="meta"><span>대한경제</span><span class="dot">·</span><span>11:46</span><span class="dot">·</span><span class="dupes">11개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#5F7343"><a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFA1TFlOZUFDSkdLR2JsQklMVm93MkJ4cVYzRXV1dGZNOW9fTlg1UUJiVmQ3dUNXXzZGWHVFdWR6V3h1NmRrVGxKbzNYUHA5SkdQNXdHWDlIMi01ZGprWUE?oc=5" target="_blank" rel="noopener">코스맥스, 원료사 20여곳과 협력 강화…글로벌 화장품 규제 대응</a><div class="meta"><span>뉴스투데이</span><span class="dot">·</span><span>14:20</span><span class="dot">·</span><span class="dupes">9개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#5F7343"><a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE16ZDl6WU1NemlWeHFhMzJzYWhpREZobV9HdjJCbU5CTkNuM2kyNktubmNZRlE3WXBjTGlRWEhHeU50NG5ROEJSS3RiNDR3OFZybFpxOU5YcGdoQ3gtY0xQVldTRQ?oc=5" target="_blank" rel="noopener">지에프씨생명과학, 우유 엑소좀 miRNA-200c 미백 원료 기술 확보</a><div class="meta"><span>코스인코리아닷컴</span><span class="dot">·</span><span>12:36</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span></div></article><article class="item" style="color:#5F7343"><a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WWUs2WG1oOUFFS2c2cFd5NGF5YnUyakYxX0VGenJPZERUT2h4VlpncUZwY3hVcDBRQzNEVG13akUxLXJNb25DRFROYmRBQkVHZW5wNGlpWkVfZllya1YydTV4OA?oc=5" target="_blank" rel="noopener">달바, 펩타이드 엑소좀 30% 담은 ‘화이트 트러플 더블 라인’ 2종 업그레이드</a><div class="meta"><span>코스인코리아닷컴</span><span class="dot">·</span><span>16:25</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span><span class="tag">달바</span></div></article><article class="item" style="color:#5F7343"><a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTFB6dlVfQ1VFczlBTjV5MnVsa2xIYUtjdTQzWVVVWEEtTFBYUEE5N2lDUnRvN2ltXzlhWkk1Vnc5RkJPakxHOGc0N2x2Rzc0QlY5Rm9POXR0S0JYSzUwcnc?oc=5" target="_blank" rel="noopener">박지원 의원, 샴푸·로션 펌프형 용기 잔여량 개선 촉구</a><div class="meta"><span>불탑뉴스</span><span class="dot">·</span><span>21:12</span></div></article><article class="item" style="color:#5F7343"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBwcDFZUEtieWFsQWRuN3ZsZnY4VDM4R3JTM0pydF82ZlNoMmF3Q2cwRU1VUGdVaEFUS2tEUzNuZEZ2QVEtb19qYm1jeVlDdmtfSUFyRGYwdDRlNEJ4cEFhNVNQTzdhTjNURmc?oc=5" target="_blank" rel="noopener">주가로 읽는 K-뷰티: 색조는 울고 용기는 웃었다</a><div class="meta"><span>뷰티경제</span><span class="dot">·</span><span>19:32</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span></div></article><article class="item" style="color:#5F7343"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5obFd4ZE5xSk1RNUQzajJuTVJRWmItaE5sXzlwX2tmZkZSOTZ0bWo5T2RuNjFUeW5EYmhrSWN5dk5sV3BBSWVTZ3ZmTXlsWG9RNEpvOVFCMExTNWljUi1HQlRvdGZCQkZhT1E?oc=5" target="_blank" rel="noopener">코스맥스, 차세대 화장품 소재 확보 속도…원료사와 공동 연구 강화</a><div class="meta"><span>뉴스포스트</span><span class="dot">·</span><span>13:33</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#5F7343"><a href="https://news.google.com/rss/articles/CBMickFVX3lxTFBPeEdtNUNhc2NTU2lUOEVXM2Z4c3VXZ0VzYkZIU2pJb0VQN21TZHJKOVE5VmFNcUpyWnNlTktVdHBrNHVXQWhHS1FKQmwyYVpabWtmZ1VTTG5kRVEzMzFCMUVtOEV1SUlwNzY5VWt2ekdGdw?oc=5" target="_blank" rel="noopener">화장품 원료도 ‘지속가능성’이 경쟁력…코스맥스, 공급망 재정비</a><div class="meta"><span>중앙이코노미뉴스</span><span class="dot">·</span><span>17:30</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#5F7343"><a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE5qUFhES2wydG5HaHhCYTJOTF9oVkd6elI0SDl2WkRvcU4yNnRCZXFoVlpjV29feHFUanlYSDZsSFgxeDdRUHdVWW1POU1Ra3NLYW1BcFIwUVN0WHRsSU1na0c5VHFLNkczSGlReDYzYw?oc=5" target="_blank" rel="noopener">&#x27;사우나에서 레티놀 먹는다&#x27;…아모레퍼시픽, 성수서 이색 팝업</a><div class="meta"><span>조세일보</span><span class="dot">·</span><span>10:05</span><span class="tag">아모레퍼시픽</span></div></article></section><section class="group" data-category="기타"><div class="group-head"><span class="group-chip" style="background:#8C8A93"></span><h3>기타</h3><span class="note">분류되지 않은 기사</span><span class="count">7</span></div><article class="item" style="color:#8C8A93"><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9EYVJjSG11TXk0a1RpYTNuY1BYRkxpLVp1MnBSUm5JQUZfRGMxenVqN3hBQTF2ZjhzVXYzNGMxa1hyQl9yay1vNEowR1hqb3g1OF96TEZoa0xDbDdGc0Q1WA?oc=5" target="_blank" rel="noopener">에이피 뷰티, &#x27;M.D. 클리니컬 라운지&#x27;...&quot;고품격 K뷰티 공간&quot;</a><div class="meta"><span>메트로신문</span><span class="dot">·</span><span>15:16</span><span class="dot">·</span><span class="dupes">9개 매체 보도</span></div></article><article class="item" style="color:#8C8A93"><a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE9VSjNsLWpPSl9qS2hKeXRIMWdaQkwyQVZUY2RpV2JoOFdVNnhvcjFwcEt3aG81WTVtQ0VBUDZrdmJ2NlpwOUlCa2NMN2NDRU5pR2lJN0xHV290M1ppY193OGd5a1ZFNkxzMTZkcG5Sel9DM2NIY2fSAXZBVV95cUxPVUozbC1qT0pfaktoSnl0SDFnWkJMMkFWVGNkaVdiaDhXVTZ4b3IxcHBLd2hvNVk1bUNFQVA2a3ZidjZacDlJQmtjTDdjQ0VOaUdpSTdMR1dvdDNaaWNfdzhneWtWRTZMczE2ZHBuUnpfQzNjSGNn?oc=5" target="_blank" rel="noopener">복지부 소관 공공기관 47개→39개…오송·대구경북 첨단의료재단 통합</a><div class="meta"><span>코리아헬스로그</span><span class="dot">·</span><span>15:06</span><span class="dot">·</span><span class="dupes">6개 매체 보도</span></div></article><article class="item" style="color:#8C8A93"><a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxObmF5VnkxU3VBeUxNUVRRTHVLWUwwc2NuaElmaXpTTHVGM3R3R3VQR2RhdWJGNnV3dldMdG1qN3J4RkhwMEFUVnJaWVNPS3VOWnJieVB2U0UxQ3p3RmdlaTlLY3g5dFJiSEkyX294RHR3dlVPNHp0NExnaDNQY0VLdmJJVnE3TE5xMHfSAZ4BQVVfeXFMTUt5d0V5U0dDRnRSTmxZd0NTMFVyekNsUEd2SGMzTFFOdDhaMllNbFJFbUhyREZpNUtlSW1oaV9nTlR5MHR3THJEOTdDRjlrZ2xkX2U2dzEya3B3S0ZhUHBpYUpKV0NuRGQzd2xhUkRHTVpwNTg2cHRfRFNfLWtzc1Voc0Ixc21IeFhhUzkzRllHRW9UaGY5RzYtTVhpQ0E?oc=5" target="_blank" rel="noopener">비만약 열풍에 피부 탄력 관리 뜬다… 뷰티업계 새 시장 주목</a><div class="meta"><span>Chosunbiz</span><span class="dot">·</span><span>16:49</span><span class="dot">·</span><span class="dupes">5개 매체 보도</span></div></article><article class="item" style="color:#8C8A93"><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FbVhLUzhUWVVVU3hNUC1vNVpIUy1KblhZdDF1bHJIR0swVURDMXNER2JhYUIwZVRZY0dZaTMwWEt6dnBDcmNidVY4SWRVeVJPTy1rZ1NOclN3VUk5MUZkZi15VG1pbmtw?oc=5" target="_blank" rel="noopener">복지부 산하 공공기관 47곳→39곳 축소…보건산업진흥원에 화장품·재생의료 통합</a><div class="meta"><span>메디팜스투데이</span><span class="dot">·</span><span>14:59</span><span class="dot">·</span><span class="dupes">5개 매체 보도</span></div></article><article class="item" style="color:#8C8A93"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE9WOEtUTU9YZXNmVjBHOUlwOUJBOEIwLXhmUVprVGs5V3dMS2hFQXlvQ2J1YzJnS19fLVgtdVhIV2JIdG40R3BkTUdzaWdDRGRJR0FEa01WQ3NscVRsRHU3d2gzeGc2RGo5WjVF?oc=5" target="_blank" rel="noopener">K뷰티, 중남미 공략 본격화…친환경·지속가능성 ‘무기’</a><div class="meta"><span>시사오늘</span><span class="dot">·</span><span>15:41</span><span class="dot">·</span><span class="dupes">4개 매체 보도</span></div></article><article class="item" style="color:#8C8A93"><a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE5xVVJJUjhEbGNXWUVtN0tZdjVqd1ItTTdtSmpNWTdaaTBodzBXdnE4eEFDbmZYbE9BQUhFUDRaNFg2RHRDUTFJbmFRRjhKS2ZzZ05uVGRtdkpKcl9KTkIxeWN6Qkg4QQ?oc=5" target="_blank" rel="noopener">㈜엘리드오송·분당연구소, in-vitro 시험 수요 증가에 전문 평가 서비스 확대</a><div class="meta"><span>코스인코리아닷컴</span><span class="dot">·</span><span>10:24</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span></div></article><article class="item" style="color:#8C8A93"><a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBwWWlud3lDN0RnRGNYMFozQkRxR2htOVBjUGk3a3l1QjJaWW8wazBoNWQxSVozaGFVXzl3X0M4OUY2YVNSMGpkNnBKX1JNYVFkazJWY3Q0Z0Z2Q2U4eXNWa3JIOU9BdXM?oc=5" target="_blank" rel="noopener">랜딩인터내셔널, ‘코리아 엑스포 LA 2026’서 K뷰티 美 리테일 공략법 제시</a><div class="meta"><span>장업신문</span><span class="dot">·</span><span>10:21</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span></div></article></section><section class="group" data-category="ODM·OEM"><div class="group-head"><span class="group-chip" style="background:#3F5C82"></span><h3>ODM·OEM</h3><span class="note">제조자개발생산·수탁 제조</span><span class="count">6</span></div><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE4xa3FMaDE4anh5SnlxNWt3blV2YXJXLVdWb3htQVM2YVpmWlk3S3pFWXg3YzB5T1lwWVBPb2pySldJbFRUMkdCazVSNUlvZjBnd1lSd0F5ZV9DdFpWZzNMZUZSSFZTNjhYZFFVQ21mc9IBb0FVX3lxTE4xa3FMaDE4anh5SnlxNWt3blV2YXJXLVdWb3htQVM2YVpmWlk3S3pFWXg3YzB5T1lwWVBPb2pySldJbFRUMkdCazVSNUlvZjBnd1lSd0F5ZV9DdFpWZzNMZUZSSFZTNjhYZFFVQ21mcw?oc=5" target="_blank" rel="noopener">&#x27;문지르면 녹는다&#x27; 한국콜마, 4년 연구 끝 &#x27;가루형 스킨케어&#x27; 기술 확보</a><div class="meta"><span>한국아이닷컴</span><span class="dot">·</span><span>10:06</span><span class="dot">·</span><span class="dupes">6개 매체 보도</span><span class="tag">한국콜마</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOWVE2cUo5NGNDR0hNSVEzQjZTYU5RSUxUWURhUmN6c3llNGduNnRwX1A3ZGJFREk1a2I1YzNTMTFuc2lNU05teU0wUV9CV0NjYTE2dzByVGVfb1N3LWpv?oc=5" target="_blank" rel="noopener">한국콜마, K뷰티 수주 확대에 3분기 실적도 &#x27;맑음&#x27;</a><div class="meta"><span>데이터뉴스</span><span class="dot">·</span><span>08:47</span><span class="dot">·</span><span class="dupes">4개 매체 보도</span><span class="tag">한국콜마</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE9WUDNWZVhKYmktdjhYWktmRmo4eUJtS3VyQUZTZTZuSFZkS0FQajZZMWpOZHgwY2VRUVRYNFBsMnh2bXhMS05aN0ZZcDBLNC1vc1Z4R0QySTF6c0thbUNaLUlweGtWTWFNUlhN?oc=5" target="_blank" rel="noopener">한국콜마, 윤상현 부회장, K뷰티 지속성장 &quot;100% YES&quot;</a><div class="meta"><span>마일드경제</span><span class="dot">·</span><span>17:11</span><span class="dot">·</span><span class="dupes">5개 매체 보도</span><span class="tag">한국콜마</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTFBrTmwyQTdha3hwVGxQS254bFp6bl9aODJMNTE2MTV3elZIWTRtMkdPLXpic1BQS2FNRWl4WjdUc0ZGdW9NOHBqWlVpcWVyblEzNGxRRHJFdmhucWFxS1hraE4wd1B3MFNUMEE3bUln?oc=5" target="_blank" rel="noopener">엠앤코스, 제1공장 증설로 생산 역량 확대…2027년 매출 500억 원 목표</a><div class="meta"><span>국제뉴스</span><span class="dot">·</span><span>10:25</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pTE54SFRxVGYwZFkweVpRdFloMmliWnFSVFJBWTJWcUFPZDJMdHhUUl81dVZNSEotd1ltM0U1alRoWUg5OEo1cFJVTmFZUDdsMkpJX29ybjVNZw?oc=5" target="_blank" rel="noopener">&#x27;숨은 K뷰티 수혜주&#x27; 여기 있었네… 공장 풀가동에 주가도 &#x27;쑥&#x27;</a><div class="meta"><span>한국경제</span><span class="dot">·</span><span>09:53</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMic0FVX3lxTFBGSHp6bThvdXFOWWJ6MnZkOUZrLXRja1NuMkJfcHFKbHRDNV9Vb1B5Q1ZpdVRmbFdIdjVDRmttQzRxSFN6T25HZUhPT3RDNUZ2UGhONTExM1VKdm5oX2l2ME1xbWFVMlJjUm9GQXZDcnV4OTQ?oc=5" target="_blank" rel="noopener">한국콜마 국내 최초 &#x27;가루형 스킨케어&#x27; 선봬, 피부에 문지르면 녹아 흡수</a><div class="meta"><span>비즈니스포스트</span><span class="dot">·</span><span>10:14</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span><span class="tag">한국콜마</span></div></article></section><section class="group" data-category="주가·시황"><div class="group-head"><span class="group-chip" style="background:#6A6472"></span><h3>주가·시황</h3><span class="note">주가 등락·증권가 전망</span><span class="count">3</span></div><article class="item" style="color:#6A6472"><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE42Y2tnenVqZTlPQ1Bub1pCcndrQzQzOHVJd3VIbGtaOVFJdHRjTWthYkphTG1FZXB6YnJJcUxoMk1UNUR1TzNtMzlUbUx6a3piTTdkSVpBN2hOMHAxdlZ5aQ?oc=5" target="_blank" rel="noopener">[그때 그 보고서] 목표주가와 최대 48% 벌어졌다…유진투자증권 K뷰티 추천주, 한 달 새 무슨 일이 - www.theconnectmoney.com</a><div class="meta"><span>www.theconnectmoney.com</span><span class="dot">·</span><span>08:17</span><span class="dot">·</span><span class="dupes">5개 매체 보도</span></div></article><article class="item" style="color:#6A6472"><a href="https://news.google.com/rss/articles/CBMi6AJBVV95cUxPNko4OVRxS29OUmJFSUY0TU5WOEg3UkJac19tNVo5dWhxR0JpNDhDVjVLTS10d21NUEFfN0cxNWFTOXljV09vcnBBZjFmc3NxQUN2Q0tfeW1ZWU1tamU4RllnaXlwaGVZaEpHbVNrdU9obVFya00zUHB3NUp5ZTNTTDByMGFLWmFIclJQdzg1OGs4UXd3anpZeU5sQ2tmc3paVUJNV1hlZFlwQVI2bnMxM3BrMXpVVVlCSGxSN01ZYklXV01jOFVaODVpcElXRWdIRkt3aEQ5STdwZUdlZnlKVnlIMGRTazBjZm9FZjF0ekZUS3lYTEJ2T2NMLU1YLXdVSUFDNnhTWWZsbVBpSFpDV2RzdUhYUFk5SS1MVTRTeU9VYkIyc2YxY21sM280OC1yUHRSNXBqbThvbDM4dEVFOHpDcmt3ZFlLbHV5b2FELWFkS2NKc0hQT2oxWE9DWjZtRkExM0x0dU0?oc=5" target="_blank" rel="noopener">키움증권 &quot;유한양행 실적 기대치 부합…목표주가는 하향&quot;</a><div class="meta"><span>중앙신문</span><span class="dot">·</span><span>08:49</span></div></article><article class="item" style="color:#6A6472"><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFB0OWNNbmJuU0E2V1pFdmMwM2pGQ1VndEdvY1M2anJfeWgwXzdUYzZ4Z21yZi1CSW1aZTJTT2VFaG53MG5sQmtoWkEtQmgzRUJBMGZReVdUZlpDb1J1dEZhZ3kzbWZWaU13?oc=5" target="_blank" rel="noopener">그로쓰리서치, 코스닥 성장기업 6곳 한자리에...&quot;투자자 IR 접점 강화&quot;</a><div class="meta"><span>팍스경제TV</span><span class="dot">·</span><span>19:02</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article></section><section class="group" data-category="실적·공시"><div class="group-head"><span class="group-chip" style="background:#7A4A55"></span><h3>실적·공시</h3><span class="note">실적 발표·공시·M&amp;A</span><span class="count">2</span></div><article class="item" style="color:#7A4A55"><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE9hSzhQQTZrc0t2YWxudzI4eXA0bWRLckV4b0RGcUZkUmhSNjN6bnhSOU1XanFkZ185NG42Sm1lUXl1aWVDSUZBSDdMbE1ubk1ucFNCTVEzTGtwRE9VUWlzalUzZ19wOUI0b25ZWTVB?oc=5" target="_blank" rel="noopener">콜마비앤에이치, 화장품 사업 정리 이어 에치엔지 합병…비용 효율화 속도</a><div class="meta"><span>아시아투데이</span><span class="dot">·</span><span>08:11</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span></div></article><article class="item" style="color:#7A4A55"><a href="https://news.google.com/rss/articles/CBMipAJBVV95cUxOcUVjWkN1RlViOHVUSWs4U0ZqbldyajRiOXBzQmVMcVNNZmtZMFUxMEhpdXF1eWNwN09mMkZka1V1enNqTFMzb21HZDFRUUdxWG5fMWFqR01Wel83VHJzLUI5OFJybXRmdXZVZHc4elhieXBUbzFmNVA5VE15ZWsySzRYYVByU1Utb3NfcTZmc2ZKTjBnNThhR01xRG51RW1QODVvZzZldnpEbzVfMUxyYnlTRU5Yd1dIR2hCZTdMTHd0OHdHZzBNLUh2VXZiLVI0NENBSDZQWmozVWN0cXVZTmh3VjF6X1J2bGtuN0txNmYzbkU2dldRVV9rUnlrNjh3TGtoTTljbk9FY2VkRkkxZVgzcWluREhGX0hNLWQzQTEtdXln?oc=5" target="_blank" rel="noopener">KB증권 &quot;삼성전기, 3분기에 깜짝 실적…목표가 유지&quot;</a><div class="meta"><span>중앙신문</span><span class="dot">·</span><span>08:31</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article></section><section class="group" data-category="규제·정책"><div class="group-head"><span class="group-chip" style="background:#2F6560"></span><h3>규제·정책</h3><span class="note">인허가·규제·정책</span><span class="count">1</span></div><article class="item" style="color:#2F6560"><a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE9wdG1HNlRtUUx5VzlSeXd4Q2tIUGVfdzBOeHBySE9Md0pkQnk4WlNxWDNuT01SMERTTi1zZzRVaXk3MkhVb3QzYXBEWVpuMWl1Y1dleTF1ak51R3ViNWdLREtWS0dkdw?oc=5" target="_blank" rel="noopener">美 FDA, 화장품 강제 리콜 가이드라인 확정... MoCRA 따른 명령 절차 구체화</a><div class="meta"><span>코스인코리아닷컴</span><span class="dot">·</span><span>16:26</span></div></article></section></div>
+  <footer class="foot">갱신 2026-10-29 11:00 KST · 구글 뉴스 RSS 수집<div class="archive">지난 기록 <strong>10-29</strong><a href="2026-10-28.html">10-28</a><a href="2026-10-27.html">10-27</a><a href="2026-10-26.html">10-26</a><a href="2026-10-25.html">10-25</a><a href="2026-10-24.html">10-24</a><a href="2026-10-23.html">10-23</a><a href="2026-10-22.html">10-22</a><a href="2026-10-21.html">10-21</a><a href="2026-10-20.html">10-20</a><a href="2026-10-19.html">10-19</a><a href="2026-10-18.html">10-18</a><a href="2026-10-17.html">10-17</a><a href="2026-10-16.html">10-16</a></div></footer>
+</div>
+<script>
+// 구간 폭을 재서 글자가 잘리기 전에 미리 숨깁니다.
+// 창 크기가 바뀌어도 다시 계산합니다.
+const segments = document.querySelectorAll('.strip button');
+
+function fitSegments() {
+  segments.forEach(seg => {
+    const w = seg.offsetWidth;
+    seg.classList.toggle('tight', w < 104);
+    seg.classList.toggle('micro', w < 46);
+  });
+}
+
+fitSegments();
+window.addEventListener('resize', fitSegments);
+
+// 웹폰트가 늦게 오면 글자 폭이 바뀌므로 한 번 더 계산합니다.
+if (document.fonts && document.fonts.ready) {
+  document.fonts.ready.then(fitSegments);
+}
+
+const buttons = document.querySelectorAll('[data-filter]');
+const groups = document.querySelectorAll('[data-category]');
+
+function apply(target) {
+  buttons.forEach(b => b.setAttribute('aria-pressed', String(b.dataset.filter === target)));
+  groups.forEach(g => {
+    g.style.display = (target === 'all' || g.dataset.category === target) ? '' : 'none';
+  });
+}
+
+buttons.forEach(b => b.addEventListener('click', () => apply(b.dataset.filter)));
+
+document.querySelectorAll('[data-jump]').forEach(seg => {
+  seg.addEventListener('click', () => {
+    apply(seg.dataset.jump);
+    document.getElementById('feed').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+});
+</script>
+</body>
+</html>
