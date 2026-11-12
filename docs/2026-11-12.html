@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>K-BEAUTY DAILY — 2026-11-12</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Song+Myung&family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper: #F2F0F5;
+  --card: #FBFAFC;
+  --ink: #17141F;
+  --ink-soft: #56505F;
+  --ink-faint: #8B8494;
+  --rule: #DDD8E3;
+  --strip-h: 60px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "IBM Plex Sans KR", system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap { max-width: 940px; margin: 0 auto; padding: 0 24px 96px; }
+
+/* ---- 머리말 ---- */
+
+.masthead { padding: 56px 0 28px; }
+
+.eyebrow {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin: 0 0 14px;
+}
+
+.masthead h1 {
+  font-family: "Song Myung", serif;
+  font-size: clamp(38px, 7vw, 62px);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1.02;
+  margin: 0 0 10px;
+}
+
+.masthead p { margin: 0; color: var(--ink-soft); font-size: 14px; }
+
+/* ---- 색상 띠: 오늘 기사 분포 ---- */
+
+.strip {
+  display: flex;
+  height: var(--strip-h);
+  border-radius: 3px;
+  overflow: hidden;
+  margin: 8px 0 10px;
+}
+
+.strip button {
+  border: 0;
+  padding: 0 12px;
+  flex-basis: 0;
+  min-width: 0;
+  cursor: pointer;
+  color: #fff;
+  text-align: left;
+  font: inherit;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: flex-grow 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.strip button:hover, .strip button:focus-visible { opacity: 0.82; }
+.strip button:focus-visible { outline: 2px solid var(--ink); outline-offset: -4px; }
+
+.strip .seg-code {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  opacity: 0.72;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.strip .seg-name {
+  font-size: 12.5px;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 구간이 좁아지면 이름부터, 더 좁아지면 번호까지 숨깁니다.
+   잘린 글자를 보여주느니 색과 폭만 남기는 편이 낫습니다.
+   가려진 내용은 마우스를 올리면 말풍선으로 나옵니다. */
+.strip button.tight { padding: 0 7px; }
+.strip button.tight .seg-name { display: none; }
+.strip button.micro { padding: 0 3px; }
+.strip button.micro .seg-code { display: none; }
+
+.strip-legend {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  color: var(--ink-faint);
+  letter-spacing: 0.04em;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--rule);
+  padding-top: 8px;
+}
+
+/* ---- 오늘의 흐름 ---- */
+
+.briefing {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 28px 30px;
+  margin: 34px 0 12px;
+}
+
+.briefing h2 {
+  font-family: "Song Myung", serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.45;
+  margin: 10px 0 20px;
+}
+
+.briefing ul { margin: 0; padding: 0; list-style: none; }
+
+.briefing li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 9px;
+  color: var(--ink-soft);
+  font-size: 14.5px;
+}
+
+.briefing li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 10px;
+  width: 9px;
+  height: 1px;
+  background: var(--ink-faint);
+}
+
+.briefing .watch {
+  margin: 20px 0 0;
+  padding-top: 16px;
+  border-top: 1px solid var(--rule);
+  font-size: 13px;
+  color: var(--ink-faint);
+}
+
+/* ---- 필터 ---- */
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 36px 0 30px;
+  position: sticky;
+  top: 0;
+  background: var(--paper);
+  padding: 14px 0;
+  z-index: 5;
+}
+
+.filters button {
+  font: inherit;
+  font-size: 12.5px;
+  padding: 5px 13px;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+
+.filters button[aria-pressed="true"] {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+
+.filters button:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+
+/* ---- 기사 ---- */
+
+.group { margin-bottom: 46px; }
+
+.group-head {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 9px;
+  margin-bottom: 4px;
+}
+
+.group-chip { width: 11px; height: 11px; border-radius: 2px; flex: none; }
+
+.group-head h3 { font-size: 15px; font-weight: 600; margin: 0; letter-spacing: -0.01em; }
+
+.group-head .note { font-size: 12.5px; color: var(--ink-faint); margin-right: auto; }
+
+.group-head .count { font-family: "IBM Plex Mono", monospace; font-size: 12px; color: var(--ink-faint); }
+
+.item { padding: 15px 0 15px 16px; border-bottom: 1px solid var(--rule); border-left: 2px solid transparent; }
+
+.item:hover { border-left-color: currentColor; background: rgba(255,255,255,0.5); }
+
+.item a {
+  color: var(--ink);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.45;
+  letter-spacing: -0.012em;
+}
+
+.item a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 7px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11.5px;
+  color: var(--ink-faint);
+}
+
+.meta .dot { opacity: 0.5; }
+
+.tag {
+  font-family: "IBM Plex Sans KR", sans-serif;
+  font-size: 11px;
+  padding: 1px 7px;
+  border-radius: 3px;
+  background: rgba(23, 20, 31, 0.06);
+  color: var(--ink-soft);
+}
+
+.dupes { font-style: normal; opacity: 0.75; }
+
+/* ---- 꼬리말 ---- */
+
+.foot {
+  margin-top: 60px;
+  padding-top: 22px;
+  border-top: 1px solid var(--rule);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11.5px;
+  color: var(--ink-faint);
+  line-height: 2;
+}
+
+.foot a { color: var(--ink-soft); }
+
+.archive { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; }
+
+.empty { padding: 60px 0; text-align: center; color: var(--ink-faint); }
+
+@media (max-width: 640px) {
+  .wrap { padding: 0 16px 72px; }
+  .masthead { padding: 36px 0 20px; }
+  :root { --strip-h: 48px; }
+  .strip .seg-name { display: none; }
+  .briefing { padding: 22px 20px; }
+  .group-head .note { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <p class="eyebrow">2026.11.12 목</p>
+    <h1>K-BEAUTY DAILY</h1>
+    <p>K-뷰티 산업 뉴스 브리핑</p>
+  </header>
+  <div class="strip"><button data-jump="ODM·OEM" style="flex-grow:23;background:#3F5C82" title="ODM·OEM 23건 (29%)" aria-label="ODM·OEM 23건, 눌러서 이 분류만 보기"><span class="seg-code">02</span><span class="seg-name">ODM·OEM 23</span></button><button data-jump="수출·해외" style="flex-grow:16;background:#4E4380" title="수출·해외 16건 (20%)" aria-label="수출·해외 16건, 눌러서 이 분류만 보기"><span class="seg-code">05</span><span class="seg-name">수출·해외 16</span></button><button data-jump="실적·공시" style="flex-grow:11;background:#7A4A55" title="실적·공시 11건 (14%)" aria-label="실적·공시 11건, 눌러서 이 분류만 보기"><span class="seg-code">07</span><span class="seg-name">실적·공시 11</span></button><button data-jump="브랜드" style="flex-grow:9;background:#A8456B" title="브랜드 9건 (11%)" aria-label="브랜드 9건, 눌러서 이 분류만 보기"><span class="seg-code">01</span><span class="seg-name">브랜드 9</span></button><button data-jump="유통·채널" style="flex-grow:8;background:#8A6634" title="유통·채널 8건 (10%)" aria-label="유통·채널 8건, 눌러서 이 분류만 보기"><span class="seg-code">04</span><span class="seg-name">유통·채널 8</span></button><button data-jump="주가·시황" style="flex-grow:6;background:#6A6472" title="주가·시황 6건 (8%)" aria-label="주가·시황 6건, 눌러서 이 분류만 보기"><span class="seg-code">08</span><span class="seg-name">주가·시황 6</span></button><button data-jump="기타" style="flex-grow:4;background:#8C8A93" title="기타 4건 (5%)" aria-label="기타 4건, 눌러서 이 분류만 보기"><span class="seg-code">00</span><span class="seg-name">기타 4</span></button><button data-jump="원료·부자재" style="flex-grow:3;background:#5F7343" title="원료·부자재 3건 (4%)" aria-label="원료·부자재 3건, 눌러서 이 분류만 보기"><span class="seg-code">03</span><span class="seg-name">원료·부자재 3</span></button></div><div class="strip-legend"><span>오늘 80건 · 8개 분류</span><span>최다 ODM·OEM 23건</span></div><nav class="filters" aria-label="분류 필터"><button data-filter="all" aria-pressed="true">전체</button><button data-filter="ODM·OEM" aria-pressed="false">ODM·OEM 23</button><button data-filter="수출·해외" aria-pressed="false">수출·해외 16</button><button data-filter="실적·공시" aria-pressed="false">실적·공시 11</button><button data-filter="브랜드" aria-pressed="false">브랜드 9</button><button data-filter="유통·채널" aria-pressed="false">유통·채널 8</button><button data-filter="주가·시황" aria-pressed="false">주가·시황 6</button><button data-filter="기타" aria-pressed="false">기타 4</button><button data-filter="원료·부자재" aria-pressed="false">원료·부자재 3</button></nav><div id="feed"><section class="group" data-category="ODM·OEM"><div class="group-head"><span class="group-chip" style="background:#3F5C82"></span><h3>ODM·OEM</h3><span class="note">제조자개발생산·수탁 제조</span><span class="count">23</span></div><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FVVNvZFVfX003aU9acFRBX0oxb204MG5DbzB4UHJXNlhKZjZvUmc0QW9KNHc2MGFXTnIwYlhHTmJHU0ZXWEd6YUV2bTRROW5mQXI0anF4LVhSVWktMWdnNw?oc=5" target="_blank" rel="noopener">“K-뷰티 타고 날았다”…코스맥스, 3분기 영업익 833억 전년比 95% ↑</a><div class="meta"><span>마이데일리</span><span class="dot">·</span><span>18:28</span><span class="dot">·</span><span class="dupes">9개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFBldGRJN3NoNWhINXplZmVvLUt2U0JRMk0tcXREWU5WQ0FCOUxYRmowemtXOG9WbVVFQUlzM0liQmZXLXJLbTI1UnBvYUVfSktzampMXzRqNHRhdS04YUw3ZGNfbzJ4VVRO?oc=5" target="_blank" rel="noopener">코스맥스, 3분기 영업익 833억원 전년비 95%↑…&quot;고객사 주문 증대 영향&quot;</a><div class="meta"><span>뉴스포스트</span><span class="dot">·</span><span>16:38</span><span class="dot">·</span><span class="dupes">8개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE1vZ3hBVmk1RzhnY1hsQmR0SVFQdnZSYU5faG5IbkJUSTlHMmprSWJRMkRyYnY4QWk0M3FGTHRlQzRQamtvZHJoY0VxbFBNZlI0Q3BNbEUwSVdCaHNhb2NBTmVYWVd4Wks1VEZyZXAzTFRwbzA?oc=5" target="_blank" rel="noopener">코스맥스 3분기 매출 8758억으로 50% 증가, 분기 최대 매출 기록 새로 썼다</a><div class="meta"><span>비즈니스포스트</span><span class="dot">·</span><span>17:00</span><span class="dot">·</span><span class="dupes">7개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxQSzFLN3ZTOG5YNTRfMTB6VF9GSnVfbm9HYl9qdjg0VjlnLWdXb2w2OFhMVzc5SHFUZENQOXMtRDFFbXc1Yk1DVU1oVmwzek5UYjV4UzQxQXZWdXhIanI2Y0FrcDdCbjlCY3pZSWJRNHpNSndkR1NQa2NfRENIUFg1aU1WaWV5NG5IQkE?oc=5" target="_blank" rel="noopener">K뷰티 수출 호조에 ODM 3사 성장…국내 공장 증설 잇따라</a><div class="meta"><span>글로벌이코노믹</span><span class="dot">·</span><span>16:05</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3REtnbzFmWXRodzBZczV0b3RZb3dVUFJtSlhSSHZpa3h0WEZ1RmxsVGxLM1AzNk41dnZfclYwbnk0cV9SbXhUZHItMnkwVGd6dDJocTAtUS1VUlk?oc=5" target="_blank" rel="noopener">코스맥스, 3분기 매출 8758억원 ‘역대 최대’…글로벌 화장품 ODM 시장 주도</a><div class="meta"><span>위메이크뉴스</span><span class="dot">·</span><span>21:25</span><span class="dot">·</span><span class="dupes">4개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE41NFBoWGU2YXFxcEt3d05XeTJpNFFvQUZRVlZUZEg3QkNFb0IyQURPcTdsZlJsVHhhTW83Tk5CdEdNa1VRNURGZGNMcVc0U2hONjFqTW5rLWptYVJ0MWF3?oc=5" target="_blank" rel="noopener">밀려드는 주문에 진땀…K뷰티 호황 속 ODM사 생산능력은 과제로</a><div class="meta"><span>MTN 머니투데이방송</span><span class="dot">·</span><span>16:57</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTFBVM0N0eWg1bS0yY3I5c1ZTRTJXbUhLQVZYTWlDeVl1SjhndVZfZkJGWDlaTS02MTFJcjctd0FvWkRYamlBdlpPSUQ4bGxlbkNtYTl3?oc=5" target="_blank" rel="noopener">코스맥스, 3분기 영업익 95% 급증…목표價 41만원</a><div class="meta"><span>경제타임스</span><span class="dot">·</span><span>09:50</span><span class="dot">·</span><span class="dupes">5개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxPS295YnVvdHdsblNKQjFiNU1mN3VyRnZ5cTdNbXdrMEFwQVlfNFBJVE00azJsb09LcEhmVlVuYmpHcWRYVWpEVzd5Qm5xVTl0Mzd4c0w0UzF1MU5Ud3h3Wm9hSG5wTkJsX0MxSkVpejkxT1ppbFU1N3BNQzVYQlFEbQ?oc=5" target="_blank" rel="noopener">코스맥스, 내년 분기 매출 9000억 시대…목표가↑-NH</a><div class="meta"><span>이데일리</span><span class="dot">·</span><span>07:54</span><span class="dot">·</span><span class="dupes">5개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9xMkw2NUI4X2R0TFpjREVyRTBjdE5IbGVQMVpTQ1FjZFJmY19ZZ0F2bzVseDd5OWpuUFZnbm0xdEtMSXk4S2Mza0dJY0s4QmdxTHZlc21wTldjV1o0ejVz?oc=5" target="_blank" rel="noopener">K-뷰티 호황에 ODM 3사 최대 매출…영업익은 코스맥스만 &#x27;깜짝 성장&#x27;</a><div class="meta"><span>뉴스1</span><span class="dot">·</span><span>06:23</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE5yWHFjYzR4UmVhbktUSDBDdVRGaEExR2lYaXNOU1g2a3dOX0xyVXpJTzNQMmdLUGNjeEJvazNPbjMyTzdZLXludEZyTm1fejYzeUlIVUVUYU95aDBDZUMzUTUyaU1fUnY4M1Fn0gFvQVVfeXFMTzIwNnhQNkFvNGtXTnRMSDJPQ1lXeGRiQ1BBZHE5NkxpYWxOc2M2V1Raa05KRm1mZ1RacHg2ZjEzcTVYZUdSUTFpSUt3UEhJZW40RldNelFISlpaZXFiRWNoRE8zMk9vbU9faHRHYVVJ?oc=5" target="_blank" rel="noopener">화장품 ODM 3사, &#x27;캐파 부족&#x27; 대응 갈렸다…콜마 &#x27;수익성&#x27;·코스메카 &#x27;외형&#x27;</a><div class="meta"><span>더퍼블릭</span><span class="dot">·</span><span>14:36</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE5jMHk4bjA3S0xId3FxcnRrNEd2NEtwQko0aGpNRFdHbEhpWGZ4UmZxdDRrZG9SdmxRVHByVkZoUDk0N09FMk9UU25xbDV0cDVvMWNhb2tYRHFQT191czBHVEI4eTVfRDdyZjZR?oc=5" target="_blank" rel="noopener">K뷰티 잘나가는데 이익은 제각각…코스맥스 웃고 한국콜마·코스메카 &#x27;아쉬움&#x27;</a><div class="meta"><span>충청시사신문</span><span class="dot">·</span><span>09:38</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span><span class="tag">코스맥스</span><span class="tag">한국콜마</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ibVZoWHZLNzd1TlJSdF9vVUlRUmJBZmtVNlVhQTlyQkR6MW5tYWN4RHJpVXd3TmZXalRlN3BwcW5oOF9wM3FvX3pNVlhfc2pqXzFCY0Y4dHZRQdIBWEFVX3lxTE1RLXVMR2g0N3BIWVZpQUVRSU9kamh2WlAzckVfTjNXYWxTMmYxZ3kwdEpqenZUVDBwemhncXRBdnVXVURObm1hX3BFYUlmdkYwb1I0MWJ6MVk?oc=5" target="_blank" rel="noopener">[특징주] 코스맥스, 3분기 호실적에 7%대 강세…생산능력 확대 기대</a><div class="meta"><span>아주경제</span><span class="dot">·</span><span>09:35</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE1XY2txVDFyX3NFM1Y3aWprekVkQnhRcjJhQmhfSXBWV2N6ZlpPRWpTcDhaUXczOXEyUEpOa1pRRnNTVHJacC1jd2FjVktQcEh6?oc=5" target="_blank" rel="noopener">코스맥스, 3분기 역대 최대 매출…국내외 고른 성과 덕</a><div class="meta"><span>톱데일리</span><span class="dot">·</span><span>16:44</span><span class="dot">·</span><span class="dupes">4개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE03RHNvemZtbEtrWU5td3hsb1dTVVo1NVF2eWZUM1EzZnFZSTFkMzFVbVg0b2NCVDJFZk0wZzc2Z3dBUUI0aGhOQXJfRW9xMDN6X0ZidW1KazJUM1BSTlIwOHBRVG1Sek9HbXFCYg?oc=5" target="_blank" rel="noopener">K뷰티 ODM 3분기 질주</a><div class="meta"><span>중소기업신문</span><span class="dot">·</span><span>10:26</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9tMVFrbzhVLXVsVm5LbnJLRm1tcWhxeW9xcllOWWJrd09YUEhWOVFYeTJ6cmtlZllyVVQ2d2h0SXpZY3NCZEdpcVVieURTX1prVFRINDlsTXlsRzV2X3V5S1djTUZuY1dfV2c?oc=5" target="_blank" rel="noopener">“닮아가는 K뷰티 넥스트는 R&amp;D”…리필드·아모레·콜마·코스맥스, SCI급 논문으로 세계 무대 입증</a><div class="meta"><span>파이낸셜투데이</span><span class="dot">·</span><span>08:40</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE0wcTNLYlIzejhzbVZhZFBVQzcyUHM5MVJtd09jLVlxQ3Z5bzctZUVxdGdsZGl2NGZyMHc0WHRYV0tHVDFaa2tLVVZsOTI2QzRrdVVPcmwxa3JHWDNoSG9EZmNuajJqclFhWmc?oc=5" target="_blank" rel="noopener">코스맥스, 3분기 영업익 95% 증가···해외 성장·증설 효과 기대</a><div class="meta"><span>뉴스웨이</span><span class="dot">·</span><span>08:35</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE1XeDl2RWt2djM3WVFqR1Y0ZjQ1WUktTjFiY3N4THNLeE4xVm9hdlQ4clBWQkszTDZ4cExpTnVhWnltQlZGSWpST3lXcGwxdmkzWEE3YUV6TV80bkRWYk9JZnVOMXdybDRiYjEwbU4xeFlVQkE?oc=5" target="_blank" rel="noopener">&#x27;글로벌 ODM 1위&#x27; 코스맥스, 3분기도 사상 최대 실적 달성</a><div class="meta"><span>어패럴뉴스</span><span class="dot">·</span><span>19:48</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE8tMXpRNW5GNnVmZmRya0llbVI4cjI3alIwdS1PRkNReUtvMzJVVGR3MnJFeWxwdmxQcHNnc1R0ZFRRclRIUW00UEREZFN2Yi1lRjJESTc3bVFWcDhka0lFZ1R6M28?oc=5" target="_blank" rel="noopener">K뷰티 훈풍에 코스맥스 ‘활짝’…美 매출 88% 급증</a><div class="meta"><span>서울경제TV</span><span class="dot">·</span><span>19:30</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jMUZCMTZmV25wZFgxQ0RrcHliRTFlQndjeWlVaGVmcERSWHFTWFdvMUNfbThuY2YtSEs5YmpuN1FqSVdaRFJ5Y0FFaEhwTVU5V3JaeWRR?oc=5" target="_blank" rel="noopener">K뷰티 &#x27;폭풍성장&#x27; 견인…거침없는 코스맥스</a><div class="meta"><span>매일경제</span><span class="dot">·</span><span>17:24</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE9KN3g2eVdCbXBSVGkwNmxuMzJXZ2NidEc0ZWVDemJDWDBuYU1UVTNHYzdzRm9ZbUwyNW9hOVRZRWxITENkUEo0Qy1jN050TjlJVVoyc3VGVXZ3aEx3bXJzblJiSElUc293RUk3U2Znc9IBb0FVX3lxTE9KN3g2eVdCbXBSVGkwNmxuMzJXZ2NidEc0ZWVDemJDWDBuYU1UVTNHYzdzRm9ZbUwyNW9hOVRZRWxITENkUEo0Qy1jN050TjlJVVoyc3VGVXZ3aEx3bXJzblJiSElUc293RUk3U2Zncw?oc=5" target="_blank" rel="noopener">코스맥스, 3분기 영업익 95% 급증…국내 호조에 美흑자까지</a><div class="meta"><span>한국아이닷컴</span><span class="dot">·</span><span>17:14</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxQWWJwNzdJNF81a3F5UC1kbkZqc0p3WFVaNzk3QnZ2elJhU0JmXzljcFZSUlV4NTlHZW5oMmxBU0hMek1ZZmtYVENkZEFMaVFuVjZsODctWlNtZmtWdE1mMVBfMzlERTUta0hpall1dnhLanczdVdNQlJ3a2NyNUNvdDJFeUVCOWZLbXc?oc=5" target="_blank" rel="noopener">코스맥스, 매출 사상 최대·영업익 95%↑…첫 ‘3조 클럽’ 청신호</a><div class="meta"><span>글로벌이코노믹</span><span class="dot">·</span><span>16:27</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE13OGRBenliYk82ZzUwQ1U4TFdvbnRFZlQ5THZ1ZGs3N0JleGwxSzR2dTR3TGpKTTFHcFBXQlFuWHJhWjVTVVd1RHByWjljYzhtUkVLUVlqNzlQV040dXAtX0lBYVJvSDA4UGpKbA?oc=5" target="_blank" rel="noopener">코스맥스, 글로벌 뷰티 ODM 1인자 입지 굳건</a><div class="meta"><span>ER 이코노믹리뷰</span><span class="dot">·</span><span>16:10</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#3F5C82"><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE54NkFDTXpHNTNDWjlwR0FDcEhNVHc3bVhPQ1JjQWxwV2E1cVhSOEtKT01fZDY1TGViNTRwUWRZNzVVZlp3UnNxcG5tLVJTSHRSN1hQbXViQlVIY1R1cGNPSkh6WXgxRXJjOGZ6dTZR0gFyQVVfeXFMUGtBcTRRSGRMa1FieW1IdTRiakpFanhIZW9vZzhEeWJKRzVrbkktWjBTTGxVdWJERWRfdS1TS283UFV1OTFxTkhWbmYyTmRLZkoyb2tNMlVZMnkwRnoycnpkNjRDYWlpSWJQV1FsazFGckh3?oc=5" target="_blank" rel="noopener">코스맥스 9.58% 급등…K뷰티 수주 기대에 26만원대</a><div class="meta"><span>잡포스트</span><span class="dot">·</span><span>16:03</span><span class="tag">코스맥스</span></div></article></section><section class="group" data-category="수출·해외"><div class="group-head"><span class="group-chip" style="background:#4E4380"></span><h3>수출·해외</h3><span class="note">수출 실적·해외 진출</span><span class="count">16</span></div><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE53ME5nTXktVmFXT2JCMktnT21ieFRoc1hNZUZZWldpcEU5M19BRmwzUWU5Y0JrTllTc2EzX29iTWV4Z1dzcE81cU5qdzNLTXhRc1dIdlBwVWxrb3VaQ2FrMzJhVGlXY19uYVUza0pR0gFyQVVfeXFMTzhLVER5THlkeGQ4TjJZbG5UUVpBNGxoam9ONkpoVlRQT1ZxZEEtMTl0d2lZVEFNZmV0X01IbjRPQWdFSWk5TEgyZmgyVHFlZVlmTFpTa0V3NnV0Rll0dzhTa2M3dktaSnNFOVhwZGhONU9B?oc=5" target="_blank" rel="noopener">에이피알 메디큐브, 이탈리아 밀라노 ‘라 리나센테’ K뷰티 팝업 참가...유럽 영토 확장</a><div class="meta"><span>시선뉴스</span><span class="dot">·</span><span>16:28</span><span class="dot">·</span><span class="dupes">12개 매체 보도</span><span class="tag">에이피알</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Ramw1azIwUzNyOTRobzdoVFRlQXdqSkdGOEtXbHRub19ZamFJdnZtN05lVVFteVlSWWtvNUlOMlZFS2F0OXFrWEZfWjBOZjc4U1hZYjZKdDRJR1RqSzRMSFZZWld0SWw4?oc=5" target="_blank" rel="noopener">코스맥스 3분기 매출 8758억원 사상 최대…한국 법인 6000억원 돌파, 미국 법인 2분기 연속 흑자</a><div class="meta"><span>데일리팝</span><span class="dot">·</span><span>10:22</span><span class="dot">·</span><span class="dupes">9개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE84SWtHbHMzXzJlOEVuUWR2MXZycUFqSlk2QzdyNUF2VUI4WXEtRmNFLXVmNGk4OUF0dTBNdFdhbTRiTnpTVDgzY2d5UXNLMjE2U2tfX2pyR0k4bVlj?oc=5" target="_blank" rel="noopener">K-콘텐츠 뜨면 수출도 뛴다…멕시코는 화장품, 일본은 식품</a><div class="meta"><span>서플 뉴스</span><span class="dot">·</span><span>06:59</span><span class="dot">·</span><span class="dupes">7개 매체 보도</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE42cWZlcXdFUWRYcVJDZ1NCQ3V5bzdiWUpncERJdjRmQ2lDLXlINkNubG92M3FmZ3J4OS1pTnNuel9PbUFxTWtkYWt2Yk9UTFlqQkZF?oc=5" target="_blank" rel="noopener">실리콘투, 7분기 연속 최대 매출…K뷰티 수출 날개</a><div class="meta"><span>경제타임스</span><span class="dot">·</span><span>10:21</span><span class="dot">·</span><span class="dupes">6개 매체 보도</span><span class="tag">실리콘투</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE04Z3pxVTVvTEIyMEhGNDkyUEoyNGVxRVhlQVNwMU5LY2JDU1R4eGlldnRnTU1FY1RiRjd3TlJWNmkzeTJIT3lmbXBGUXFwY09tMTFzUHVCNVhFeTFN?oc=5" target="_blank" rel="noopener">[리포트 브리핑]실리콘투, &#x27;아프니까 수출주다&#x27; 목표가 47,000원 - 키움증권</a><div class="meta"><span>뉴스핌</span><span class="dot">·</span><span>08:34</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span><span class="tag">실리콘투</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1iZTE1WVhMckk3c0xfcmNhOGNpRUZPYzlrSEFDSUN2bUhvNm44dXo4QjdQdGhjNlI1bExLRldaTUUzSFZ6SVhFaTJMMENjYkU2NkFyVG5jN1VBU01JQXNfdw?oc=5" target="_blank" rel="noopener">실리콘투, 유럽·북미가 끌었다…3분기 매출 4244억원</a><div class="meta"><span>마이데일리</span><span class="dot">·</span><span>06:00</span><span class="tag">실리콘투</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TMEI3SmZ4ckdoRGhobWZ2d3ZUbFF5bWdvaHhkX09lakw3ME1VTFFLblpBME1DcWVxS1V5eUE2dVNHM1lqb2FraHItMjBGcjJwUE52M21uaVRYdFdaWXAzOGhMbEtGODA?oc=5" target="_blank" rel="noopener">실리콘투, 3분기 매출 4244억 역대 최대… 美 얼타·타겟 뚫고 7분기 연속 질주</a><div class="meta"><span>아이알팜</span><span class="dot">·</span><span>03:31</span><span class="dot">·</span><span class="dupes">5개 매체 보도</span><span class="tag">실리콘투</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE1aTHlMN21Mc3JJUlNhT1ZLdmhJamh2OTFveHpRbWJUU0JxN2tqR2dnV0c2TG5STWlnNm56U1hGNWJCSmI3STVVMldNeHl2VHFLVnBnQm1LZDVPTHJvNmxn?oc=5" target="_blank" rel="noopener">코스맥스, 3Q 영업익 95%↑…K-뷰티 수출 호조에 &#x27;역대 최대&#x27;</a><div class="meta"><span>조세일보</span><span class="dot">·</span><span>17:06</span><span class="dot">·</span><span class="dupes">4개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE1IMFM0dzhHNDZReUZQTVVzeWJfQ1d2SGdwT183RXhPWE5QUGR2N3VLM052NzExb3pWTVlIMDJzakhxT0JCNWI3UlhhcWU3QUVIMW5GeUNTNmJraXdn?oc=5" target="_blank" rel="noopener">K팝 뜨면 화장품 수출도 증가…K콘텐츠 흥행 효과 확인</a><div class="meta"><span>뉴스핌</span><span class="dot">·</span><span>06:00</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE1LYVh0bC11cWI2TTBjMHNJTkpYLXl1UDlLRDVRcWNvRWRSREN4SGZmWFRDaFJkcVNHcGktczJWWFRORUlMVjhfVVQ4YzZGVFU2WWhZTmpzNDQ4ZDRQUjVyTmlZV0pnOXNycENiV2Z0cw?oc=5" target="_blank" rel="noopener">[사설] 상하이 진출 경북 K-푸드·뷰티, 수출 성과로 잇자</a><div class="meta"><span>경북일보</span><span class="dot">·</span><span>16:55</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9XZ1dtenFVRVNmcVlnQllVSFo1MFUwQi1mUVlBNVJWLVpSMjNEb3pkNzdQS25LcnJaeWVmdV9OU1ZlZ2tGdTRIcy0wMXE1Umhfb2dxQVh2cXc2bUlYNWdJVGc4Z2czN0lsZXc?oc=5" target="_blank" rel="noopener">CBFEZ, 홍콩서 K-뷰티 투자유치‧기업 해외진출 지원</a><div class="meta"><span>청주일보</span><span class="dot">·</span><span>16:28</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTFAtX29PaGtMSTkzRy15R2l0RWM4Mzg3eG9NaVhlOUVhcmVBN21KdnA1SngwZG1oRW9TYkN3dTFTcmxQNTl0MnFFdmkySDJ1TlZJd3hYVnFmbURmRjVnOTFfdnBn?oc=5" target="_blank" rel="noopener">화장품株, 수출은 신기록인데…주가는 왜 이러나</a><div class="meta"><span>에너지경제신문</span><span class="dot">·</span><span>15:20</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTSjNLenNpZzN2S1JWczQ2Z2hReWdqR0k0c1JQMVI0U1N3N19lVHhiMmlxeWhzUy10Tk83UkNvZGJOalFXcFJUUWxodGRKeWhCX3hHUUdSbjdwVTRuc0VwN3oyUGY?oc=5" target="_blank" rel="noopener">K-콘텐츠 흥행하면 멕시코선 화장품, 일본선 K-푸드 잘 팔린다</a><div class="meta"><span>서울경제TV</span><span class="dot">·</span><span>08:50</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yUXU1YkVkMHVfTUNvdXVta29NU3lpZHRqREtoMVN2YUxfSldNam9BNk1Cc3lfYmdhZGVFYV9USWhfSjJXNl9lMEFvaEVoZVhxV2JUcEFoUmRRQQ?oc=5" target="_blank" rel="noopener">K팝·드라마 흥행에…&quot;화장품·식품 수출 늘어나&quot;</a><div class="meta"><span>한국경제</span><span class="dot">·</span><span>07:56</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE4yWWM2V0gwN09GYjZJTE1Jb2IybFdzUFE4TVdSaFVSR0YxQTJMdTZUbXVsb1MybzJRM3RUbEtTcm5Gbjk4b3V3UW9oTlgyZw?oc=5" target="_blank" rel="noopener">K-팝 인기 10% 오르면, 멕시코·독일 화장품 수출 최대 1.7% 증가</a><div class="meta"><span>전자신문</span><span class="dot">·</span><span>06:00</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#4E4380"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTFBETzRzaWdtZTVwUjZMNEd6MmZreWRKYlNfMHJ4WWYtN2xfeHRvcC16bDczQU9BQjZGOVhVR19rdXVjYjV6LV9qX1RrVnNSRTJzOHMxQWI5T1h5RUU2NWxKUUM5YUNXd2JIU2Rv?oc=5" target="_blank" rel="noopener">[동정] AP재단, 일본서 K-뷰티 메이크업 클래스</a><div class="meta"><span>주간신문씨엠엔</span><span class="dot">·</span><span>15:20</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article></section><section class="group" data-category="실적·공시"><div class="group-head"><span class="group-chip" style="background:#7A4A55"></span><h3>실적·공시</h3><span class="note">실적 발표·공시·M&amp;A</span><span class="count">11</span></div><article class="item" style="color:#7A4A55"><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE9HSDloNWd0cGVDYU9kZy1zclBaZUlONEk5Y2ZIbE4zUTVIb05mSHZYdE5XbkFvNU9zRGctM2pmQVNXN1RBMDZZeTNBZ2pOcFJpRTUzY3ZWd3hhaHlVSzlqMg?oc=5" target="_blank" rel="noopener">&#x27;K뷰티 호황&#x27; 화장품 제조사 역대급 실적…수익성은 희비 엇갈려</a><div class="meta"><span>아시아경제</span><span class="dot">·</span><span>08:57</span><span class="dot">·</span><span class="dupes">7개 매체 보도</span></div></article><article class="item" style="color:#7A4A55"><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5mdDhJOFV6eVpsMzhqS2tDVTI5YkpQaGNaV2JDdy1NcWhpeTFUVkFfbHF3Z2d2U0l5akZDM1RSSHpMUGtsLThoSG9VZlJvdUxiVnhFVTZTa2NmQdIBWEFVX3lxTE5BX082b05UdmU2eTRLVFVaQkJQUFB3U2dRWTU4ZF8tX0YtT3RLUEt0bHM2YW5DREZTYVN4OF9Xc01EYXhhaWE0RUJCZXNvaElHY1NZSVJsOW4?oc=5" target="_blank" rel="noopener">다올證 코스맥스, 3분기 호실적에 성장세 지속…목표가 35만원 유지</a><div class="meta"><span>아주경제</span><span class="dot">·</span><span>08:09</span><span class="dot">·</span><span class="dupes">4개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#7A4A55"><a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE5wZHA5Y1VKVlU5STlpSE12NkNHMi1rS1BRN3VweFFxQjZIZzRRTGF4WGlvQ1AydUdBbHNHYWVTOEthLWMwOVdnUFJhSm5iZURWWEJMZUd1MU56cnRTOEFfdEZwbWhMSkhtUVowY0xtdDRqTk1y0gF0QVVfeXFMTnBkcDljVUpWVTlJOWlITXY2Q0cyLWtLUFE3dXB4UXFCNkhnNFFMYXhYaW9DUDJ1R0Fsc0dhZVM4S2EtYzA5V2dQUmFKbmJlRFZYQkxlR3UxTnpydFM4QV90RnBtaExKSG1RWjBjTG10NGpOTXI?oc=5" target="_blank" rel="noopener">코스맥스, 3분기 영업이익 833억 전년비 95% ↑…&quot;韓美中 고른 성장&quot;</a><div class="meta"><span>IT조선</span><span class="dot">·</span><span>15:29</span><span class="dot">·</span><span class="dupes">4개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#7A4A55"><a href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE1mNFNHNVJMUEtsaFZ0SHpXaS05TW5oQmdkVjNnNFQ3eWlTWnAtS1Y2OERkNFFJOGxPdXpoVFNXb1NkbHdQNWhGdGJQbw?oc=5" target="_blank" rel="noopener">[특징주] 코스맥스 3% 강세⋯&#x27;K뷰티 호황&#x27; 실적 레벨업</a><div class="meta"><span>아이뉴스24</span><span class="dot">·</span><span>09:51</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#7A4A55"><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE1tZndKbzBSZV9QLW5jQ184NWpQdjR5TkJTQktUc2s1cG9SdE81cVZHOFlJV1dDa1BCeWhSTlZWUzkzSjlmSXJxYVVISVRXVjJmUk5EaXM1WVRycVQweWozMElrbkNtb3VxVzVESw?oc=5" target="_blank" rel="noopener">코스맥스, 글로벌 화장품 수요 확대에 실적 고성장…목표가 유지</a><div class="meta"><span>한국증권신문</span><span class="dot">·</span><span>09:12</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#7A4A55"><a href="https://news.google.com/rss/articles/CBMic0FVX3lxTFBjVFFodGZ2ckF6U3JYMUc1VWgzYWhVTlM0VlVfT3FTbFNaYXIzQ3dCQldGZmVEYVZ2aUJRYTlRNktVMHFJQlQxQVpzUG9rSl9BNTRmenlxenplLWRMR3d5akM1NzUzdEl4MXYyemZYZEZia1E?oc=5" target="_blank" rel="noopener">코스맥스, 한·미 법인 고성장에 실적 호조…목표가 41만원 상향-신한</a><div class="meta"><span>마켓인</span><span class="dot">·</span><span>07:52</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#7A4A55"><a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE5lNFBkWmFGQVh3ZW00dTY4TkJvTXFIRmlmOGNYUWhjdlNfSk9KSFA3OHFpZXY4ZHRQejJLMmJWc3MxVTJnX0lnSkdoVlg0VDFLQWNTaDNlM3FmNVloMElLa21fZkdRZ3djbGxRNGs3RFcwX1nSAXdBVV95cUxQa1JMS0RnUE5fN2VXTlNUV2FHSjNWbGtmdkdUN25JSHE1cnlMTVExM21GcmtwRkk5bU5ITDJOYTZ1aGl6bXphNHROSWt4S1pVSkxYd295bWRsaG82aE52aHg4ajFzbXUwM3YwNmNsQkdMTEpVQ1pPVQ?oc=5" target="_blank" rel="noopener">코스피·코스닥 전 거래일(11일) 주요공시는...실리콘투[257720] 3분기 영업이익 696억원 10.4%↑</a><div class="meta"><span>핀포인트뉴스</span><span class="dot">·</span><span>06:40</span><span class="tag">실리콘투</span></div></article><article class="item" style="color:#7A4A55"><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE5wdk5fZUc2dEdhVmtPM2RfRE5MNW9RUy1ob1pDRTRsUmNJek1obk12U3oxcEp4ZHRkbXVzUHMtdUFCZXUxaWpfX3l2dHF5VkttRkhYMHhyTmRLYjFjSVVzVHA0bUtWZXc1NEh0VQ?oc=5" target="_blank" rel="noopener">실리콘투, 3분기 영업이익 696억원… 매출 4,244억원 ‘사상 최대’</a><div class="meta"><span>CEO경제신문</span><span class="dot">·</span><span>17:25</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span><span class="tag">실리콘투</span></div></article><article class="item" style="color:#7A4A55"><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBlOHR2VzR1OXlYb3NMOV9GZkNiMlhsUnh2UVI3ZWozbUtTd3loRVNMTzBCcjY1UTZNX2Z1YVdNMWtQakt5X1pJZDJKU0lxLXE4dlo0c1FQVjV4VGNwdnE1cW1YZEI?oc=5" target="_blank" rel="noopener">[2026 3분기 실적] 코스맥스, 비수기 공식 깼다…매출 8758억원</a><div class="meta"><span>인더뉴스</span><span class="dot">·</span><span>15:36</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#7A4A55"><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFAzdHhvd0VFcERqZmpnWFhDRXB1WmVTTjEtbV9zZzF2akJHYUp6aGZSdzZVOURqUmtPa0VncHJsdDIzMHc5TTdkRWhDb081RTBUU3R4bGFBXzdpUQ?oc=5" target="_blank" rel="noopener">화장품 주문 밀려든 코스맥스, 실적 &#x27;고공행진&#x27;</a><div class="meta"><span>한국경제</span><span class="dot">·</span><span>17:29</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#7A4A55"><a href="https://news.google.com/rss/articles/CBMiV0FVX3lxTFBRcVlfLTZLb3JLcm9mSXNBMkgtLTdERVZ6UFhqZ0hON1huNVRRbTJQQ3VZV1ZhWkphX1lqRW9XWVRGeXZkMHRTVlNaWmVmZ2xzWjNNWnVSYw?oc=5" target="_blank" rel="noopener">코스맥스 K-뷰티 붐 타고 처음으로 분기 매출 8천억 원 넘겼다 : 한국 본사 매출액 6천억 원 돌파도 최초</a><div class="meta"><span>허프포스트코리아</span><span class="dot">·</span><span>16:04</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span><span class="tag">코스맥스</span></div></article></section><section class="group" data-category="브랜드"><div class="group-head"><span class="group-chip" style="background:#A8456B"></span><h3>브랜드</h3><span class="note">브랜드사 실적·신제품·마케팅</span><span class="count">9</span></div><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5IRXd0SHNlUXhMQmJCRVFYYTlpUzhoOUJVWm9mZFRGQUJ1Tm1hM2M2RDlaWGR5MXNrVE9DVGlCaTgzdTkyRUxnbk5CUzgwcTcxdmZ0NWxyaDAxTkQtellNcVFESnM?oc=5" target="_blank" rel="noopener">에이피알, ‘에이지알’ 앱 글로벌 누적 다운로드 250만 건 돌파…월간 활성 이용자 36만 명</a><div class="meta"><span>매일일보</span><span class="dot">·</span><span>09:02</span><span class="dot">·</span><span class="dupes">17개 매체 보도</span><span class="tag">에이피알</span></div></article><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE1GdEZEVENHVlB2emhFTEE3bEhXLUlwbzdWb09LWjVSeXdDUm9oRnZaXzRyWE5QbkMwWHVFc0I5UDktanNfb2lsVl9qYnQ3UUJRWk9ycW9IX095eGY1QnlGVWNjLThRZFhJRnA4c3M1VGlOQU3SAXNBVV95cUxNRnRGRFRDR1ZQdnpoRUxBN2xIVy1JcG83Vm9PS1o1Unl3Q1JvaEZ2Wl80clhOUG5DMFh1RXNCOVA5LWpzX29pbFZfamJ0N1FCUVpPcnFvSF9PeXhmNUJ5RlVjYy04UWRYSUZwOHNzNVRpTkFN?oc=5" target="_blank" rel="noopener">CJ올리브영, AI 쇼핑 어시스턴트 &#x27;올영 티키&#x27; 시범운영…12월 정식 출시</a><div class="meta"><span>뉴스웍스</span><span class="dot">·</span><span>23:44</span><span class="dot">·</span><span class="dupes">11개 매체 보도</span><span class="tag">올리브영</span></div></article><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTFBteXBfWERFblZRbnN5SHhWZnhkZ2RpdzhmUDBmRGVDenFLdTIxOXFhWlctOS01LVJSYWc0Q0l2cUwxbTBOMVhVWFZaMUczWGFhcEd1RmZxWlBUa2ZGQlNCOTRNSU45bnhqNkRn?oc=5" target="_blank" rel="noopener">아모레퍼시픽, 노화 피부 개선 단서 찾았다…‘오토파지’ 활성화 메커니즘 입증</a><div class="meta"><span>헬스경향</span><span class="dot">·</span><span>17:47</span><span class="dot">·</span><span class="dupes">10개 매체 보도</span><span class="tag">아모레퍼시픽</span></div></article><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1qVE9WSDlMY3dDOEZ4R0U5M3hRY3IxZjVjcVpsLWtDUmlJb1c0RlhRd0t6dTJmaG9SUTc4d2ZMSnhJUHBfRWt6M25ic0NuYlFIazlVSElpc3RhZDRNRnoyNXhHQmQyRHl4ZkpHQ0dsNHfSAXRBVV95cUxNdmZ0MEpzT2hDMW9Sam1kdml5VDNMeldCWm42OHphU2N1YUgtbjdSc094SDlJbHRYYk9ZRzM1TUlFSEJKNFdXZVN2NTl6eE5rYU5tSHFQZWNMai1jMUFfMTgwUG9HN0Y3Y01ZelkyU0dic3UyTQ?oc=5" target="_blank" rel="noopener">컬리, DDP서 ‘컬리뷰티페스타 2026’ 개막…45개 브랜드 참여</a><div class="meta"><span>스포츠한국</span><span class="dot">·</span><span>10:36</span><span class="dot">·</span><span class="dupes">7개 매체 보도</span></div></article><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE44eHZWeUJtWWNlOEw1NGRTblVvRU9VYzBHOVBlVU4zczBYa2NLRHhnelVKT29wMUk4V1NMa01QemJmN255eGN0eDZ0VU56b0RmMXdMWWtDYUTSAVhBVV95cUxOOHh2VnlCbVljZThMNTRkU25Vb0VPVWMwRzlQZVVOM3MwWGtjS0R4Z3pVSk9vcDFJOFdTTGtNUHpiZjdueXhjdHg2dFVOem9EZjF3TFlrQ2FE?oc=5" target="_blank" rel="noopener">&#x27;설화수 대신 조선미녀&#x27;…중소뷰티 뜨자 한국콜마·코스맥스 날개 [취재여담]</a><div class="meta"><span>SBS Biz</span><span class="dot">·</span><span>17:25</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span><span class="tag">코스맥스</span><span class="tag">한국콜마</span><span class="tag">조선미녀</span></div></article><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9FRGc4S3dqTktqYmRkWWMzenh5VXNNanpOSm1KX1JYYnBqQkZPYzFfNVVYSUxYSUVVaFhjemhDRjNYdkZuOWcyNkVYVUxlaFpyOUxsTG1zOWpBMk1YZHhkYk9WZzBrWjFXVUE?oc=5" target="_blank" rel="noopener">[심층분석] 아모레퍼시픽, 피부 노화의 핵심 경로 PDK1 규명…‘오토파지’ 기반 역노화 기술의 산업적 가능성</a><div class="meta"><span>뉴스밸류</span><span class="dot">·</span><span>15:00</span><span class="dot">·</span><span class="dupes">5개 매체 보도</span><span class="tag">아모레퍼시픽</span></div></article><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE1qT2tTZ0tkT21fcF9XcWtuQUJVbmZ6bE5ORzZ5U0l2WnFyR2FLR2pyN1dnOXh3WDNpNVJqTDhaLUlaUzBuZklMSzltSmRaeDNOWXFFRS1GSlB6bzZQMlhZeDNJekNNcXVwOTdF?oc=5" target="_blank" rel="noopener">[동정] 오설록, 무카페인·디카페인 신제품 출시</a><div class="meta"><span>주간신문씨엠엔</span><span class="dot">·</span><span>17:10</span></div></article><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMickFVX3lxTE1iNTRNRmY5QzAxWjY2ckRUUFBkSzRPM2xYVm9oemI4SUlyLS00aERNWFY1TFNlYUV3V1JpTTZQZkJYdV9KMUliRXdmVncxSXRSRzlURVpRSFdGNU5Bamw5R05NVE10UFBwNXYzYnN4Z2pFZw?oc=5" target="_blank" rel="noopener">홍콩 아시아월드엑스포에서 이미인, 2027 SS 시즌 17종 신제품 공개</a><div class="meta"><span>스페셜타임스</span><span class="dot">·</span><span>11:07</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#A8456B"><a href="https://news.google.com/rss/articles/CBMic0FVX3lxTE9rNHFtZDVFckFfckk1TDFDX0Q0SzU5d1B1MXlXSlA4a21PLWRTdlJHSW1yMW5Dbl95aW4tMVRacjhzMDRpOWFCOTMzQ0YxZ29qVlFQNjhNNkhYdU9sQWlmQjY3WFJWbE9kOUwwaDl2NldIRXc?oc=5" target="_blank" rel="noopener">[K-뷰티 신화를 쓰다③] &quot;10년 만에 매출 44배&quot;…에이피알, &#x27;디바이스+뷰티&#x27; 콤보로 글로벌 돌풍</a><div class="meta"><span>소비자가 만드는 신문</span><span class="dot">·</span><span>06:10</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span><span class="tag">에이피알</span></div></article></section><section class="group" data-category="유통·채널"><div class="group-head"><span class="group-chip" style="background:#8A6634"></span><h3>유통·채널</h3><span class="note">리테일·이커머스·면세</span><span class="count">8</span></div><article class="item" style="color:#8A6634"><a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE5rQzZCZHBPZnM4OHNrZU5uVTYwdFBLdEhMX3J0cXNtMzJVbFlqaFV3QkJNUDc3MklfLWxXcUlvOVE3ZW1LMHhyWkFLR3F3TWRpbHdZNWtHaDBoR21SR25QT0NaXzZaMlBTOGhQNEpySXlqM2NqWE9jWk9R?oc=5" target="_blank" rel="noopener">퓨어그램, 무신사 뷰티 성수점 온누리약국 추가 입점...K-뷰티 오프라인 유통망 확대</a><div class="meta"><span>로이슈</span><span class="dot">·</span><span>17:23</span></div></article><article class="item" style="color:#8A6634"><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE92VHI3RzFGOUhlZVE3d3JpWmJRUEdzRkg5M3drb1hNbEliMi05WGNwb1UxTTVTNGJzQUxGM0trcUo2RnV2STd5MG8zWWxJbzkzQ3N1NFplUmxTR0tFWkZoMDJsVGNVS2RtdGIxSkJZenU?oc=5" target="_blank" rel="noopener">풀리, 美 세포라 입점 한 달 만에 판매량 2배…K뷰티 경쟁력 입증</a><div class="meta"><span>리드경제</span><span class="dot">·</span><span>08:53</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#8A6634"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE1vdnNiVFNXVzdrTFRzOXFnbmwtWmVjZHdLY1NlSy1lY1A3Wl9keEZnRDEzZU5xSWhRdml4NE4xZnB3ZzdXYUFza3F5WFVWektOUUU1d2M3eXk4X3k2Wm1MckJ2SnYxNGVmMWc?oc=5" target="_blank" rel="noopener">K-뷰티 美 수출 62.7%↑…리엔케이, 코스트코 25개 매장 입점</a><div class="meta"><span>뷰티경제</span><span class="dot">·</span><span>10:50</span></div></article><article class="item" style="color:#8A6634"><a href="https://news.google.com/rss/articles/CBMickFVX3lxTFBTSG9WZ1hvTUtoUUVFNVRPUGZ5SlZVcmw5aGdZU0VuS2ZCanZSY1E1WEppT0JCbGFkaE1mWXV4SDl0aGZkU3U0T0JhX094cFlKR1NZQnNheTIyNnFpc1RiMFBTQW5IMjEtQTlrRDFlWk54Zw?oc=5" target="_blank" rel="noopener">쿠팡, 중소기업 대만 거래액 81% 증가…K뷰티 넘어 생활용품까지 확대</a><div class="meta"><span>인더스트리뉴스</span><span class="dot">·</span><span>16:47</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span></div></article><article class="item" style="color:#8A6634"><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFBNeXQ2dHAxS2EtajN5R0xMaE1WcXJzQUNVNHJjT0NKQjEzWDVBbzZFZEhKejdqZWxmaGttZmdiYS1zOGx1YmRPZ2Q4UWZVVGNYd1ZXczdlendFa05NcTlTQkgzVGVrWEhh?oc=5" target="_blank" rel="noopener">무신사, 두 번째 뷰티 단독 매장은 성수...올리브영VS무신사, 서울 성수에서 대격돌</a><div class="meta"><span>녹색경제신문</span><span class="dot">·</span><span>16:46</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span><span class="tag">올리브영</span></div></article><article class="item" style="color:#8A6634"><a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTFBYUXR4VllBdXpYTlV1RWF1ZnYtaXRTVi03QWhpd21rRktCMWNwRlFWT3Blc2o1MFJTTm9TWWZ3VzJjQlJ4aE9nazVlTTRvNHBiM2NQZTVMX1lsSGc5?oc=5" target="_blank" rel="noopener">hy, 올리브영 입점 없이 &#x27;아이오셀&#x27; 브랜드로 뷰티 플랫폼 본격화</a><div class="meta"><span>뉴스핌</span><span class="dot">·</span><span>10:43</span><span class="tag">올리브영</span></div></article><article class="item" style="color:#8A6634"><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xU08wSzNnU0ZzOTdTbEtORjQwdlRicl83bE13Mkw5NjlzTXNfc1JZd2wycTVGX2VBMnlHNTRjNDVOQWpTeVhYckh3NmdMT25MdUo1TWlhNzNTMkU3QV9J?oc=5" target="_blank" rel="noopener">전시 넘어 유통 판로 지원까지</a><div class="meta"><span>뷰티누리</span><span class="dot">·</span><span>10:13</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article><article class="item" style="color:#8A6634"><a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE1MaHJ1eFNtTGFSUjU5WEV0SFBpTm82YWxGT2Y0YVliQnZhakdKcFZYanR6NXAxMktPZmxfWW9fY1FSaU9JeDZOcnV4enZxQkZlWHdCdzBvbDRvdlQ2VHc1c3dQNA?oc=5" target="_blank" rel="noopener">11월 1일 기준 올리브영 온라인몰 입점 브랜드 현황·조회&amp;리뷰 수 톱10</a><div class="meta"><span>코스모닝</span><span class="dot">·</span><span>04:40</span><span class="tag">올리브영</span></div></article></section><section class="group" data-category="주가·시황"><div class="group-head"><span class="group-chip" style="background:#6A6472"></span><h3>주가·시황</h3><span class="note">주가 등락·증권가 전망</span><span class="count">6</span></div><article class="item" style="color:#6A6472"><a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE9Oc1VWU2x4U0p3NWt6M3lXdE5FUVVzLXJHVFk4ZzQ3TnRDZE5oRDhaWUxVODZtVzBoYTYydXlpLXYweEljaHlqd1pQOGU4SlpWMXZSVm1fUmdiZm4xbkEyNTVBZUhPSnJBMmlvcmZZTkdWZEdNamlv?oc=5" target="_blank" rel="noopener">[마켓트래커] 코스맥스, 3분기 매출 8758억원 &#x27;역대 최대&#x27;…영업익 95% 급증에 주가 9% 급등</a><div class="meta"><span>이코노미트리뷴</span><span class="dot">·</span><span>18:26</span><span class="dot">·</span><span class="dupes">11개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#6A6472"><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9YcjVxb29LWTlSTlpFZU9aYlBHMVZVM2NtYWlOZnRsc0JuY0loVThhSm5KZ0ZfMEZEb014S1QzcnF6T0RjWGs2eWJlYmpZanY5MklQcndPTUFUSWZNMlFv?oc=5" target="_blank" rel="noopener">&#x27;K뷰티&#x27; 주문 몰린 코스맥스, 영업익 2배 껑충...증권가도 목표가 &#x27;상향&#x27; [주가동향]</a><div class="meta"><span>조세일보</span><span class="dot">·</span><span>09:40</span><span class="dot">·</span><span class="dupes">5개 매체 보도</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#6A6472"><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE0ydVA3eTRhc09XMGI2eXhDMm94cEZ5WkZSb0w3VFMxVnpmMFJlQlQ4eUxJcW5nOFoxeHFvcUdXU1lYel9VWHdON3p3dDNRNDFCblhkb1RiTXcwaUtKNHBQWWloR3NtNl9KdHdNMXN2SDNURExGYnZYN2V3blBuNDg?oc=5" target="_blank" rel="noopener">코스맥스, 국내·미국 쌍끌이 성장…증권가 목표주가 줄상향</a><div class="meta"><span>스타뉴스</span><span class="dot">·</span><span>10:59</span><span class="tag">코스맥스</span></div></article><article class="item" style="color:#6A6472"><a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTFB5WHhEVG9FOHAwdzNFQXVjOWs0WWdYbGdZcTljalA3NWFxUGdieHRQR1FabENDcXQ4Q3JLWVAwMC1Zc2lSdlA2ckwzSV9XVEI0cWtadHRhUHYxelot?oc=5" target="_blank" rel="noopener">[모닝 리포트] 실리콘투, 환율 충격에 목표가 23%↓…&quot;저점매수 유효&quot;</a><div class="meta"><span>뉴스핌</span><span class="dot">·</span><span>09:25</span><span class="tag">실리콘투</span></div></article><article class="item" style="color:#6A6472"><a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxPd29MVDZEdGJpX212UWNQRHF2R01zRUFGMV9YOHlXeFdsRXhzVXcybXJKTG5nUWJhS1Y3WWM4ZU9UMHhiT1ZlWkZEWHRFNTlYal9TWXp2cFVSQ0Q5aG8xeVpLc0FXLS1IZTB0Y1VZcTZ0bUxjTmFaOVAwLThwQkQyUUtYd09ETEdGTjhBcmZ0Y1dSSDR5eHc?oc=5" target="_blank" rel="noopener">아모레퍼시픽 주가 기술적 분석: 현재 거래에서 약세 모멘텀이 우세</a><div class="meta"><span>Traders Union</span><span class="dot">·</span><span>13:07</span><span class="tag">아모레퍼시픽</span></div></article><article class="item" style="color:#6A6472"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5KZ1JINEpWSEpaMThSTXpiT3JiZlJFSUs1dDVsNk1IWE1UZG4tc3RJWTAxbHNiR3BXV2lJNEpZZm5ndlZDRUZDdmdZazltTWZjM1pWZWtsSHRTN1pLbUR1NGN6cTVFOU80MGc?oc=5" target="_blank" rel="noopener">10월 티몰 뷰티 트렌드 리포트②: 선케어 TOP10 판매량 17.6% 증가...한국관은 34.4% 감소</a><div class="meta"><span>뷰티경제</span><span class="dot">·</span><span>10:45</span><span class="dot">·</span><span class="dupes">2개 매체 보도</span></div></article></section><section class="group" data-category="기타"><div class="group-head"><span class="group-chip" style="background:#8C8A93"></span><h3>기타</h3><span class="note">분류되지 않은 기사</span><span class="count">4</span></div><article class="item" style="color:#8C8A93"><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qNEY2Z2FFdXdjcXJpd05iQUFjQlVubEdseHpFRG10eTFnMG5MQkR0bmp6NzVrVEFIVVQ3eURjY0p2UUhpaXVTb0xYV3VBRm1PTDN4dnc2X0RBS3pDSXZ3?oc=5" target="_blank" rel="noopener">화장품신문 (Beautynury.com) :: K-뷰티, 코스모프로프아시아 어워즈서 6개 부문 중 5개 수상</a><div class="meta"><span>뷰티누리</span><span class="dot">·</span><span>01:09</span><span class="dot">·</span><span class="dupes">16개 매체 보도</span></div></article><article class="item" style="color:#8C8A93"><a href="https://news.google.com/rss/articles/CBMickFVX3lxTE9tc2JoQVZucUxxbHk3Y0c4QU4xZnh1M2h2NEt2WHNRQ1JPY20tOW5iZDNFWHpSdDQ4d3N3ZlZrRVR6NFNYYXBDejZwUHBmZ0ljdEJNNVZ6bjBydDViSTNKUEtQeWtES2xya0VZcHd5cEtuUQ?oc=5" target="_blank" rel="noopener">신용한 충북지사 “오송화장품뷰티엑스포 성과, 내년에도 계속”</a><div class="meta"><span>굿모닝충청</span><span class="dot">·</span><span>16:32</span><span class="dot">·</span><span class="dupes">5개 매체 보도</span></div></article><article class="item" style="color:#8C8A93"><a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE5XN0oxLWFrLWgyWWwwbzJ3bnVYdXV1b3ZhMVh2OVNhQnlIMElPVzUwV3p4M1JHbGxfb3RkS1UzZzBKYWR4TlNFYkI1YVJKeldRdWZ4UzFMN3gxS3JJbndNaDhibE1RWlEwY0hlbEhwY2p3dHVaajRxemZ3?oc=5" target="_blank" rel="noopener">제이투케이바이오, 3Q 영업익 전년 동기 대비 109% 급증…매출 동반 성장</a><div class="meta"><span>약업신문</span><span class="dot">·</span><span>16:31</span><span class="dot">·</span><span class="dupes">5개 매체 보도</span></div></article><article class="item" style="color:#8C8A93"><a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE5hT2ZSeEM3Qjgxd1l2THc3WEhZMGJ1dldFYjA4RDBfTmotdnk4QVdoMmwwVHBSTmhESnZNUmxKVVA1bGNrd2JRbTY5c1NoQ2NIQU5wM3ZpN3JmX1QyOW1PZUg5VQ?oc=5" target="_blank" rel="noopener">코이코, 홍콩 코스모프로프서 K-뷰티 87社 이끈다</a><div class="meta"><span>코스모닝</span><span class="dot">·</span><span>10:05</span><span class="dot">·</span><span class="dupes">4개 매체 보도</span></div></article></section><section class="group" data-category="원료·부자재"><div class="group-head"><span class="group-chip" style="background:#5F7343"></span><h3>원료·부자재</h3><span class="note">원료·용기·패키징</span><span class="count">3</span></div><article class="item" style="color:#5F7343"><a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE1zVHMwLXJSMUgyZDFBcC1TeV9qNWZWZ2FvRktsWmc1Wm9WVVlWakd3dkZKMVRFZFFCeWVqb3FjbDVieWpVTTgyUkkwLU9jNXdjVUZ1aXczTlJKMTNiaWdYdkpWaktqUQ?oc=5" target="_blank" rel="noopener">코스메카코리아, 국립생물자원관과 K-뷰티 독자 소재 공동 개발</a><div class="meta"><span>코스인코리아닷컴</span><span class="dot">·</span><span>11:48</span><span class="dot">·</span><span class="dupes">6개 매체 보도</span><span class="tag">코스메카코리아</span></div></article><article class="item" style="color:#5F7343"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9OaFNJZkFFSTdTcTEyN0xaVERXQjREcG9GcUNLb2FrMm9ReE1OQ1NnRWJfQXdOWFVYTGlYVk9oem92VTMtTEgzTHFFSVBFck5qQUJEZnIxYlhmS25nck15bkFBYTNtYUVhZ1E?oc=5" target="_blank" rel="noopener">주가로 읽는 K-뷰티: 색조·원료주 약세, 용기주는 견조</a><div class="meta"><span>뷰티경제</span><span class="dot">·</span><span>19:30</span></div></article><article class="item" style="color:#5F7343"><a href="https://news.google.com/rss/articles/CBMickFVX3lxTE5USXU4N0hWYmZwWmJ1OUJYZUR1MzhjTlNvdHE3RlZsbkxPWlRSV3dsVG1LR1A0Q3pXbzJ3RXFMWUtReWtKckZIejZ3ZUl4Z19FWXpIZ1VBYlAtaDFMbmRuNlRBT1VtYjNMM1FMMldERWNjZw?oc=5" target="_blank" rel="noopener">아모레퍼시픽, 피부 노화 억제 소재 작용 원리 규명…장벽·보습 개선 효과 확인</a><div class="meta"><span>인더스트리뉴스</span><span class="dot">·</span><span>13:13</span><span class="dot">·</span><span class="dupes">3개 매체 보도</span><span class="tag">아모레퍼시픽</span></div></article></section></div>
+  <footer class="foot">갱신 2026-11-12 12:29 KST · 구글 뉴스 RSS 수집<div class="archive">지난 기록 <strong>11-12</strong><a href="2026-11-11.html">11-11</a><a href="2026-11-10.html">11-10</a><a href="2026-11-09.html">11-09</a><a href="2026-11-08.html">11-08</a><a href="2026-11-07.html">11-07</a><a href="2026-11-06.html">11-06</a><a href="2026-11-05.html">11-05</a><a href="2026-11-04.html">11-04</a><a href="2026-11-03.html">11-03</a><a href="2026-11-02.html">11-02</a><a href="2026-11-01.html">11-01</a><a href="2026-10-31.html">10-31</a><a href="2026-10-30.html">10-30</a></div></footer>
+</div>
+<script>
+// 구간 폭을 재서 글자가 잘리기 전에 미리 숨깁니다.
+// 창 크기가 바뀌어도 다시 계산합니다.
+const segments = document.querySelectorAll('.strip button');
+
+function fitSegments() {
+  segments.forEach(seg => {
+    const w = seg.offsetWidth;
+    seg.classList.toggle('tight', w < 104);
+    seg.classList.toggle('micro', w < 46);
+  });
+}
+
+fitSegments();
+window.addEventListener('resize', fitSegments);
+
+// 웹폰트가 늦게 오면 글자 폭이 바뀌므로 한 번 더 계산합니다.
+if (document.fonts && document.fonts.ready) {
+  document.fonts.ready.then(fitSegments);
+}
+
+const buttons = document.querySelectorAll('[data-filter]');
+const groups = document.querySelectorAll('[data-category]');
+
+function apply(target) {
+  buttons.forEach(b => b.setAttribute('aria-pressed', String(b.dataset.filter === target)));
+  groups.forEach(g => {
+    g.style.display = (target === 'all' || g.dataset.category === target) ? '' : 'none';
+  });
+}
+
+buttons.forEach(b => b.addEventListener('click', () => apply(b.dataset.filter)));
+
+document.querySelectorAll('[data-jump]').forEach(seg => {
+  seg.addEventListener('click', () => {
+    apply(seg.dataset.jump);
+    document.getElementById('feed').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+});
+</script>
+</body>
+</html>

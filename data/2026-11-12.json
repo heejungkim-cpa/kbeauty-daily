@@ -1,0 +1,1086 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T12:29:20.392082+09:00",
+  "total": 80,
+  "counts": {
+    "브랜드": 9,
+    "기타": 4,
+    "주가·시황": 6,
+    "수출·해외": 16,
+    "ODM·OEM": 23,
+    "실적·공시": 11,
+    "원료·부자재": 3,
+    "유통·채널": 8
+  },
+  "briefing": null,
+  "failed_feeds": [],
+  "articles": [
+    {
+      "title": "에이피알, ‘에이지알’ 앱 글로벌 누적 다운로드 250만 건 돌파…월간 활성 이용자 36만 명",
+      "source": "매일일보",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5IRXd0SHNlUXhMQmJCRVFYYTlpUzhoOUJVWm9mZFRGQUJ1Tm1hM2M2RDlaWGR5MXNrVE9DVGlCaTgzdTkyRUxnbk5CUzgwcTcxdmZ0NWxyaDAxTkQtellNcVFESnM?oc=5",
+      "published": "2026-11-12T09:02:25+09:00",
+      "snippet": "에이피알, ‘에이지알’ 앱 글로벌 누적 다운로드 250만 건 돌파…월간 활성 이용자 36만 명 매일일보",
+      "query": "에이피알 뷰티",
+      "duplicates": 16,
+      "category": "브랜드",
+      "relevance": 17,
+      "companies": [
+        "에이피알"
+      ]
+    },
+    {
+      "title": "화장품신문 (Beautynury.com) :: K-뷰티, 코스모프로프아시아 어워즈서 6개 부문 중 5개 수상",
+      "source": "뷰티누리",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qNEY2Z2FFdXdjcXJpd05iQUFjQlVubEdseHpFRG10eTFnMG5MQkR0bmp6NzVrVEFIVVQ3eURjY0p2UUhpaXVTb0xYV3VBRm1PTDN4dnc2X0RBS3pDSXZ3?oc=5",
+      "published": "2026-11-12T01:09:00+09:00",
+      "snippet": "화장품신문 (Beautynury.com) :: K-뷰티, 코스모프로프아시아 어워즈서 6개 부문 중 5개 수상 뷰티누리",
+      "query": "K뷰티",
+      "duplicates": 15,
+      "category": "기타",
+      "relevance": 15,
+      "companies": []
+    },
+    {
+      "title": "[마켓트래커] 코스맥스, 3분기 매출 8758억원 '역대 최대'…영업익 95% 급증에 주가 9% 급등",
+      "source": "이코노미트리뷴",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9Oc1VWU2x4U0p3NWt6M3lXdE5FUVVzLXJHVFk4ZzQ3TnRDZE5oRDhaWUxVODZtVzBoYTYydXlpLXYweEljaHlqd1pQOGU4SlpWMXZSVm1fUmdiZm4xbkEyNTVBZUhPSnJBMmlvcmZZTkdWZEdNamlv?oc=5",
+      "published": "2026-11-11T18:26:42+09:00",
+      "snippet": "[마켓트래커] 코스맥스, 3분기 매출 8758억원 '역대 최대'…영업익 95% 급증에 주가 9% 급등 이코노미트리뷴",
+      "query": "코스맥스",
+      "duplicates": 10,
+      "category": "주가·시황",
+      "relevance": 14,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "에이피알 메디큐브, 이탈리아 밀라노 ‘라 리나센테’ K뷰티 팝업 참가...유럽 영토 확장",
+      "source": "시선뉴스",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE53ME5nTXktVmFXT2JCMktnT21ieFRoc1hNZUZZWldpcEU5M19BRmwzUWU5Y0JrTllTc2EzX29iTWV4Z1dzcE81cU5qdzNLTXhRc1dIdlBwVWxrb3VaQ2FrMzJhVGlXY19uYVUza0pR0gFyQVVfeXFMTzhLVER5THlkeGQ4TjJZbG5UUVpBNGxoam9ONkpoVlRQT1ZxZEEtMTl0d2lZVEFNZmV0X01IbjRPQWdFSWk5TEgyZmgyVHFlZVlmTFpTa0V3NnV0Rll0dzhTa2M3dktaSnNFOVhwZGhONU9B?oc=5",
+      "published": "2026-11-11T16:28:51+09:00",
+      "snippet": "에이피알 메디큐브, 이탈리아 밀라노 ‘라 리나센테’ K뷰티 팝업 참가...유럽 영토 확장 시선뉴스",
+      "query": "K뷰티",
+      "duplicates": 11,
+      "category": "수출·해외",
+      "relevance": 13,
+      "companies": [
+        "에이피알"
+      ]
+    },
+    {
+      "title": "CJ올리브영, AI 쇼핑 어시스턴트 '올영 티키' 시범운영…12월 정식 출시",
+      "source": "뉴스웍스",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GdEZEVENHVlB2emhFTEE3bEhXLUlwbzdWb09LWjVSeXdDUm9oRnZaXzRyWE5QbkMwWHVFc0I5UDktanNfb2lsVl9qYnQ3UUJRWk9ycW9IX095eGY1QnlGVWNjLThRZFhJRnA4c3M1VGlOQU3SAXNBVV95cUxNRnRGRFRDR1ZQdnpoRUxBN2xIVy1JcG83Vm9PS1o1Unl3Q1JvaEZ2Wl80clhOUG5DMFh1RXNCOVA5LWpzX29pbFZfamJ0N1FCUVpPcnFvSF9PeXhmNUJ5RlVjYy04UWRYSUZwOHNzNVRpTkFN?oc=5",
+      "published": "2026-11-11T23:44:55+09:00",
+      "snippet": "CJ올리브영, AI 쇼핑 어시스턴트 '올영 티키' 시범운영…12월 정식 출시 뉴스웍스",
+      "query": "올리브영 화장품",
+      "duplicates": 10,
+      "category": "브랜드",
+      "relevance": 12,
+      "companies": [
+        "올리브영"
+      ]
+    },
+    {
+      "title": "코스맥스 3분기 매출 8758억원 사상 최대…한국 법인 6000억원 돌파, 미국 법인 2분기 연속 흑자",
+      "source": "데일리팝",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Ramw1azIwUzNyOTRobzdoVFRlQXdqSkdGOEtXbHRub19ZamFJdnZtN05lVVFteVlSWWtvNUlOMlZFS2F0OXFrWEZfWjBOZjc4U1hZYjZKdDRJR1RqSzRMSFZZWld0SWw4?oc=5",
+      "published": "2026-11-12T10:22:00+09:00",
+      "snippet": "코스맥스 3분기 매출 8758억원 사상 최대…한국 법인 6000억원 돌파, 미국 법인 2분기 연속 흑자 데일리팝",
+      "query": "코스맥스",
+      "duplicates": 8,
+      "category": "수출·해외",
+      "relevance": 10,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "K-콘텐츠 뜨면 수출도 뛴다…멕시코는 화장품, 일본은 식품",
+      "source": "서플 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84SWtHbHMzXzJlOEVuUWR2MXZycUFqSlk2QzdyNUF2VUI4WXEtRmNFLXVmNGk4OUF0dTBNdFdhbTRiTnpTVDgzY2d5UXNLMjE2U2tfX2pyR0k4bVlj?oc=5",
+      "published": "2026-11-12T06:59:19+09:00",
+      "snippet": "K-콘텐츠 뜨면 수출도 뛴다…멕시코는 화장품, 일본은 식품 서플 뉴스",
+      "query": "화장품 수출",
+      "duplicates": 6,
+      "category": "수출·해외",
+      "relevance": 10,
+      "companies": []
+    },
+    {
+      "title": "아모레퍼시픽, 노화 피부 개선 단서 찾았다…‘오토파지’ 활성화 메커니즘 입증",
+      "source": "헬스경향",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBteXBfWERFblZRbnN5SHhWZnhkZ2RpdzhmUDBmRGVDenFLdTIxOXFhWlctOS01LVJSYWc0Q0l2cUwxbTBOMVhVWFZaMUczWGFhcEd1RmZxWlBUa2ZGQlNCOTRNSU45bnhqNkRn?oc=5",
+      "published": "2026-11-11T17:47:53+09:00",
+      "snippet": "아모레퍼시픽, 노화 피부 개선 단서 찾았다…‘오토파지’ 활성화 메커니즘 입증 헬스경향",
+      "query": "아모레퍼시픽",
+      "duplicates": 9,
+      "category": "브랜드",
+      "relevance": 10,
+      "companies": [
+        "아모레퍼시픽"
+      ]
+    },
+    {
+      "title": "“K-뷰티 타고 날았다”…코스맥스, 3분기 영업익 833억 전년比 95% ↑",
+      "source": "마이데일리",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FVVNvZFVfX003aU9acFRBX0oxb204MG5DbzB4UHJXNlhKZjZvUmc0QW9KNHc2MGFXTnIwYlhHTmJHU0ZXWEd6YUV2bTRROW5mQXI0anF4LVhSVWktMWdnNw?oc=5",
+      "published": "2026-11-11T18:28:36+09:00",
+      "snippet": "“K-뷰티 타고 날았다”…코스맥스, 3분기 영업익 833억 전년比 95% ↑ 마이데일리",
+      "query": "K뷰티",
+      "duplicates": 8,
+      "category": "ODM·OEM",
+      "relevance": 9,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "컬리, DDP서 ‘컬리뷰티페스타 2026’ 개막…45개 브랜드 참여",
+      "source": "스포츠한국",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1qVE9WSDlMY3dDOEZ4R0U5M3hRY3IxZjVjcVpsLWtDUmlJb1c0RlhRd0t6dTJmaG9SUTc4d2ZMSnhJUHBfRWt6M25ic0NuYlFIazlVSElpc3RhZDRNRnoyNXhHQmQyRHl4ZkpHQ0dsNHfSAXRBVV95cUxNdmZ0MEpzT2hDMW9Sam1kdml5VDNMeldCWm42OHphU2N1YUgtbjdSc094SDlJbHRYYk9ZRzM1TUlFSEJKNFdXZVN2NTl6eE5rYU5tSHFQZWNMai1jMUFfMTgwUG9HN0Y3Y01ZelkyU0dic3UyTQ?oc=5",
+      "published": "2026-11-12T10:36:22+09:00",
+      "snippet": "컬리, DDP서 ‘컬리뷰티페스타 2026’ 개막…45개 브랜드 참여 스포츠한국",
+      "query": "LG생활건강 뷰티",
+      "duplicates": 6,
+      "category": "브랜드",
+      "relevance": 8,
+      "companies": []
+    },
+    {
+      "title": "실리콘투, 7분기 연속 최대 매출…K뷰티 수출 날개",
+      "source": "경제타임스",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE42cWZlcXdFUWRYcVJDZ1NCQ3V5bzdiWUpncERJdjRmQ2lDLXlINkNubG92M3FmZ3J4OS1pTnNuel9PbUFxTWtkYWt2Yk9UTFlqQkZF?oc=5",
+      "published": "2026-11-12T10:21:40+09:00",
+      "snippet": "실리콘투, 7분기 연속 최대 매출…K뷰티 수출 날개 경제타임스",
+      "query": "K뷰티",
+      "duplicates": 5,
+      "category": "수출·해외",
+      "relevance": 8,
+      "companies": [
+        "실리콘투"
+      ]
+    },
+    {
+      "title": "'K뷰티' 주문 몰린 코스맥스, 영업익 2배 껑충...증권가도 목표가 '상향' [주가동향]",
+      "source": "조세일보",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9YcjVxb29LWTlSTlpFZU9aYlBHMVZVM2NtYWlOZnRsc0JuY0loVThhSm5KZ0ZfMEZEb014S1QzcnF6T0RjWGs2eWJlYmpZanY5MklQcndPTUFUSWZNMlFv?oc=5",
+      "published": "2026-11-12T09:40:00+09:00",
+      "snippet": "'K뷰티' 주문 몰린 코스맥스, 영업익 2배 껑충...증권가도 목표가 '상향' [주가동향] 조세일보",
+      "query": "K뷰티",
+      "duplicates": 4,
+      "category": "주가·시황",
+      "relevance": 8,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "'K뷰티 호황' 화장품 제조사 역대급 실적…수익성은 희비 엇갈려",
+      "source": "아시아경제",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9HSDloNWd0cGVDYU9kZy1zclBaZUlONEk5Y2ZIbE4zUTVIb05mSHZYdE5XbkFvNU9zRGctM2pmQVNXN1RBMDZZeTNBZ2pOcFJpRTUzY3ZWd3hhaHlVSzlqMg?oc=5",
+      "published": "2026-11-12T08:57:14+09:00",
+      "snippet": "'K뷰티 호황' 화장품 제조사 역대급 실적…수익성은 희비 엇갈려 아시아경제",
+      "query": "K뷰티",
+      "duplicates": 6,
+      "category": "실적·공시",
+      "relevance": 8,
+      "companies": []
+    },
+    {
+      "title": "코스맥스, 3분기 영업익 833억원 전년비 95%↑…\"고객사 주문 증대 영향\"",
+      "source": "뉴스포스트",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBldGRJN3NoNWhINXplZmVvLUt2U0JRMk0tcXREWU5WQ0FCOUxYRmowemtXOG9WbVVFQUlzM0liQmZXLXJLbTI1UnBvYUVfSktzampMXzRqNHRhdS04YUw3ZGNfbzJ4VVRO?oc=5",
+      "published": "2026-11-11T16:38:31+09:00",
+      "snippet": "코스맥스, 3분기 영업익 833억원 전년비 95%↑…\"고객사 주문 증대 영향\" 뉴스포스트",
+      "query": "코스맥스",
+      "duplicates": 7,
+      "category": "ODM·OEM",
+      "relevance": 8,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "코스메카코리아, 국립생물자원관과 K-뷰티 독자 소재 공동 개발",
+      "source": "코스인코리아닷컴",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1zVHMwLXJSMUgyZDFBcC1TeV9qNWZWZ2FvRktsWmc1Wm9WVVlWakd3dkZKMVRFZFFCeWVqb3FjbDVieWpVTTgyUkkwLU9jNXdjVUZ1aXczTlJKMTNiaWdYdkpWaktqUQ?oc=5",
+      "published": "2026-11-12T11:48:46+09:00",
+      "snippet": "코스메카코리아, 국립생물자원관과 K-뷰티 독자 소재 공동 개발 코스인코리아닷컴",
+      "query": "K뷰티",
+      "duplicates": 5,
+      "category": "원료·부자재",
+      "relevance": 7,
+      "companies": [
+        "코스메카코리아"
+      ]
+    },
+    {
+      "title": "코스맥스 3분기 매출 8758억으로 50% 증가, 분기 최대 매출 기록 새로 썼다",
+      "source": "비즈니스포스트",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1vZ3hBVmk1RzhnY1hsQmR0SVFQdnZSYU5faG5IbkJUSTlHMmprSWJRMkRyYnY4QWk0M3FGTHRlQzRQamtvZHJoY0VxbFBNZlI0Q3BNbEUwSVdCaHNhb2NBTmVYWVd4Wks1VEZyZXAzTFRwbzA?oc=5",
+      "published": "2026-11-11T17:00:51+09:00",
+      "snippet": "코스맥스 3분기 매출 8758억으로 50% 증가, 분기 최대 매출 기록 새로 썼다 비즈니스포스트",
+      "query": "코스맥스",
+      "duplicates": 6,
+      "category": "ODM·OEM",
+      "relevance": 7,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "K뷰티 수출 호조에 ODM 3사 성장…국내 공장 증설 잇따라",
+      "source": "글로벌이코노믹",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSzFLN3ZTOG5YNTRfMTB6VF9GSnVfbm9HYl9qdjg0VjlnLWdXb2w2OFhMVzc5SHFUZENQOXMtRDFFbXc1Yk1DVU1oVmwzek5UYjV4UzQxQXZWdXhIanI2Y0FrcDdCbjlCY3pZSWJRNHpNSndkR1NQa2NfRENIUFg1aU1WaWV5NG5IQkE?oc=5",
+      "published": "2026-11-11T16:05:05+09:00",
+      "snippet": "K뷰티 수출 호조에 ODM 3사 성장…국내 공장 증설 잇따라 글로벌이코노믹",
+      "query": "K뷰티",
+      "duplicates": 1,
+      "category": "ODM·OEM",
+      "relevance": 7,
+      "companies": []
+    },
+    {
+      "title": "코스맥스, 국내·미국 쌍끌이 성장…증권가 목표주가 줄상향",
+      "source": "스타뉴스",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0ydVA3eTRhc09XMGI2eXhDMm94cEZ5WkZSb0w3VFMxVnpmMFJlQlQ4eUxJcW5nOFoxeHFvcUdXU1lYel9VWHdON3p3dDNRNDFCblhkb1RiTXcwaUtKNHBQWWloR3NtNl9KdHdNMXN2SDNURExGYnZYN2V3blBuNDg?oc=5",
+      "published": "2026-11-12T10:59:29+09:00",
+      "snippet": "코스맥스, 국내·미국 쌍끌이 성장…증권가 목표주가 줄상향 스타뉴스",
+      "query": "코스맥스",
+      "duplicates": 0,
+      "category": "주가·시황",
+      "relevance": 6,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "코스맥스, 3분기 매출 8758억원 ‘역대 최대’…글로벌 화장품 ODM 시장 주도",
+      "source": "위메이크뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3REtnbzFmWXRodzBZczV0b3RZb3dVUFJtSlhSSHZpa3h0WEZ1RmxsVGxLM1AzNk41dnZfclYwbnk0cV9SbXhUZHItMnkwVGd6dDJocTAtUS1VUlk?oc=5",
+      "published": "2026-11-11T21:25:48+09:00",
+      "snippet": "코스맥스, 3분기 매출 8758억원 ‘역대 최대’…글로벌 화장품 ODM 시장 주도 위메이크뉴스",
+      "query": "코스맥스",
+      "duplicates": 3,
+      "category": "ODM·OEM",
+      "relevance": 6,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "퓨어그램, 무신사 뷰티 성수점 온누리약국 추가 입점...K-뷰티 오프라인 유통망 확대",
+      "source": "로이슈",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5rQzZCZHBPZnM4OHNrZU5uVTYwdFBLdEhMX3J0cXNtMzJVbFlqaFV3QkJNUDc3MklfLWxXcUlvOVE3ZW1LMHhyWkFLR3F3TWRpbHdZNWtHaDBoR21SR25QT0NaXzZaMlBTOGhQNEpySXlqM2NqWE9jWk9R?oc=5",
+      "published": "2026-11-11T17:23:00+09:00",
+      "snippet": "퓨어그램, 무신사 뷰티 성수점 온누리약국 추가 입점...K-뷰티 오프라인 유통망 확대 로이슈",
+      "query": "K뷰티",
+      "duplicates": 0,
+      "category": "유통·채널",
+      "relevance": 6,
+      "companies": []
+    },
+    {
+      "title": "밀려드는 주문에 진땀…K뷰티 호황 속 ODM사 생산능력은 과제로",
+      "source": "MTN 머니투데이방송",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41NFBoWGU2YXFxcEt3d05XeTJpNFFvQUZRVlZUZEg3QkNFb0IyQURPcTdsZlJsVHhhTW83Tk5CdEdNa1VRNURGZGNMcVc0U2hONjFqTW5rLWptYVJ0MWF3?oc=5",
+      "published": "2026-11-11T16:57:14+09:00",
+      "snippet": "밀려드는 주문에 진땀…K뷰티 호황 속 ODM사 생산능력은 과제로 MTN 머니투데이방송",
+      "query": "K뷰티",
+      "duplicates": 2,
+      "category": "ODM·OEM",
+      "relevance": 6,
+      "companies": []
+    },
+    {
+      "title": "코스맥스, 3분기 영업익 95% 급증…목표價 41만원",
+      "source": "경제타임스",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBVM0N0eWg1bS0yY3I5c1ZTRTJXbUhLQVZYTWlDeVl1SjhndVZfZkJGWDlaTS02MTFJcjctd0FvWkRYamlBdlpPSUQ4bGxlbkNtYTl3?oc=5",
+      "published": "2026-11-12T09:50:31+09:00",
+      "snippet": "코스맥스, 3분기 영업익 95% 급증…목표價 41만원 경제타임스",
+      "query": "코스맥스",
+      "duplicates": 4,
+      "category": "ODM·OEM",
+      "relevance": 5,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "풀리, 美 세포라 입점 한 달 만에 판매량 2배…K뷰티 경쟁력 입증",
+      "source": "리드경제",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92VHI3RzFGOUhlZVE3d3JpWmJRUEdzRkg5M3drb1hNbEliMi05WGNwb1UxTTVTNGJzQUxGM0trcUo2RnV2STd5MG8zWWxJbzkzQ3N1NFplUmxTR0tFWkZoMDJsVGNVS2RtdGIxSkJZenU?oc=5",
+      "published": "2026-11-12T08:53:42+09:00",
+      "snippet": "풀리, 美 세포라 입점 한 달 만에 판매량 2배…K뷰티 경쟁력 입증 리드경제",
+      "query": "K뷰티",
+      "duplicates": 1,
+      "category": "유통·채널",
+      "relevance": 5,
+      "companies": []
+    },
+    {
+      "title": "[리포트 브리핑]실리콘투, '아프니까 수출주다' 목표가 47,000원 - 키움증권",
+      "source": "뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE04Z3pxVTVvTEIyMEhGNDkyUEoyNGVxRVhlQVNwMU5LY2JDU1R4eGlldnRnTU1FY1RiRjd3TlJWNmkzeTJIT3lmbXBGUXFwY09tMTFzUHVCNVhFeTFN?oc=5",
+      "published": "2026-11-12T08:34:00+09:00",
+      "snippet": "[리포트 브리핑]실리콘투, '아프니까 수출주다' 목표가 47,000원 - 키움증권 뉴스핌",
+      "query": "실리콘투",
+      "duplicates": 2,
+      "category": "수출·해외",
+      "relevance": 5,
+      "companies": [
+        "실리콘투"
+      ]
+    },
+    {
+      "title": "다올證 코스맥스, 3분기 호실적에 성장세 지속…목표가 35만원 유지",
+      "source": "아주경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5mdDhJOFV6eVpsMzhqS2tDVTI5YkpQaGNaV2JDdy1NcWhpeTFUVkFfbHF3Z2d2U0l5akZDM1RSSHpMUGtsLThoSG9VZlJvdUxiVnhFVTZTa2NmQdIBWEFVX3lxTE5BX082b05UdmU2eTRLVFVaQkJQUFB3U2dRWTU4ZF8tX0YtT3RLUEt0bHM2YW5DREZTYVN4OF9Xc01EYXhhaWE0RUJCZXNvaElHY1NZSVJsOW4?oc=5",
+      "published": "2026-11-12T08:09:26+09:00",
+      "snippet": "다올證 코스맥스, 3분기 호실적에 성장세 지속…목표가 35만원 유지 아주경제",
+      "query": "코스맥스",
+      "duplicates": 3,
+      "category": "실적·공시",
+      "relevance": 5,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "코스맥스, 내년 분기 매출 9000억 시대…목표가↑-NH",
+      "source": "이데일리",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS295YnVvdHdsblNKQjFiNU1mN3VyRnZ5cTdNbXdrMEFwQVlfNFBJVE00azJsb09LcEhmVlVuYmpHcWRYVWpEVzd5Qm5xVTl0Mzd4c0w0UzF1MU5Ud3h3Wm9hSG5wTkJsX0MxSkVpejkxT1ppbFU1N3BNQzVYQlFEbQ?oc=5",
+      "published": "2026-11-12T07:54:02+09:00",
+      "snippet": "코스맥스, 내년 분기 매출 9000억 시대…목표가↑-NH 이데일리",
+      "query": "코스맥스",
+      "duplicates": 4,
+      "category": "ODM·OEM",
+      "relevance": 5,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "K-뷰티 호황에 ODM 3사 최대 매출…영업익은 코스맥스만 '깜짝 성장'",
+      "source": "뉴스1",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9xMkw2NUI4X2R0TFpjREVyRTBjdE5IbGVQMVpTQ1FjZFJmY19ZZ0F2bzVseDd5OWpuUFZnbm0xdEtMSXk4S2Mza0dJY0s4QmdxTHZlc21wTldjV1o0ejVz?oc=5",
+      "published": "2026-11-12T06:23:00+09:00",
+      "snippet": "K-뷰티 호황에 ODM 3사 최대 매출…영업익은 코스맥스만 '깜짝 성장' 뉴스1",
+      "query": "K뷰티",
+      "duplicates": 2,
+      "category": "ODM·OEM",
+      "relevance": 5,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "실리콘투, 유럽·북미가 끌었다…3분기 매출 4244억원",
+      "source": "마이데일리",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1iZTE1WVhMckk3c0xfcmNhOGNpRUZPYzlrSEFDSUN2bUhvNm44dXo4QjdQdGhjNlI1bExLRldaTUUzSFZ6SVhFaTJMMENjYkU2NkFyVG5jN1VBU01JQXNfdw?oc=5",
+      "published": "2026-11-12T06:00:00+09:00",
+      "snippet": "실리콘투, 유럽·북미가 끌었다…3분기 매출 4244억원 마이데일리",
+      "query": "실리콘투",
+      "duplicates": 0,
+      "category": "수출·해외",
+      "relevance": 5,
+      "companies": [
+        "실리콘투"
+      ]
+    },
+    {
+      "title": "실리콘투, 3분기 매출 4244억 역대 최대… 美 얼타·타겟 뚫고 7분기 연속 질주",
+      "source": "아이알팜",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TMEI3SmZ4ckdoRGhobWZ2d3ZUbFF5bWdvaHhkX09lakw3ME1VTFFLblpBME1DcWVxS1V5eUE2dVNHM1lqb2FraHItMjBGcjJwUE52M21uaVRYdFdaWXAzOGhMbEtGODA?oc=5",
+      "published": "2026-11-12T03:31:46+09:00",
+      "snippet": "실리콘투, 3분기 매출 4244억 역대 최대… 美 얼타·타겟 뚫고 7분기 연속 질주 아이알팜",
+      "query": "실리콘투",
+      "duplicates": 4,
+      "category": "수출·해외",
+      "relevance": 5,
+      "companies": [
+        "실리콘투"
+      ]
+    },
+    {
+      "title": "'설화수 대신 조선미녀'…중소뷰티 뜨자 한국콜마·코스맥스 날개 [취재여담]",
+      "source": "SBS Biz",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE44eHZWeUJtWWNlOEw1NGRTblVvRU9VYzBHOVBlVU4zczBYa2NLRHhnelVKT29wMUk4V1NMa01QemJmN255eGN0eDZ0VU56b0RmMXdMWWtDYUTSAVhBVV95cUxOOHh2VnlCbVljZThMNTRkU25Vb0VPVWMwRzlQZVVOM3MwWGtjS0R4Z3pVSk9vcDFJOFdTTGtNUHpiZjdueXhjdHg2dFVOem9EZjF3TFlrQ2FE?oc=5",
+      "published": "2026-11-11T17:25:00+09:00",
+      "snippet": "'설화수 대신 조선미녀'…중소뷰티 뜨자 한국콜마·코스맥스 날개 [취재여담] SBS Biz",
+      "query": "LG생활건강 뷰티",
+      "duplicates": 2,
+      "category": "브랜드",
+      "relevance": 5,
+      "companies": [
+        "코스맥스",
+        "한국콜마",
+        "조선미녀"
+      ]
+    },
+    {
+      "title": "코스맥스, 3Q 영업익 95%↑…K-뷰티 수출 호조에 '역대 최대'",
+      "source": "조세일보",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1aTHlMN21Mc3JJUlNhT1ZLdmhJamh2OTFveHpRbWJUU0JxN2tqR2dnV0c2TG5STWlnNm56U1hGNWJCSmI3STVVMldNeHl2VHFLVnBnQm1LZDVPTHJvNmxn?oc=5",
+      "published": "2026-11-11T17:06:48+09:00",
+      "snippet": "코스맥스, 3Q 영업익 95%↑…K-뷰티 수출 호조에 '역대 최대' 조세일보",
+      "query": "K뷰티",
+      "duplicates": 3,
+      "category": "수출·해외",
+      "relevance": 5,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "코스맥스, 3분기 영업이익 833억 전년비 95% ↑…\"韓美中 고른 성장\"",
+      "source": "IT조선",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5wZHA5Y1VKVlU5STlpSE12NkNHMi1rS1BRN3VweFFxQjZIZzRRTGF4WGlvQ1AydUdBbHNHYWVTOEthLWMwOVdnUFJhSm5iZURWWEJMZUd1MU56cnRTOEFfdEZwbWhMSkhtUVowY0xtdDRqTk1y0gF0QVVfeXFMTnBkcDljVUpWVTlJOWlITXY2Q0cyLWtLUFE3dXB4UXFCNkhnNFFMYXhYaW9DUDJ1R0Fsc0dhZVM4S2EtYzA5V2dQUmFKbmJlRFZYQkxlR3UxTnpydFM4QV90RnBtaExKSG1RWjBjTG10NGpOTXI?oc=5",
+      "published": "2026-11-11T15:29:38+09:00",
+      "snippet": "코스맥스, 3분기 영업이익 833억 전년비 95% ↑…\"韓美中 고른 성장\" IT조선",
+      "query": "코스맥스",
+      "duplicates": 3,
+      "category": "실적·공시",
+      "relevance": 5,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "[심층분석] 아모레퍼시픽, 피부 노화의 핵심 경로 PDK1 규명…‘오토파지’ 기반 역노화 기술의 산업적 가능성",
+      "source": "뉴스밸류",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9FRGc4S3dqTktqYmRkWWMzenh5VXNNanpOSm1KX1JYYnBqQkZPYzFfNVVYSUxYSUVVaFhjemhDRjNYdkZuOWcyNkVYVUxlaFpyOUxsTG1zOWpBMk1YZHhkYk9WZzBrWjFXVUE?oc=5",
+      "published": "2026-11-11T15:00:00+09:00",
+      "snippet": "[심층분석] 아모레퍼시픽, 피부 노화의 핵심 경로 PDK1 규명…‘오토파지’ 기반 역노화 기술의 산업적 가능성 뉴스밸류",
+      "query": "화장품 원료 기업",
+      "duplicates": 4,
+      "category": "브랜드",
+      "relevance": 5,
+      "companies": [
+        "아모레퍼시픽"
+      ]
+    },
+    {
+      "title": "화장품 ODM 3사, '캐파 부족' 대응 갈렸다…콜마 '수익성'·코스메카 '외형'",
+      "source": "더퍼블릭",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5yWHFjYzR4UmVhbktUSDBDdVRGaEExR2lYaXNOU1g2a3dOX0xyVXpJTzNQMmdLUGNjeEJvazNPbjMyTzdZLXludEZyTm1fejYzeUlIVUVUYU95aDBDZUMzUTUyaU1fUnY4M1Fn0gFvQVVfeXFMTzIwNnhQNkFvNGtXTnRMSDJPQ1lXeGRiQ1BBZHE5NkxpYWxOc2M2V1Raa05KRm1mZ1RacHg2ZjEzcTVYZUdSUTFpSUt3UEhJZW40RldNelFISlpaZXFiRWNoRE8zMk9vbU9faHRHYVVJ?oc=5",
+      "published": "2026-11-11T14:36:17+09:00",
+      "snippet": "화장품 ODM 3사, '캐파 부족' 대응 갈렸다…콜마 '수익성'·코스메카 '외형' 더퍼블릭",
+      "query": "화장품 수출",
+      "duplicates": 1,
+      "category": "ODM·OEM",
+      "relevance": 5,
+      "companies": []
+    },
+    {
+      "title": "K-뷰티 美 수출 62.7%↑…리엔케이, 코스트코 25개 매장 입점",
+      "source": "뷰티경제",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1vdnNiVFNXVzdrTFRzOXFnbmwtWmVjZHdLY1NlSy1lY1A3Wl9keEZnRDEzZU5xSWhRdml4NE4xZnB3ZzdXYUFza3F5WFVWektOUUU1d2M3eXk4X3k2Wm1MckJ2SnYxNGVmMWc?oc=5",
+      "published": "2026-11-12T10:50:00+09:00",
+      "snippet": "K-뷰티 美 수출 62.7%↑…리엔케이, 코스트코 25개 매장 입점 뷰티경제",
+      "query": "K뷰티",
+      "duplicates": 0,
+      "category": "유통·채널",
+      "relevance": 4,
+      "companies": []
+    },
+    {
+      "title": "[특징주] 코스맥스 3% 강세⋯'K뷰티 호황' 실적 레벨업",
+      "source": "아이뉴스24",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1mNFNHNVJMUEtsaFZ0SHpXaS05TW5oQmdkVjNnNFQ3eWlTWnAtS1Y2OERkNFFJOGxPdXpoVFNXb1NkbHdQNWhGdGJQbw?oc=5",
+      "published": "2026-11-12T09:51:53+09:00",
+      "snippet": "[특징주] 코스맥스 3% 강세⋯'K뷰티 호황' 실적 레벨업 아이뉴스24",
+      "query": "K뷰티",
+      "duplicates": 2,
+      "category": "실적·공시",
+      "relevance": 4,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "K뷰티 잘나가는데 이익은 제각각…코스맥스 웃고 한국콜마·코스메카 '아쉬움'",
+      "source": "충청시사신문",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5jMHk4bjA3S0xId3FxcnRrNEd2NEtwQko0aGpNRFdHbEhpWGZ4UmZxdDRrZG9SdmxRVHByVkZoUDk0N09FMk9UU25xbDV0cDVvMWNhb2tYRHFQT191czBHVEI4eTVfRDdyZjZR?oc=5",
+      "published": "2026-11-12T09:38:34+09:00",
+      "snippet": "K뷰티 잘나가는데 이익은 제각각…코스맥스 웃고 한국콜마·코스메카 '아쉬움' 충청시사신문",
+      "query": "K뷰티",
+      "duplicates": 2,
+      "category": "ODM·OEM",
+      "relevance": 4,
+      "companies": [
+        "코스맥스",
+        "한국콜마"
+      ]
+    },
+    {
+      "title": "[특징주] 코스맥스, 3분기 호실적에 7%대 강세…생산능력 확대 기대",
+      "source": "아주경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ibVZoWHZLNzd1TlJSdF9vVUlRUmJBZmtVNlVhQTlyQkR6MW5tYWN4RHJpVXd3TmZXalRlN3BwcW5oOF9wM3FvX3pNVlhfc2pqXzFCY0Y4dHZRQdIBWEFVX3lxTE1RLXVMR2g0N3BIWVZpQUVRSU9kamh2WlAzckVfTjNXYWxTMmYxZ3kwdEpqenZUVDBwemhncXRBdnVXVURObm1hX3BFYUlmdkYwb1I0MWJ6MVk?oc=5",
+      "published": "2026-11-12T09:35:34+09:00",
+      "snippet": "[특징주] 코스맥스, 3분기 호실적에 7%대 강세…생산능력 확대 기대 아주경제",
+      "query": "코스맥스",
+      "duplicates": 1,
+      "category": "ODM·OEM",
+      "relevance": 4,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "[모닝 리포트] 실리콘투, 환율 충격에 목표가 23%↓…\"저점매수 유효\"",
+      "source": "뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB5WHhEVG9FOHAwdzNFQXVjOWs0WWdYbGdZcTljalA3NWFxUGdieHRQR1FabENDcXQ4Q3JLWVAwMC1Zc2lSdlA2ckwzSV9XVEI0cWtadHRhUHYxelot?oc=5",
+      "published": "2026-11-12T09:25:00+09:00",
+      "snippet": "[모닝 리포트] 실리콘투, 환율 충격에 목표가 23%↓…\"저점매수 유효\" 뉴스핌",
+      "query": "실리콘투",
+      "duplicates": 0,
+      "category": "주가·시황",
+      "relevance": 4,
+      "companies": [
+        "실리콘투"
+      ]
+    },
+    {
+      "title": "코스맥스, 글로벌 화장품 수요 확대에 실적 고성장…목표가 유지",
+      "source": "한국증권신문",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tZndKbzBSZV9QLW5jQ184NWpQdjR5TkJTQktUc2s1cG9SdE81cVZHOFlJV1dDa1BCeWhSTlZWUzkzSjlmSXJxYVVISVRXVjJmUk5EaXM1WVRycVQweWozMElrbkNtb3VxVzVESw?oc=5",
+      "published": "2026-11-12T09:12:08+09:00",
+      "snippet": "코스맥스, 글로벌 화장품 수요 확대에 실적 고성장…목표가 유지 한국증권신문",
+      "query": "화장품 수출",
+      "duplicates": 2,
+      "category": "실적·공시",
+      "relevance": 4,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "코스맥스, 한·미 법인 고성장에 실적 호조…목표가 41만원 상향-신한",
+      "source": "마켓인",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBjVFFodGZ2ckF6U3JYMUc1VWgzYWhVTlM0VlVfT3FTbFNaYXIzQ3dCQldGZmVEYVZ2aUJRYTlRNktVMHFJQlQxQVpzUG9rSl9BNTRmenlxenplLWRMR3d5akM1NzUzdEl4MXYyemZYZEZia1E?oc=5",
+      "published": "2026-11-12T07:52:05+09:00",
+      "snippet": "코스맥스, 한·미 법인 고성장에 실적 호조…목표가 41만원 상향-신한 마켓인",
+      "query": "화장품 브랜드사 실적",
+      "duplicates": 2,
+      "category": "실적·공시",
+      "relevance": 4,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "코스피·코스닥 전 거래일(11일) 주요공시는...실리콘투[257720] 3분기 영업이익 696억원 10.4%↑",
+      "source": "핀포인트뉴스",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5lNFBkWmFGQVh3ZW00dTY4TkJvTXFIRmlmOGNYUWhjdlNfSk9KSFA3OHFpZXY4ZHRQejJLMmJWc3MxVTJnX0lnSkdoVlg0VDFLQWNTaDNlM3FmNVloMElLa21fZkdRZ3djbGxRNGs3RFcwX1nSAXdBVV95cUxQa1JMS0RnUE5fN2VXTlNUV2FHSjNWbGtmdkdUN25JSHE1cnlMTVExM21GcmtwRkk5bU5ITDJOYTZ1aGl6bXphNHROSWt4S1pVSkxYd295bWRsaG82aE52aHg4ajFzbXUwM3YwNmNsQkdMTEpVQ1pPVQ?oc=5",
+      "published": "2026-11-12T06:40:25+09:00",
+      "snippet": "코스피·코스닥 전 거래일(11일) 주요공시는...실리콘투[257720] 3분기 영업이익 696억원 10.4%↑ 핀포인트뉴스",
+      "query": "실리콘투",
+      "duplicates": 0,
+      "category": "실적·공시",
+      "relevance": 4,
+      "companies": [
+        "실리콘투"
+      ]
+    },
+    {
+      "title": "K팝 뜨면 화장품 수출도 증가…K콘텐츠 흥행 효과 확인",
+      "source": "뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1IMFM0dzhHNDZReUZQTVVzeWJfQ1d2SGdwT183RXhPWE5QUGR2N3VLM052NzExb3pWTVlIMDJzakhxT0JCNWI3UlhhcWU3QUVIMW5GeUNTNmJraXdn?oc=5",
+      "published": "2026-11-12T06:00:00+09:00",
+      "snippet": "K팝 뜨면 화장품 수출도 증가…K콘텐츠 흥행 효과 확인 뉴스핌",
+      "query": "화장품 수출",
+      "duplicates": 2,
+      "category": "수출·해외",
+      "relevance": 4,
+      "companies": []
+    },
+    {
+      "title": "주가로 읽는 K-뷰티: 색조·원료주 약세, 용기주는 견조",
+      "source": "뷰티경제",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9OaFNJZkFFSTdTcTEyN0xaVERXQjREcG9GcUNLb2FrMm9ReE1OQ1NnRWJfQXdOWFVYTGlYVk9oem92VTMtTEgzTHFFSVBFck5qQUJEZnIxYlhmS25nck15bkFBYTNtYUVhZ1E?oc=5",
+      "published": "2026-11-11T19:30:07+09:00",
+      "snippet": "주가로 읽는 K-뷰티: 색조·원료주 약세, 용기주는 견조 뷰티경제",
+      "query": "K뷰티",
+      "duplicates": 0,
+      "category": "원료·부자재",
+      "relevance": 4,
+      "companies": []
+    },
+    {
+      "title": "실리콘투, 3분기 영업이익 696억원… 매출 4,244억원 ‘사상 최대’",
+      "source": "CEO경제신문",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5wdk5fZUc2dEdhVmtPM2RfRE5MNW9RUy1ob1pDRTRsUmNJek1obk12U3oxcEp4ZHRkbXVzUHMtdUFCZXUxaWpfX3l2dHF5VkttRkhYMHhyTmRLYjFjSVVzVHA0bUtWZXc1NEh0VQ?oc=5",
+      "published": "2026-11-11T17:25:54+09:00",
+      "snippet": "실리콘투, 3분기 영업이익 696억원… 매출 4,244억원 ‘사상 최대’ CEO경제신문",
+      "query": "실리콘투",
+      "duplicates": 2,
+      "category": "실적·공시",
+      "relevance": 4,
+      "companies": [
+        "실리콘투"
+      ]
+    },
+    {
+      "title": "[동정] 오설록, 무카페인·디카페인 신제품 출시",
+      "source": "주간신문씨엠엔",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1qT2tTZ0tkT21fcF9XcWtuQUJVbmZ6bE5ORzZ5U0l2WnFyR2FLR2pyN1dnOXh3WDNpNVJqTDhaLUlaUzBuZklMSzltSmRaeDNOWXFFRS1GSlB6bzZQMlhZeDNJekNNcXVwOTdF?oc=5",
+      "published": "2026-11-11T17:10:10+09:00",
+      "snippet": "[동정] 오설록, 무카페인·디카페인 신제품 출시 주간신문씨엠엔",
+      "query": "LG생활건강 뷰티",
+      "duplicates": 0,
+      "category": "브랜드",
+      "relevance": 4,
+      "companies": []
+    },
+    {
+      "title": "[사설] 상하이 진출 경북 K-푸드·뷰티, 수출 성과로 잇자",
+      "source": "경북일보",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1LYVh0bC11cWI2TTBjMHNJTkpYLXl1UDlLRDVRcWNvRWRSREN4SGZmWFRDaFJkcVNHcGktczJWWFRORUlMVjhfVVQ4YzZGVFU2WWhZTmpzNDQ4ZDRQUjVyTmlZV0pnOXNycENiV2Z0cw?oc=5",
+      "published": "2026-11-11T16:55:31+09:00",
+      "snippet": "[사설] 상하이 진출 경북 K-푸드·뷰티, 수출 성과로 잇자 경북일보",
+      "query": "K뷰티",
+      "duplicates": 0,
+      "category": "수출·해외",
+      "relevance": 4,
+      "companies": []
+    },
+    {
+      "title": "쿠팡, 중소기업 대만 거래액 81% 증가…K뷰티 넘어 생활용품까지 확대",
+      "source": "인더스트리뉴스",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTSG9WZ1hvTUtoUUVFNVRPUGZ5SlZVcmw5aGdZU0VuS2ZCanZSY1E1WEppT0JCbGFkaE1mWXV4SDl0aGZkU3U0T0JhX094cFlKR1NZQnNheTIyNnFpc1RiMFBTQW5IMjEtQTlrRDFlWk54Zw?oc=5",
+      "published": "2026-11-11T16:47:34+09:00",
+      "snippet": "쿠팡, 중소기업 대만 거래액 81% 증가…K뷰티 넘어 생활용품까지 확대 인더스트리뉴스",
+      "query": "K뷰티",
+      "duplicates": 2,
+      "category": "유통·채널",
+      "relevance": 4,
+      "companies": []
+    },
+    {
+      "title": "무신사, 두 번째 뷰티 단독 매장은 성수...올리브영VS무신사, 서울 성수에서 대격돌",
+      "source": "녹색경제신문",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBNeXQ2dHAxS2EtajN5R0xMaE1WcXJzQUNVNHJjT0NKQjEzWDVBbzZFZEhKejdqZWxmaGttZmdiYS1zOGx1YmRPZ2Q4UWZVVGNYd1ZXczdlendFa05NcTlTQkgzVGVrWEhh?oc=5",
+      "published": "2026-11-11T16:46:10+09:00",
+      "snippet": "무신사, 두 번째 뷰티 단독 매장은 성수...올리브영VS무신사, 서울 성수에서 대격돌 녹색경제신문",
+      "query": "올리브영 화장품",
+      "duplicates": 1,
+      "category": "유통·채널",
+      "relevance": 4,
+      "companies": [
+        "올리브영"
+      ]
+    },
+    {
+      "title": "코스맥스, 3분기 역대 최대 매출…국내외 고른 성과 덕",
+      "source": "톱데일리",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1XY2txVDFyX3NFM1Y3aWprekVkQnhRcjJhQmhfSXBWV2N6ZlpPRWpTcDhaUXczOXEyUEpOa1pRRnNTVHJacC1jd2FjVktQcEh6?oc=5",
+      "published": "2026-11-11T16:44:00+09:00",
+      "snippet": "코스맥스, 3분기 역대 최대 매출…국내외 고른 성과 덕 톱데일리",
+      "query": "코스맥스",
+      "duplicates": 3,
+      "category": "ODM·OEM",
+      "relevance": 4,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "신용한 충북지사 “오송화장품뷰티엑스포 성과, 내년에도 계속”",
+      "source": "굿모닝충청",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9tc2JoQVZucUxxbHk3Y0c4QU4xZnh1M2h2NEt2WHNRQ1JPY20tOW5iZDNFWHpSdDQ4d3N3ZlZrRVR6NFNYYXBDejZwUHBmZ0ljdEJNNVZ6bjBydDViSTNKUEtQeWtES2xya0VZcHd5cEtuUQ?oc=5",
+      "published": "2026-11-11T16:32:10+09:00",
+      "snippet": "신용한 충북지사 “오송화장품뷰티엑스포 성과, 내년에도 계속” 굿모닝충청",
+      "query": "화장품 산업",
+      "duplicates": 4,
+      "category": "기타",
+      "relevance": 4,
+      "companies": []
+    },
+    {
+      "title": "제이투케이바이오, 3Q 영업익 전년 동기 대비 109% 급증…매출 동반 성장",
+      "source": "약업신문",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XN0oxLWFrLWgyWWwwbzJ3bnVYdXV1b3ZhMVh2OVNhQnlIMElPVzUwV3p4M1JHbGxfb3RkS1UzZzBKYWR4TlNFYkI1YVJKeldRdWZ4UzFMN3gxS3JJbndNaDhibE1RWlEwY0hlbEhwY2p3dHVaajRxemZ3?oc=5",
+      "published": "2026-11-11T16:31:00+09:00",
+      "snippet": "제이투케이바이오, 3Q 영업익 전년 동기 대비 109% 급증…매출 동반 성장 약업신문",
+      "query": "화장품 원료 기업",
+      "duplicates": 4,
+      "category": "기타",
+      "relevance": 4,
+      "companies": []
+    },
+    {
+      "title": "CBFEZ, 홍콩서 K-뷰티 투자유치‧기업 해외진출 지원",
+      "source": "청주일보",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XZ1dtenFVRVNmcVlnQllVSFo1MFUwQi1mUVlBNVJWLVpSMjNEb3pkNzdQS25LcnJaeWVmdV9OU1ZlZ2tGdTRIcy0wMXE1Umhfb2dxQVh2cXc2bUlYNWdJVGc4Z2czN0lsZXc?oc=5",
+      "published": "2026-11-11T16:28:17+09:00",
+      "snippet": "CBFEZ, 홍콩서 K-뷰티 투자유치‧기업 해외진출 지원 청주일보",
+      "query": "K뷰티",
+      "duplicates": 0,
+      "category": "수출·해외",
+      "relevance": 4,
+      "companies": []
+    },
+    {
+      "title": "[2026 3분기 실적] 코스맥스, 비수기 공식 깼다…매출 8758억원",
+      "source": "인더뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBlOHR2VzR1OXlYb3NMOV9GZkNiMlhsUnh2UVI3ZWozbUtTd3loRVNMTzBCcjY1UTZNX2Z1YVdNMWtQakt5X1pJZDJKU0lxLXE4dlo0c1FQVjV4VGNwdnE1cW1YZEI?oc=5",
+      "published": "2026-11-11T15:36:07+09:00",
+      "snippet": "[2026 3분기 실적] 코스맥스, 비수기 공식 깼다…매출 8758억원 인더뉴스",
+      "query": "화장품 브랜드사 실적",
+      "duplicates": 2,
+      "category": "실적·공시",
+      "relevance": 4,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "화장품株, 수출은 신기록인데…주가는 왜 이러나",
+      "source": "에너지경제신문",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAtX29PaGtMSTkzRy15R2l0RWM4Mzg3eG9NaVhlOUVhcmVBN21KdnA1SngwZG1oRW9TYkN3dTFTcmxQNTl0MnFFdmkySDJ1TlZJd3hYVnFmbURmRjVnOTFfdnBn?oc=5",
+      "published": "2026-11-11T15:20:11+09:00",
+      "snippet": "화장품株, 수출은 신기록인데…주가는 왜 이러나 에너지경제신문",
+      "query": "뷰티 산업 실적",
+      "duplicates": 2,
+      "category": "수출·해외",
+      "relevance": 4,
+      "companies": []
+    },
+    {
+      "title": "아모레퍼시픽, 피부 노화 억제 소재 작용 원리 규명…장벽·보습 개선 효과 확인",
+      "source": "인더스트리뉴스",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5USXU4N0hWYmZwWmJ1OUJYZUR1MzhjTlNvdHE3RlZsbkxPWlRSV3dsVG1LR1A0Q3pXbzJ3RXFMWUtReWtKckZIejZ3ZUl4Z19FWXpIZ1VBYlAtaDFMbmRuNlRBT1VtYjNMM1FMMldERWNjZw?oc=5",
+      "published": "2026-11-11T13:13:07+09:00",
+      "snippet": "아모레퍼시픽, 피부 노화 억제 소재 작용 원리 규명…장벽·보습 개선 효과 확인 인더스트리뉴스",
+      "query": "아모레퍼시픽",
+      "duplicates": 2,
+      "category": "원료·부자재",
+      "relevance": 4,
+      "companies": [
+        "아모레퍼시픽"
+      ]
+    },
+    {
+      "title": "아모레퍼시픽 주가 기술적 분석: 현재 거래에서 약세 모멘텀이 우세",
+      "source": "Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPd29MVDZEdGJpX212UWNQRHF2R01zRUFGMV9YOHlXeFdsRXhzVXcybXJKTG5nUWJhS1Y3WWM4ZU9UMHhiT1ZlWkZEWHRFNTlYal9TWXp2cFVSQ0Q5aG8xeVpLc0FXLS1IZTB0Y1VZcTZ0bUxjTmFaOVAwLThwQkQyUUtYd09ETEdGTjhBcmZ0Y1dSSDR5eHc?oc=5",
+      "published": "2026-11-11T13:07:24+09:00",
+      "snippet": "아모레퍼시픽 주가 기술적 분석: 현재 거래에서 약세 모멘텀이 우세 Traders Union",
+      "query": "아모레퍼시픽",
+      "duplicates": 0,
+      "category": "주가·시황",
+      "relevance": 4,
+      "companies": [
+        "아모레퍼시픽"
+      ]
+    },
+    {
+      "title": "홍콩 아시아월드엑스포에서 이미인, 2027 SS 시즌 17종 신제품 공개",
+      "source": "스페셜타임스",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1iNTRNRmY5QzAxWjY2ckRUUFBkSzRPM2xYVm9oemI4SUlyLS00aERNWFY1TFNlYUV3V1JpTTZQZkJYdV9KMUliRXdmVncxSXRSRzlURVpRSFdGNU5Bamw5R05NVE10UFBwNXYzYnN4Z2pFZw?oc=5",
+      "published": "2026-11-12T11:07:29+09:00",
+      "snippet": "홍콩 아시아월드엑스포에서 이미인, 2027 SS 시즌 17종 신제품 공개 스페셜타임스",
+      "query": "화장품 ODM OEM",
+      "duplicates": 1,
+      "category": "브랜드",
+      "relevance": 3,
+      "companies": []
+    },
+    {
+      "title": "10월 티몰 뷰티 트렌드 리포트②: 선케어 TOP10 판매량 17.6% 증가...한국관은 34.4% 감소",
+      "source": "뷰티경제",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KZ1JINEpWSEpaMThSTXpiT3JiZlJFSUs1dDVsNk1IWE1UZG4tc3RJWTAxbHNiR3BXV2lJNEpZZm5ndlZDRUZDdmdZazltTWZjM1pWZWtsSHRTN1pLbUR1NGN6cTVFOU80MGc?oc=5",
+      "published": "2026-11-12T10:45:00+09:00",
+      "snippet": "10월 티몰 뷰티 트렌드 리포트②: 선케어 TOP10 판매량 17.6% 증가...한국관은 34.4% 감소 뷰티경제",
+      "query": "K뷰티",
+      "duplicates": 1,
+      "category": "주가·시황",
+      "relevance": 3,
+      "companies": []
+    },
+    {
+      "title": "hy, 올리브영 입점 없이 '아이오셀' 브랜드로 뷰티 플랫폼 본격화",
+      "source": "뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBYUXR4VllBdXpYTlV1RWF1ZnYtaXRTVi03QWhpd21rRktCMWNwRlFWT3Blc2o1MFJTTm9TWWZ3VzJjQlJ4aE9nazVlTTRvNHBiM2NQZTVMX1lsSGc5?oc=5",
+      "published": "2026-11-12T10:43:00+09:00",
+      "snippet": "hy, 올리브영 입점 없이 '아이오셀' 브랜드로 뷰티 플랫폼 본격화 뉴스핌",
+      "query": "올리브영 화장품",
+      "duplicates": 0,
+      "category": "유통·채널",
+      "relevance": 3,
+      "companies": [
+        "올리브영"
+      ]
+    },
+    {
+      "title": "K뷰티 ODM 3분기 질주",
+      "source": "중소기업신문",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE03RHNvemZtbEtrWU5td3hsb1dTVVo1NVF2eWZUM1EzZnFZSTFkMzFVbVg0b2NCVDJFZk0wZzc2Z3dBUUI0aGhOQXJfRW9xMDN6X0ZidW1KazJUM1BSTlIwOHBRVG1Sek9HbXFCYg?oc=5",
+      "published": "2026-11-12T10:26:07+09:00",
+      "snippet": "K뷰티 ODM 3분기 질주 중소기업신문",
+      "query": "K뷰티",
+      "duplicates": 1,
+      "category": "ODM·OEM",
+      "relevance": 3,
+      "companies": []
+    },
+    {
+      "title": "전시 넘어 유통 판로 지원까지",
+      "source": "뷰티누리",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xU08wSzNnU0ZzOTdTbEtORjQwdlRicl83bE13Mkw5NjlzTXNfc1JZd2wycTVGX2VBMnlHNTRjNDVOQWpTeVhYckh3NmdMT25MdUo1TWlhNzNTMkU3QV9J?oc=5",
+      "published": "2026-11-12T10:13:00+09:00",
+      "snippet": "전시 넘어 유통 판로 지원까지 뷰티누리",
+      "query": "K뷰티",
+      "duplicates": 1,
+      "category": "유통·채널",
+      "relevance": 3,
+      "companies": []
+    },
+    {
+      "title": "코이코, 홍콩 코스모프로프서 K-뷰티 87社 이끈다",
+      "source": "코스모닝",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5hT2ZSeEM3Qjgxd1l2THc3WEhZMGJ1dldFYjA4RDBfTmotdnk4QVdoMmwwVHBSTmhESnZNUmxKVVA1bGNrd2JRbTY5c1NoQ2NIQU5wM3ZpN3JmX1QyOW1PZUg5VQ?oc=5",
+      "published": "2026-11-12T10:05:03+09:00",
+      "snippet": "코이코, 홍콩 코스모프로프서 K-뷰티 87社 이끈다 코스모닝",
+      "query": "K뷰티",
+      "duplicates": 3,
+      "category": "기타",
+      "relevance": 3,
+      "companies": []
+    },
+    {
+      "title": "K-콘텐츠 흥행하면 멕시코선 화장품, 일본선 K-푸드 잘 팔린다",
+      "source": "서울경제TV",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTSjNLenNpZzN2S1JWczQ2Z2hReWdqR0k0c1JQMVI0U1N3N19lVHhiMmlxeWhzUy10Tk83UkNvZGJOalFXcFJUUWxodGRKeWhCX3hHUUdSbjdwVTRuc0VwN3oyUGY?oc=5",
+      "published": "2026-11-12T08:50:54+09:00",
+      "snippet": "K-콘텐츠 흥행하면 멕시코선 화장품, 일본선 K-푸드 잘 팔린다 서울경제TV",
+      "query": "K뷰티",
+      "duplicates": 1,
+      "category": "수출·해외",
+      "relevance": 3,
+      "companies": []
+    },
+    {
+      "title": "“닮아가는 K뷰티 넥스트는 R&D”…리필드·아모레·콜마·코스맥스, SCI급 논문으로 세계 무대 입증",
+      "source": "파이낸셜투데이",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9tMVFrbzhVLXVsVm5LbnJLRm1tcWhxeW9xcllOWWJrd09YUEhWOVFYeTJ6cmtlZllyVVQ2d2h0SXpZY3NCZEdpcVVieURTX1prVFRINDlsTXlsRzV2X3V5S1djTUZuY1dfV2c?oc=5",
+      "published": "2026-11-12T08:40:57+09:00",
+      "snippet": "“닮아가는 K뷰티 넥스트는 R&D”…리필드·아모레·콜마·코스맥스, SCI급 논문으로 세계 무대 입증 파이낸셜투데이",
+      "query": "K뷰티",
+      "duplicates": 2,
+      "category": "ODM·OEM",
+      "relevance": 3,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "코스맥스, 3분기 영업익 95% 증가···해외 성장·증설 효과 기대",
+      "source": "뉴스웨이",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0wcTNLYlIzejhzbVZhZFBVQzcyUHM5MVJtd09jLVlxQ3Z5bzctZUVxdGdsZGl2NGZyMHc0WHRYV0tHVDFaa2tLVVZsOTI2QzRrdVVPcmwxa3JHWDNoSG9EZmNuajJqclFhWmc?oc=5",
+      "published": "2026-11-12T08:35:47+09:00",
+      "snippet": "코스맥스, 3분기 영업익 95% 증가···해외 성장·증설 효과 기대 뉴스웨이",
+      "query": "코스맥스",
+      "duplicates": 0,
+      "category": "ODM·OEM",
+      "relevance": 3,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "K팝·드라마 흥행에…\"화장품·식품 수출 늘어나\"",
+      "source": "한국경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yUXU1YkVkMHVfTUNvdXVta29NU3lpZHRqREtoMVN2YUxfSldNam9BNk1Cc3lfYmdhZGVFYV9USWhfSjJXNl9lMEFvaEVoZVhxV2JUcEFoUmRRQQ?oc=5",
+      "published": "2026-11-12T07:56:56+09:00",
+      "snippet": "K팝·드라마 흥행에…\"화장품·식품 수출 늘어나\" 한국경제",
+      "query": "화장품 수출",
+      "duplicates": 1,
+      "category": "수출·해외",
+      "relevance": 3,
+      "companies": []
+    },
+    {
+      "title": "[K-뷰티 신화를 쓰다③] \"10년 만에 매출 44배\"…에이피알, '디바이스+뷰티' 콤보로 글로벌 돌풍",
+      "source": "소비자가 만드는 신문",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rNHFtZDVFckFfckk1TDFDX0Q0SzU5d1B1MXlXSlA4a21PLWRTdlJHSW1yMW5Dbl95aW4tMVRacjhzMDRpOWFCOTMzQ0YxZ29qVlFQNjhNNkhYdU9sQWlmQjY3WFJWbE9kOUwwaDl2NldIRXc?oc=5",
+      "published": "2026-11-12T06:10:00+09:00",
+      "snippet": "[K-뷰티 신화를 쓰다③] \"10년 만에 매출 44배\"…에이피알, '디바이스+뷰티' 콤보로 글로벌 돌풍 소비자가 만드는 신문",
+      "query": "K뷰티",
+      "duplicates": 2,
+      "category": "브랜드",
+      "relevance": 3,
+      "companies": [
+        "에이피알"
+      ]
+    },
+    {
+      "title": "K-팝 인기 10% 오르면, 멕시코·독일 화장품 수출 최대 1.7% 증가",
+      "source": "전자신문",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4yWWM2V0gwN09GYjZJTE1Jb2IybFdzUFE4TVdSaFVSR0YxQTJMdTZUbXVsb1MybzJRM3RUbEtTcm5Gbjk4b3V3UW9oTlgyZw?oc=5",
+      "published": "2026-11-12T06:00:00+09:00",
+      "snippet": "K-팝 인기 10% 오르면, 멕시코·독일 화장품 수출 최대 1.7% 증가 전자신문",
+      "query": "화장품 수출",
+      "duplicates": 1,
+      "category": "수출·해외",
+      "relevance": 3,
+      "companies": []
+    },
+    {
+      "title": "11월 1일 기준 올리브영 온라인몰 입점 브랜드 현황·조회&리뷰 수 톱10",
+      "source": "코스모닝",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1MaHJ1eFNtTGFSUjU5WEV0SFBpTm82YWxGT2Y0YVliQnZhakdKcFZYanR6NXAxMktPZmxfWW9fY1FSaU9JeDZOcnV4enZxQkZlWHdCdzBvbDRvdlQ2VHc1c3dQNA?oc=5",
+      "published": "2026-11-12T04:40:00+09:00",
+      "snippet": "11월 1일 기준 올리브영 온라인몰 입점 브랜드 현황·조회&리뷰 수 톱10 코스모닝",
+      "query": "올리브영 화장품",
+      "duplicates": 0,
+      "category": "유통·채널",
+      "relevance": 3,
+      "companies": [
+        "올리브영"
+      ]
+    },
+    {
+      "title": "'글로벌 ODM 1위' 코스맥스, 3분기도 사상 최대 실적 달성",
+      "source": "어패럴뉴스",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1XeDl2RWt2djM3WVFqR1Y0ZjQ1WUktTjFiY3N4THNLeE4xVm9hdlQ4clBWQkszTDZ4cExpTnVhWnltQlZGSWpST3lXcGwxdmkzWEE3YUV6TV80bkRWYk9JZnVOMXdybDRiYjEwbU4xeFlVQkE?oc=5",
+      "published": "2026-11-11T19:48:02+09:00",
+      "snippet": "'글로벌 ODM 1위' 코스맥스, 3분기도 사상 최대 실적 달성 어패럴뉴스",
+      "query": "화장품 브랜드사 실적",
+      "duplicates": 0,
+      "category": "ODM·OEM",
+      "relevance": 3,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "K뷰티 훈풍에 코스맥스 ‘활짝’…美 매출 88% 급증",
+      "source": "서울경제TV",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8tMXpRNW5GNnVmZmRya0llbVI4cjI3alIwdS1PRkNReUtvMzJVVGR3MnJFeWxwdmxQcHNnc1R0ZFRRclRIUW00UEREZFN2Yi1lRjJESTc3bVFWcDhka0lFZ1R6M28?oc=5",
+      "published": "2026-11-11T19:30:00+09:00",
+      "snippet": "K뷰티 훈풍에 코스맥스 ‘활짝’…美 매출 88% 급증 서울경제TV",
+      "query": "K뷰티",
+      "duplicates": 2,
+      "category": "ODM·OEM",
+      "relevance": 3,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "화장품 주문 밀려든 코스맥스, 실적 '고공행진'",
+      "source": "한국경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAzdHhvd0VFcERqZmpnWFhDRXB1WmVTTjEtbV9zZzF2akJHYUp6aGZSdzZVOURqUmtPa0VncHJsdDIzMHc5TTdkRWhDb081RTBUU3R4bGFBXzdpUQ?oc=5",
+      "published": "2026-11-11T17:29:28+09:00",
+      "snippet": "화장품 주문 밀려든 코스맥스, 실적 '고공행진' 한국경제",
+      "query": "뷰티 산업 실적",
+      "duplicates": 1,
+      "category": "실적·공시",
+      "relevance": 3,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "K뷰티 '폭풍성장' 견인…거침없는 코스맥스",
+      "source": "매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jMUZCMTZmV25wZFgxQ0RrcHliRTFlQndjeWlVaGVmcERSWHFTWFdvMUNfbThuY2YtSEs5YmpuN1FqSVdaRFJ5Y0FFaEhwTVU5V3JaeWRR?oc=5",
+      "published": "2026-11-11T17:24:05+09:00",
+      "snippet": "K뷰티 '폭풍성장' 견인…거침없는 코스맥스 매일경제",
+      "query": "K뷰티",
+      "duplicates": 2,
+      "category": "ODM·OEM",
+      "relevance": 3,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "코스맥스, 3분기 영업익 95% 급증…국내 호조에 美흑자까지",
+      "source": "한국아이닷컴",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9KN3g2eVdCbXBSVGkwNmxuMzJXZ2NidEc0ZWVDemJDWDBuYU1UVTNHYzdzRm9ZbUwyNW9hOVRZRWxITENkUEo0Qy1jN050TjlJVVoyc3VGVXZ3aEx3bXJzblJiSElUc293RUk3U2Znc9IBb0FVX3lxTE9KN3g2eVdCbXBSVGkwNmxuMzJXZ2NidEc0ZWVDemJDWDBuYU1UVTNHYzdzRm9ZbUwyNW9hOVRZRWxITENkUEo0Qy1jN050TjlJVVoyc3VGVXZ3aEx3bXJzblJiSElUc293RUk3U2Zncw?oc=5",
+      "published": "2026-11-11T17:14:20+09:00",
+      "snippet": "코스맥스, 3분기 영업익 95% 급증…국내 호조에 美흑자까지 한국아이닷컴",
+      "query": "화장품 브랜드사 실적",
+      "duplicates": 2,
+      "category": "ODM·OEM",
+      "relevance": 3,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "코스맥스, 매출 사상 최대·영업익 95%↑…첫 ‘3조 클럽’ 청신호",
+      "source": "글로벌이코노믹",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWWJwNzdJNF81a3F5UC1kbkZqc0p3WFVaNzk3QnZ2elJhU0JmXzljcFZSUlV4NTlHZW5oMmxBU0hMek1ZZmtYVENkZEFMaVFuVjZsODctWlNtZmtWdE1mMVBfMzlERTUta0hpall1dnhLanczdVdNQlJ3a2NyNUNvdDJFeUVCOWZLbXc?oc=5",
+      "published": "2026-11-11T16:27:17+09:00",
+      "snippet": "코스맥스, 매출 사상 최대·영업익 95%↑…첫 ‘3조 클럽’ 청신호 글로벌이코노믹",
+      "query": "코스맥스",
+      "duplicates": 2,
+      "category": "ODM·OEM",
+      "relevance": 3,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "코스맥스, 글로벌 뷰티 ODM 1인자 입지 굳건",
+      "source": "ER 이코노믹리뷰",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE13OGRBenliYk82ZzUwQ1U4TFdvbnRFZlQ5THZ1ZGs3N0JleGwxSzR2dTR3TGpKTTFHcFBXQlFuWHJhWjVTVVd1RHByWjljYzhtUkVLUVlqNzlQV040dXAtX0lBYVJvSDA4UGpKbA?oc=5",
+      "published": "2026-11-11T16:10:36+09:00",
+      "snippet": "코스맥스, 글로벌 뷰티 ODM 1인자 입지 굳건 ER 이코노믹리뷰",
+      "query": "코스맥스",
+      "duplicates": 0,
+      "category": "ODM·OEM",
+      "relevance": 3,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "코스맥스 K-뷰티 붐 타고 처음으로 분기 매출 8천억 원 넘겼다 : 한국 본사 매출액 6천억 원 돌파도 최초",
+      "source": "허프포스트코리아",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBRcVlfLTZLb3JLcm9mSXNBMkgtLTdERVZ6UFhqZ0hON1huNVRRbTJQQ3VZV1ZhWkphX1lqRW9XWVRGeXZkMHRTVlNaWmVmZ2xzWjNNWnVSYw?oc=5",
+      "published": "2026-11-11T16:04:18+09:00",
+      "snippet": "코스맥스 K-뷰티 붐 타고 처음으로 분기 매출 8천억 원 넘겼다 : 한국 본사 매출액 6천억 원 돌파도 최초 허프포스트코리아",
+      "query": "K뷰티",
+      "duplicates": 1,
+      "category": "실적·공시",
+      "relevance": 3,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "코스맥스 9.58% 급등…K뷰티 수주 기대에 26만원대",
+      "source": "잡포스트",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE54NkFDTXpHNTNDWjlwR0FDcEhNVHc3bVhPQ1JjQWxwV2E1cVhSOEtKT01fZDY1TGViNTRwUWRZNzVVZlp3UnNxcG5tLVJTSHRSN1hQbXViQlVIY1R1cGNPSkh6WXgxRXJjOGZ6dTZR0gFyQVVfeXFMUGtBcTRRSGRMa1FieW1IdTRiakpFanhIZW9vZzhEeWJKRzVrbkktWjBTTGxVdWJERWRfdS1TS283UFV1OTFxTkhWbmYyTmRLZkoyb2tNMlVZMnkwRnoycnpkNjRDYWlpSWJQV1FsazFGckh3?oc=5",
+      "published": "2026-11-11T16:03:56+09:00",
+      "snippet": "코스맥스 9.58% 급등…K뷰티 수주 기대에 26만원대 잡포스트",
+      "query": "K뷰티",
+      "duplicates": 0,
+      "category": "ODM·OEM",
+      "relevance": 3,
+      "companies": [
+        "코스맥스"
+      ]
+    },
+    {
+      "title": "[동정] AP재단, 일본서 K-뷰티 메이크업 클래스",
+      "source": "주간신문씨엠엔",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBETzRzaWdtZTVwUjZMNEd6MmZreWRKYlNfMHJ4WWYtN2xfeHRvcC16bDczQU9BQjZGOVhVR19rdXVjYjV6LV9qX1RrVnNSRTJzOHMxQWI5T1h5RUU2NWxKUUM5YUNXd2JIU2Rv?oc=5",
+      "published": "2026-11-11T15:20:22+09:00",
+      "snippet": "[동정] AP재단, 일본서 K-뷰티 메이크업 클래스 주간신문씨엠엔",
+      "query": "K뷰티",
+      "duplicates": 1,
+      "category": "수출·해외",
+      "relevance": 3,
+      "companies": []
+    }
+  ]
+}
